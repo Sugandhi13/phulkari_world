@@ -3,8 +3,7 @@ html {
 }
 
 body {
-    /*background: url('/media/phulkari-pattern-main-preview.jpg') center center fixed;*/
-    background: lightcyan;
+    background: url('/media/phulkariweavingwomen4.jfif') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -58,7 +57,21 @@ body {
 }
 
 .bg-black {
-    color: #000 !important;
+    background: #000 !important;
+}
+
+.bg-info-opacity {
+    background-color: rgba(23, 162, 184, 0.5) !important; /* bg-info color with 50% opacity */
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
@@ -82,5 +95,17 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
