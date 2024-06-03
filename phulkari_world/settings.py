@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 
+from django_countries.widgets import LazyChoicesMixin
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -185,3 +187,7 @@ STRIPE_CURRENCY = 'inr'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
+# Monkey patch workaround to handle issue with django-countries
+LazyChoicesMixin.get_choices = lambda self: self._choices
+LazyChoicesMixin.choices = property(LazyChoicesMixin.get_choices, LazyChoicesMixin.set_choices)
