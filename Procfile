@@ -1,1 +1,1 @@
-web gunicorn: phulkari_world.wsgi:application
+web gunicorn phulkari_world.wsgi:application
