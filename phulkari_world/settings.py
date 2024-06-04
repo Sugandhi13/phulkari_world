@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-sugandhi13-phulkariworl-iu85dvgfg47.ws-eu114.gitpod.io',
-                'https://phulkari-world-3ca4f249daad.herokuapp.com',
+                'phulkari-world-3ca4f249daad.herokuapp.com',
                 'localhost'
                 ]
 
