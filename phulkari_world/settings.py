@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
+import dj_database_url
 from pathlib import Path
 
 from django_countries.widgets import LazyChoicesMixin
@@ -28,7 +29,10 @@ SECRET_KEY = 'django-insecure-mu1(y3=pxa=zx@7*w!(#w=oh&l)ixn+eujd(^_3&%e0q_w@@ii
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-sugandhi13-phulkariworl-iu85dvgfg47.ws-eu114.gitpod.io']
+ALLOWED_HOSTS = ['8000-sugandhi13-phulkariworl-iu85dvgfg47.ws-eu114.gitpod.io',
+                'https://phulkari-world-3ca4f249daad.herokuapp.com',
+                'localhost'
+                ]
 
 
 # Application definition
@@ -121,14 +125,19 @@ WSGI_APPLICATION = 'phulkari_world.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
