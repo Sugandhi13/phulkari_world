@@ -32,10 +32,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-sugandhi13-phulkariworl-iu85dvgfg47.ws-eu114.gitpod.io',
-                'phulkari-world-3ca4f249daad.herokuapp.com',
-                'localhost'
-                ]
+ALLOWED_HOSTS = [
+        '8000-sugandhi13-phulkariworl-iu85dvgfg47.ws-eu114.gitpod.io',
+        'phulkari-world-3ca4f249daad.herokuapp.com',
+        'localhost'
+    ]
 
 
 # Application definition
@@ -57,7 +58,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
 
-    #Other
+    # Other
     'crispy_forms',
     'storages',
 ]
@@ -88,7 +89,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -147,23 +148,27 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com"
 ]
 
-DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME':
+            'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME':
+            'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME':
+            'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME':
+            'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
 
@@ -216,7 +221,7 @@ if 'USE_AWS' in os.environ:
     # Override static and media URLs in production
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
-    
+
 # Stripe
 FREE_DELIVERY_THRESHOLD = 1000
 STANDARD_DELIVERY_PERCENTAGE = 10
@@ -239,4 +244,6 @@ else:
 
 # Monkey patch workaround to handle issue with django-countries
 LazyChoicesMixin.get_choices = lambda self: self._choices
-LazyChoicesMixin.choices = property(LazyChoicesMixin.get_choices, LazyChoicesMixin.set_choices)
+LazyChoicesMixin.choices = property(
+    LazyChoicesMixin.get_choices, LazyChoicesMixin.set_choices
+)
