@@ -110,6 +110,12 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.contact-form input,
+.contact-form textarea {
+    border-radius: 0px;
+    border: 1px solid #000;
+}
+
 /* ---------------------------- bootstrap toasts */
 .message-container {
     position: fixed;
