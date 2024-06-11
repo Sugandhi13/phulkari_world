@@ -35,3 +35,8 @@ def contact(request):
             "contact_form": contact_form
         },
     )
+
+def faq(request):
+    """ A view to return contact success page """
+
+    return render(request, 'contact/faq.html')

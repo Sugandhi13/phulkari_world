@@ -1,1 +1,1 @@
-Phulkari World Confirmation for Order Number {{ order.order_number }}
+Phulkari World: Confirmation for Order Number - {{ order.order_number }}
