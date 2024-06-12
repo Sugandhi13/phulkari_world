@@ -2,15 +2,30 @@ from django.shortcuts import render
 from django.contrib import messages
 
 
-from .models import Contact
+from .models import About, Contact
 from .forms import ContactForm
+
+
+# Created about_me view that renders all info of about model
+def about_us(request):
+    """
+    Display and insert record in About model.
+    """
+    aboutset = About.objects.all().order_by('-updated_on').first()
+
+    return render(
+        request,
+        "about/about_us.html",
+        {
+            "about": aboutset
+        },
+    )
 
 
 # Created contact view that renders info of contact form & update contact model
 def contact(request):
     """
-    Display an individual :Form:`about.forms.ContactForm`
-    and insert record in Contact model.
+    Display a ContactForm and insert record in Contact model.
     """
     if request.method == "POST":
         contact_form = ContactForm(data=request.POST)
@@ -30,7 +45,7 @@ def contact(request):
 
     return render(
         request,
-        "contact/contact.html",
+        "about/contact.html",
         {
             "contact_form": contact_form
         },
@@ -39,4 +54,4 @@ def contact(request):
 def faq(request):
     """ A view to return contact success page """
 
-    return render(request, 'contact/faq.html')
+    return render(request, 'about/faq.html')
