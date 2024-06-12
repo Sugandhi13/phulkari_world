@@ -6,6 +6,6 @@ from . import views
 # url configuration for about app
 
 urlpatterns = [
-    path('', views.contact, name='contact'),
+    path('contact/', views.contact, name='contact'),
     path('faq/', views.faq, name='faq'),
 ]
