@@ -183,15 +183,6 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
-}
-
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -272,6 +263,44 @@ input[name='q']::placeholder {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+
+/* Footer elements */
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    color:#fff;
+    background-color: #222;
+    position: sticky;
+}
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color:#fff;
+}
+
+/* Style each social media icon */
+.social-icons i {
+    font-size: 32px;
+    margin-right: 10px;
+    padding: 5%;
+    color: #fff;;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
 }
 
 /* fixed top navbar only on medium and up */
