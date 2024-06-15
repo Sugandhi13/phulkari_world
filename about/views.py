@@ -4,7 +4,7 @@ from django.contrib.auth.decorators import login_required
 
 
 from .models import About, Contact, Faq
-from .forms import AboutForm, ContactForm, Faq
+from .forms import AboutForm, ContactForm, FaqForm
 
 
 # Created about_me view that renders all info of about model
@@ -85,11 +85,6 @@ def contact(request):
         },
     )
 
-def faq(request):
-    """ A view to return contact success page """
-
-    return render(request, 'about/faq.html')
-
 
 # Created faq view that renders all info of Faq model
 def faq(request):
@@ -105,3 +100,48 @@ def faq(request):
             "faqs": aboutset
         },
     )
+
+
+@login_required
+def edit_faq(request, faq_id):
+    """ Edit Faq page of the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    faq = get_object_or_404(Faq, pk=faq_id)
+    if request.method == 'POST':
+        faq_form = FaqForm(request.POST, request.FILES, instance=faq)
+        if faq_form.is_valid():
+            faq_form.save()
+            messages.success(request, f'Successfully updated "{faq.query}" !')
+            return redirect(reverse('faq'))
+        else:
+            messages.error(
+                request,
+                f'Failed to update "{faq.query}". Please ensure the form is valid.'
+            )
+    else:
+        faq_form = FaqForm(instance=faq)
+        messages.info(request, f'You are editing "{faq.query}"')
+
+    template = 'about/edit_faq.html'
+    context = {
+        'faq_form': faq_form,
+        'faq': faq,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
+def delete_faq(request, faq_id):
+    """ Delete a product from the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    faq = get_object_or_404(Faq, pk=faq_id)
+    faq.delete()
+    messages.success(request, f'Query "{faq.query}" deleted!')
+    return redirect(reverse('faq'))

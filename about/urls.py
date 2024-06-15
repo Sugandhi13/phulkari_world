@@ -7,7 +7,13 @@ from . import views
 
 urlpatterns = [
     path('contact/', views.contact, name='contact'),
+    path('edit_faq/<int:faq_id>/', views.edit_faq, name='edit_faq'),
     path('faq/', views.faq, name='faq'),
+    path(
+        'delete/<int:faq_id>/',
+        views.delete_faq,
+        name='delete_faq'
+        ),
     path('edit/', views.edit_about_us, name='edit_about_us'),
     path('', views.about_us, name='about'),
 ]
