@@ -268,13 +268,13 @@ input[name='q']::placeholder {
 /* Footer elements */
 
 .footer {
-    margin-top: auto;
     width: 100%;
     text-align: center;
     bottom: 0;
-    color:#fff;
+    color: #fff;
     background-color: #222;
-    position: sticky;
+    position: fixed; /* Change to fixed */
+    height: 60px; /* Adjust the height as needed */
 }
 
 /* Social icons */
@@ -282,16 +282,21 @@ input[name='q']::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5px;
     color:#fff;
 }
 
 /* Style each social media icon */
 .social-icons i {
-    font-size: 32px;
+    font-size: 24px;
     margin-right: 10px;
     padding: 5%;
     color: #fff;;
+}
+
+/* Add padding to the bottom of the content */
+#container {
+    padding-bottom: 60px; /* Same height as the footer */
 }
 
 /* -------------------------------- Media Queries */
