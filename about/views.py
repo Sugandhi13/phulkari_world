@@ -103,6 +103,35 @@ def faq(request):
 
 
 @login_required
+def add_faq(request):
+    """ Add a product to the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    if request.method == 'POST':
+        faq_form = FaqForm(request.POST)
+        if faq_form.is_valid():
+            faq = faq_form.save()
+            messages.success(request, f'Successfully added query "{faq.query}"')
+            return redirect(reverse('faq'))
+        else:
+            messages.error(
+                request,
+                f'Failed to add {faq.query}. Please ensure the form is valid.'
+            )
+    else:
+        faq_form = FaqForm()
+
+    template = 'about/add_faq.html'
+    context = {
+        'faq_form': faq_form,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
 def edit_faq(request, faq_id):
     """ Edit Faq page of the store """
     if not request.user.is_superuser:
@@ -114,7 +143,7 @@ def edit_faq(request, faq_id):
         faq_form = FaqForm(request.POST, request.FILES, instance=faq)
         if faq_form.is_valid():
             faq_form.save()
-            messages.success(request, f'Successfully updated "{faq.query}" !')
+            messages.success(request, f'Successfully updated query "{faq.query}"')
             return redirect(reverse('faq'))
         else:
             messages.error(
@@ -123,7 +152,7 @@ def edit_faq(request, faq_id):
             )
     else:
         faq_form = FaqForm(instance=faq)
-        messages.info(request, f'You are editing "{faq.query}"')
+        messages.info(request, f'You are editing query "{faq.query}"')
 
     template = 'about/edit_faq.html'
     context = {

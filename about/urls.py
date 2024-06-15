@@ -7,6 +7,7 @@ from . import views
 
 urlpatterns = [
     path('contact/', views.contact, name='contact'),
+    path('add_faq/', views.add_faq, name='add_faq'),
     path('edit_faq/<int:faq_id>/', views.edit_faq, name='edit_faq'),
     path('faq/', views.faq, name='faq'),
     path(

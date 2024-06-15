@@ -41,10 +41,12 @@
                                 {{ faq.answer }}
                             </div>
                             {% if request.user.is_superuser %}
+                            <div class="bg-light text-center">
                                 <small class="ml-3">
                                     <a href="{% url 'edit_faq' faq.id %}">Edit</a> | 
                                     <a class="text-danger" href="{% url 'delete_faq' faq.id %}">Delete</a>
                                 </small>
+                            </div>
                             {% endif %}
                         </div>
                     </div>
