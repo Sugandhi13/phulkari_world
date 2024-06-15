@@ -1,6 +1,6 @@
 # Importing required libraries to create customer forms
 from django import forms
-from .models import About, Contact
+from .models import About, Contact, Faq
 
 
 # Defining AboutFrom structure to display in view
@@ -34,3 +34,10 @@ class ContactForm(forms.ModelForm):
             placeholder = placeholders[field]
             self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].label = False
+
+
+# Defining FaqFrom structure to display in view
+class FaqForm(forms.ModelForm):
+    class Meta:
+        model = Faq
+        fields = ('query', 'answer')

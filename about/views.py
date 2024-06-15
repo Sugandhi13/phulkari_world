@@ -3,8 +3,8 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
 
-from .models import About, Contact
-from .forms import AboutForm, ContactForm
+from .models import About, Contact, Faq
+from .forms import AboutForm, ContactForm, Faq
 
 
 # Created about_me view that renders all info of about model
@@ -89,3 +89,19 @@ def faq(request):
     """ A view to return contact success page """
 
     return render(request, 'about/faq.html')
+
+
+# Created faq view that renders all info of Faq model
+def faq(request):
+    """
+    Display and insert record in About model.
+    """
+    aboutset = Faq.objects.all()
+
+    return render(
+        request,
+        "about/faq.html",
+        {
+            "faqs": aboutset
+        },
+    )
