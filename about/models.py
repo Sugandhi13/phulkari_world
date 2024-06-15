@@ -1,7 +1,6 @@
 # Importing required libraries required to build models
 
 from django.db import models
-from django.contrib.auth.models import User
 
 
 # Create About model
@@ -30,3 +29,15 @@ class Contact(models.Model):
 
     def __str__(self):
         return f"{self.name}"
+
+# Create faq model
+class faq(models.Model):
+    """
+    Stores single about us requrest.
+    """
+    query = models.CharField(max_length=500, unique=True)
+    answer = models.TextField()
+    updated_on = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.query}"
