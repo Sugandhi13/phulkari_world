@@ -1,142 +1,226 @@
 [
    {
-      "pk": 1,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1643563350",
-         "name": "Ebadat Phulkari Dupatta",
-         "description": "Delicately crafted in vibrant shades, the traditional phulkari dupatta comes straight from the Land of Punjab. Intricately embroidered in vivid and bold motifs, these dupattas signify joy in traditional Punjabi culture. Inspired by natural elements, the name is derived from the words PHUL (which means flower) and KARI (which means craft). Flaunt the stunning designs in Ethnic or Indo western look and take part in promoting Indian heritage.",
-         "price": 2799.00,
-         "category": 1,
-         "rating": 4.6,
-         "image_url": "https://malahaindia.com/cdn/shop/products/21445DEF-A439-411E-A5FD-C94AB9D4E0BD.jpg?v=1643563350&width=713",
-         "image": "pwdpt01.jpg"
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw7k9z2b1x",
+         "name":"Pure Chinon Hand Embroidered Dupatta - Shades of Punjab (68 color Bagh Dupatta)",
+         "description":"The 68 Color Bagh is a truly unique and exquisite piece of art, showcasing a rich tapestry of multi-colored squares meticulously hand-embroidered in 68 different hues. Crafted with precision and care, it requires nearly 2-3 months for a skilled artisan to bring this vibrant masterpiece to life. The use of pure chinon fabric adds a touch of luxury to the dupatta, enhancing its overall elegance. This one-of-a-kind dupatta not only serves as a splendid accessory for a plain Punjabi suit but also stands as a testament to the craftsmanship and cultural wealth of Punjab. The vibrant colors on the pure chinon fabric narrate the story of Punjab, reflecting its diversity and cultural vibrancy. The versatility of the 68 Color Bagh allows it to be worn with pride, transforming a simple outfit into a work of art. Alternatively, it can be used to decorate your home as a stunning wall hanging, adding a touch of Punjab's cultural heritage to your living space. The option for customization offers a personalized touch, allowing individuals to tailor the piece to their preferences. In essence, the 68 Color Bagh is not just a piece of clothing or decor; it is a celebration of Punjab's rich culture, the dedication of its artisans, and the vibrant spectrum of colors that define the region's identity.",
+         "price":315.90,
+         "category":1,
+         "rating":4.6,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariDupattaPureChinon68Bagh1.jpg?v=1710272020&width=713",
+         "image":"PhulkariDupattaPureChinon68Bagh.webp"
       }
    },
    {
-      "pk": 2,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1630658804",
-         "name": "Parsi Work Hand Embroidered Georgette Dupatta - Pink",
-         "description": "A lightweight pink georgette dupatta with intricate floral hand embroidery, keeping it stylish and simple with sequins on the border. This Parsi dupatta is vibrant, stylish and easy to carry. Pair it with any solid kurta or lehenga.",
-         "price": 857.99,
-         "category": 1,
-         "rating": 3.9,
-         "image_url": "https://phulari.com/cdn/shop/products/IMG_20210218_163157.jpg?v=1630658804&width=823",
-         "image": "pwdpt02.jpg"
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw3v8m6y0q",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Dupatta - Pinky Pink",
+         "description":"Draped in a beautiful pink dupatta adorned with shades of sky blues, magenta, and pastel yellow, you'll radiate beauty inside and out. This piece is not just an accessory; it enhances your outer beauty, letting your inner radiance shine through. It's a touch of joy and a glow-inducing garment that adds an extra layer of happiness, making you feel completely yourself. Embrace the transformative power of this stunning dupatta and let your beauty glow from within",
+         "price":63.10,
+         "category":1,
+         "rating":3.9,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariDupattaPureChanderiPinkyPink.jpg?v=1710273667&width=713",
+         "image":"PhulkariDupattaPureChanderiPinkyPink.webp"
       }
    },
    {
-      "pk": 3,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw62900882",
-         "name": "Chiffon Handwork And Machine Work Stylish Chanderi Phulkari Dupatta",
-         "description": "Chiffon Fabric, Jari Work, Print Type: Handwork And Machine Work, Type: Traditional Phulkari Dupatta, Size: 2.25 meter, Wash Care: Handwash.",
-         "price": 899.99,
-         "category": 1,
-         "rating": 4.7,
-         "image_url": "https://5.imimg.com/data5/SELLER/Default/2024/1/379858021/KI/MG/EI/62900882/stylish-phulkari-dupatta-1000x1000.jpeg",
-         "image": "pwdpt03.jpg"
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw5r4d1s9u",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Dupatta Stole - Royal Black",
+         "description":"Every wardrobe needs a timeless black statement piece, and this elegantly hand-embroidered Phulkari creation is a must-have that never goes out of style. Strike the perfect balance with its intricate craftsmanship, showcasing the timeless elegance of Punjab's culture and heritage. A versatile piece that speaks volumes without being too much or too little, ensuring you stand out effortlessly. Elevate your style with this enduring classic, a nod to the enduring grace and sophistication embedded in Punjab's cultural legacy.",
+         "price":44.20,
+         "category":1,
+         "rating":4.7,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariDupattaStolePureChanderiRoyalBlack1.jpg?v=1710273471&width=713",
+         "image":"PhulkariDupattaStolePureChanderiRoyalBlack.webp"
       }
    },
    {
-      "pk": 4,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1643370731",
-         "name": "Meher Phulkari Dupatta",
-         "description": "Delicately crafted in vibrant shades, the traditional phulkari dupatta comes straight from the Land of Punjab. Intricately embroidered in vivid and bold motifs, these dupattas signify joy in traditional Punjabi culture. Inspired by natural elements, the name is derived from the words PHUL (which means flower) and KARI (which means craft). Flaunt the stunning designs in Ethnic or Indo western look and take part in promoting Indian heritage.",
-         "price": 2500.00,
-         "category": 1,
-         "rating": 3.0,
-         "image_url": "https://malahaindia.com/cdn/shop/products/IMG_8581.jpg?v=1643370731&width=713",
-         "image": "pwdpt04.jpg"
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw2t6x7o4e",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Dupatta - Luxury Purple",
+         "description":"The Pure Chanderi purple dupatta adorned with hand-embroidered Phulkari motifs is an exquisite piece that adds a touch of elegance and cultural richness to your special occasions. The deep purple hue of the Chanderi fabric, combined with the vibrant and intricately embroidered Phulkari motifs, creates a stunning visual appeal. This dupatta not only enhances your attire but also tells a captivating story of the vibrancy of Punjabi culture. The colorful Phulkari motifs symbolize the vivacity and beauty inherent in Punjabi traditions, making it a perfect representation of the region's cultural heritage. Wearing this dupatta on your special occasions will not only make you look vibrant and beautiful but also draw attention and admiration. The unique combination of the rich purple fabric and the hand-embroidered Phulkari motifs is sure to make a lasting impression. Be prepared for compliments, as everyone is likely to inquire about where you acquired this exceptional piece. The pure Chanderi purple dupatta with Phulkari motifs is not just an accessory; it's a statement of style, culture, and individuality that showcases the beauty of Punjab's traditions.",
+         "price":56.90,
+         "category":1,
+         "rating":3.0,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariDupattaPureChanderiLuxuryPurple.jpg?v=1710272629&width=713",
+         "image":"PhulkariDupattaPureChanderiLuxuryPurple.webp"
       }
    },
    {
-      "pk": 5,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1643384808",
-         "name": "Bani Phulkari Dupatta",
-         "description": "Delicately crafted in vibrant shades, the traditional phulkari dupatta comes straight from the Land of Punjab. Intricately embroidered in vivid and bold motifs, these dupattas signify joy in traditional Punjabi culture. Inspired by natural elements, the name is derived from the words PHUL (which means flower) and KARI (which means craft). Flaunt the stunning designs in Ethnic or Indo western look and take part in promoting Indian heritage.",
-         "price": 1799.99,
-         "category": 1,
-         "rating": 5.0,
-         "image_url": "https://malahaindia.com/cdn/shop/products/IMG_85792.jpg?v=1643384808&width=713",
-         "image": "pwdpt05.jpg"
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw9j0f5a3h",
+         "name":"Pure Chinon Hand Embroidered Phulkari Dupatta - Many Shades of Grey",
+         "description":"This mesmerizing shaded Phulkari dupatta is a cultural gem, blending elegance with rich heritage. The intricate grey tones exude sophistication and tell Punjab's story. Generously sized, it transforms any outfit into a statement piece, demanding attention. More than an accessory, it symbolizes Punjab's vibrant culture and skilled craftsmanship. Whether for special occasions or daily wear, this beautiful dupatta captivates and sparks admiration. A wearable work of art, it beautifully encapsulates the essence of Punjab",
+         "price":94.89,
+         "category":1,
+         "rating":5.0,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariDupattaPureChinonShadesofGrey.jpg?v=1710272868&width=713",
+         "image":"PhulkariDupattaPureChinonShadesofGrey.webp"
       }
    },
    {
-      "pk": 6,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1709752868",
-         "name": "Pure Chanderi Hand Embroidered Phulkari Kurti - Royal Maroon",
-         "description": "Indulge in regal elegance with our Royal Maroon Kurti, a true depiction of royalty reflecting our rich heritage and culture. Hand-embroidered on the neck, sleeves, and both sides, this kurti exudes a majestic charm. The intricate Phulkari detailing adds a touch of tradition, making it a wearable masterpiece that resonates with the essence of Punjab's cultural legacy. Embrace the royal touch and tradition woven into every stitch, as this kurti stands as a timeless symbol of cultural opulence and regal allure.",
-         "price": 699.99,
-         "category": 6,
-         "rating": 4.7,
-         "image_url": "https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtaPantSetPureChanderiRoyalMaroonSetTop_f0157715-72d5-44e5-862a-2041ca1ad646.jpg?v=1709752868&width=713",
-         "image": "pwkur01.jpg"
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw1i2g8l7w",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Kurti - Black",
+         "description":"Elevate your joy with our Pure Chanderi Black Short Kurti, adorned in a vibrant Phulkari Hand Embroidery. Perfect for get-togethers or those mood-lifting moments, this piece is a symbol of happiness, bringing the lively spirit of Punjab to your doorstep. Embrace the color palette and radiate joy in every stitch, as this kurti transforms into a wearable expression of pure, unbridled happiness",
+         "price":50.50,
+         "category":6,
+         "rating":4.7,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtiPureChanderiBlackFront.jpg?v=1709662709&width=713",
+         "image":"PhulkariKurtiPureChanderiBlackFront.webp"
       }
    },
    {
-      "pk": 7,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1709662709",
-         "name": "Pure Chanderi Hand Embroidered Phulkari Kurti - Black",
-         "description": "Elevate your joy with our Pure Chanderi Black Short Kurti, adorned in a vibrant Phulkari Hand Embroidery. Perfect for get-togethers or those mood-lifting moments, this piece is a symbol of happiness, bringing the lively spirit of Punjab to your doorstep. Embrace the color palette and radiate joy in every stitch, as this kurti transforms into a wearable expression of pure, unbridled happiness.",
-         "price": 509.0,
-         "category": 6,
-         "rating": 4.4,
-         "image_url": "https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtiPureChanderiBlackFront.jpg?v=1709662709&width=713",
-         "image": "pwkur02.jpg"
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw4n3c9v5k",
+         "name":"Pure Cotton Linen Hand Embroidered Phulkari Kurti - Aesthetic Maroon",
+         "description":"Indulge in comfort with our Hand Embroidered Pure Cotton Linen Kurti, crafted from the finest material with a beautifully detailed neck. This piece not only exudes artisanal charm but also tells the captivating story of Punjab's rich heritage and culture. Embrace the blend of comfort and tradition, as this kurti becomes a wearable expression of cultural opulence",
+         "price":69.40,
+         "category":6,
+         "rating":4.4,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtiPureCottonLinenMaroonFront.jpg?v=1709664188&width=713",
+         "image":"PhulkariKurtiPureCottonLinenMaroonFront.webp"
       }
    },
    {
-      "pk": 8,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1714120346",
-         "name": "Pure Chanderi Hand Embroidered Phulkari Kurti - Bavarian Cream",
-         "description": "Our Pure Chanderi Diamond Ivory Cream Kurti is perfect for any occasion, blending versatility with tradition. Hand-embroidered in Phulkari, the intricate detailing on the neck and sleeves adds a touch of Punjab's rich heritage. Elevate your style effortlessly, bringing cultural opulence to your doorstep with this timeless and versatile piece",
-         "price": 572.99,
-         "category": 6,
-         "rating": 4.5,
-         "image_url": "https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtaPantSetPureChanderiBavarianCreamSetTopBottom_c7308493-8f5b-4cf1-9d8e-daf93c34eb94.jpg?v=1714120346&width=713",
-         "image": "pwkur03.jpg"
+      "pk":28,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw6b1z2p8r",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Kurti - Parakeet Green",
+         "description":"Introducing our Green Chanderi Kurti, a modern yet traditional masterpiece. This elegant kurti is adorned with intricate hand-embroidery on the neck, offering a perfect blend of contemporary style and classic craftsmanship. Ideal for those who appreciate the beauty of tradition with a modern twist, this kurti is a statement piece that adds sophistication to any ensemble. Elevate your style with this exquisite green kurti, where the detailing on the neck speaks volumes of enduring tradition in a fashion-forward context.",
+         "price":63.20,
+         "category":6,
+         "rating":4.5,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariSuitKurtaDupattaSetPureChanderiParakeetGreen_1135b586-8fea-441e-9d49-0d181cbd07e9.jpg?v=1709843281&width=713",
+         "image":"PhulkariKurtiPureChanderiParakeetGreen.webp"
       }
    },
    {
-      "pk": 9,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1709837773",
-         "name": "Pure Chanderi Hand Embroidered Phulkari Kurti - White Monochrome",
-         "description": "Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
-         "price": 699.99,
-         "category": 6,
-         "rating": 4.7,
-         "image_url": "https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtaPantSetPureChanderiWhiteMonochromeSetKurti_00a57a8c-e144-4b1a-b79b-5771bd433b48.jpg?v=1709837773&width=713",
-         "image": "pwkur04.jpg"
+      "pk":29,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw8e7h4t0j",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Kurti - Daffodil Yellow",
+         "description":"Illuminate your wardrobe with our Gorgeous Daffodil Yellow Phulkari Kurti, a celebration of Punjab's vibrant culture in every stitch. Designed for those bright moments that light up your life, the intricate detailing on the neck, hand-embroidered with Phulkari, adds a touch of elegance. Elevate your style with this stunning yellow ensemble, where each detail captures the essence of Punjab’s rich heritage, infusing a burst of color into your joyful moments.",
+         "price":50.59,
+         "category":6,
+         "rating":4.7,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariSuitKurtaDupattaSetPureChanderiDaffodilYellowTealBlue2_4ad093e3-7463-4b47-96dd-0e4e7d2e83c4.jpg?v=1709842148&width=713",
+         "image":"PhulkariKurtiPureChanderiDaffodilYellowTealBlue.webp"
       }
    },
    {
-      "pk": 10,
-      "model": "products.product",
-      "fields": {
-         "sku": "pw1709831702",
-         "name": "Pure Muslin Hand Embroidered Phulkari Kurti - Roseatte Pink",
-         "description": "Complete the look of your table setting with these easy-care microfiber napkins.  great for everyday use or entertaining liquid-resistant design helps protect against spills set of 4 Polyester.Each measures 19x19\". Washable. Imported.",
-         "price": 33.99,
-         "category": 6,
-         "rating": 4.4,
-         "image_url": "https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtaPantSetPureMuslinRoseattePinkSetKurtiPant_dd8e6cb3-9644-45d9-88f7-fb42a99d7893.jpg?v=1709831702&width=713",
-         "image": "pwkur05.jpg"
+      "pk":30,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw0q5u3x6m",
+         "name":"Pure Muslin Hand Embroidered Phulkari Kurti - Aqua Lake",
+         "description":"Immerse yourself in the refreshing allure of our Aqua Pure Muslin Kurti. Crafted from pure muslin fabric, this piece ensures constant comfort, making you feel rejuvenated throughout the day. Inspired by traditional Phulkari, it seamlessly blends heritage with modernity, offering an embroidery that resonates with today's generation. This Aqua-colored kurti takes you on a journey of refreshing adventures, embodying the rich heritage and cultural tapestry of Punjab.",
+         "price":33.99,
+         "category":6,
+         "rating":4.1,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtaPantSetPureMuslinAquaLakeSetKurti_0bef5dc8-dc74-46d4-9cb0-6b19ae214591.jpg?v=1709835658&width=713",
+         "image":"PhulkariKurtiPureMuslinAquaLake.webp"
+      }
+   },
+   {
+      "pk":31,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw3v8m6y0q",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Suit with Dupatta - Daffodil Yellow & Teal Blue",
+         "description":"Complete your ensemble with our Beautiful Teal Phulkari Suit, featuring a stunning pant with hand-embroidery on the front for a unique touch. The set beautifully presents Punjab's tradition in a modern way, blending Phulkari's richness with contemporary elegance. Adding to the allure, the dupatta is printed with beautiful Phulkari motifs, infusing an extra layer of tradition and vibrancy. Elevate your style with this coordinated set, where every detail, from the intricately crafted pant to the adorned dupatta, narrates a story of tradition and modernity in perfect harmony.",
+         "price":101.10,
+         "category":7,
+         "rating":3.9,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariSuitKurtaPantDupattaSetPureChanderiDaffodilYellowTealBlue.jpg?v=1709841979&width=713",
+         "image":"PhulkariSuitKurtaPantDupattaSetPureChanderiDaffodilYellowTealBlue.webp"
+      }
+   },
+   {
+      "pk":32,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw5r4d1s9u",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Suit with Dupatta - Parakeet Green",
+         "description":"Step into timeless elegance with our Parakeet Green Chanderi Suit, a stunning blend of modernity and tradition. Adorned with hand-embroidery on the neck and sleeves, this ensemble strikes a perfect balance between contemporary design and classic craftsmanship. Tailored for those who desire a traditional yet modern look, the suit captivates with its versatile appeal. The ensemble is complemented by a beautiful shaded dupatta, adding an extra layer of sophistication and completing the rich narrative of enduring tradition in a modern context. Elevate your style with this exquisite green suit, making it a standout in your wardrobe for its intricate details and timeless charm.",
+         "price":107.49,
+         "category":7,
+         "rating":3.4,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariSuitKurtaPantDupattaSetPureChanderiParakeetGreen.jpg?v=1709843123&width=713",
+         "image":"PhulkariSuitKurtaPantDupattaSetPureChanderiParakeetGreen.webp"
+      }
+   },
+   {
+      "pk":33,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw2t6x7o4e",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Suit with Dupatta - Glacier Grey",
+         "description":"Elevate your formal occasions with our Beautiful Glacier Grey Chanderi Phulkari Suit. Crafted from pure chanderi, this piece exudes royalty and sophistication, making it a must-have in your wardrobe. A creation from Phulkari Forever, this suit is a blend of elegance and tradition that will undoubtedly turn heads. The stunning dupatta, adorned with intricate Phulkari embroidery, adds an ethereal touch, making the ensemble truly out of the world. Embrace the rich heritage of Punjab with this sophisticated grey suit, ensuring a regal and elegant look for your formal functions.",
+         "price":120.99,
+         "category":7,
+         "rating":4.4,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariSuitKurtaPantDupattaSetPureChanderiGlacierGrey2.jpg?v=1709840157&width=713",
+         "image":"PhulkariSuitKurtaPantDupattaSetPureChanderiGlacierGrey.webp"
+      }
+   },
+   {
+      "pk":35,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw1i2g8l7w",
+         "name":"Pure Linen Hand Embroidered Phulkari Kurti Pant - Sunflower Yellow",
+         "description":"Immerse yourself in the tranquil beauty of our Nature-Inspired Pure Linen Coord Set. The kurti, depicting a serene garden with yellow and green hues, seamlessly fuses Punjab's rich heritage with modernity. Its nature-inspired design resonates with the essence of a beautiful garden. Paired with the Pure Linen Pant, this set is a harmonious blend of comfort and style, inviting the beauty of nature into your wardrobe. Each piece tells a story, celebrating the timeless allure of Punjab's cultural opulence while encapsulating the serene charm of the natural world.",
+         "price":101.10,
+         "category":8,
+         "rating":4.3,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtaPantSetPureLinenSunflowerYellowSetKurtiPant.jpg?v=1709832474&width=713",
+         "image":"PhulkariKurtaPantSetPureLinenSunflowerYellowSetKurtiPant.webp"
+      }
+   },
+   {
+      "pk":36,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw4n3c9v5k",
+         "name":"Pure Cotton Linen Hand Embroidered Phulkari Kurti - Peach",
+         "description":"Envelop yourself in comfort with our Phulkari Hand Embroidered Pure Cotton Linen Kurti, meticulously crafted with intricate detailing on the neck and sleeves. The universally beloved peach color becomes a canvas, narrating the story of Punjab's rich heritage and culture. This kurti is an embodiment of luxury and tradition, seamlessly fusing comfort and style to capture the essence of Punjab's cultural richness.",
+         "price":58.00,
+         "category":8,
+         "rating":4.1,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariKurtiPureCottonLinenPeachFront.jpg?v=1709663356&width=713",
+         "image":"PhulkariKurtiPureCottonLinenPeachFront.webp"
+      }
+   },
+   {
+      "pk":37,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw6b1z2p8r",
+         "name":"Pure Chanderi Hand Embroidered Phulkari Suit with Dupatta - Parakeet Green",
+         "description":"Step into timeless elegance with our Parakeet Green Chanderi Suit, a stunning blend of modernity and tradition. Adorned with hand-embroidery on the neck and sleeves, this ensemble strikes a perfect balance between contemporary design and classic craftsmanship. Tailored for those who desire a traditional yet modern look, the suit captivates with its versatile appeal. The ensemble is complemented by a beautiful shaded dupatta, adding an extra layer of sophistication and completing the rich narrative of enduring tradition in a modern context. Elevate your style with this exquisite green suit, making it a standout in your wardrobe for its intricate details and timeless charm.",
+         "price":107.49,
+         "category":8,
+         "rating":3.4,
+         "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariSuitKurtaPantDupattaSetPureChanderiParakeetGreen.jpg?v=1709843123&width=713",
+         "image":"PhulkariSuitKurtaPantDupattaSetPureChanderiParakeetGreen.webp"
       }
    }
 ]
