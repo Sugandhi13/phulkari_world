@@ -1,7 +1,7 @@
 # Importing required libraries to register the models
 
 from django.contrib import admin
-from .models import About, Contact
+from .models import About, Contact, Faq
 
 
 # Register About model
@@ -12,10 +12,6 @@ class AboutAdmin(admin.ModelAdmin):
                     'content', 
                     'updated_on'
                     )
-
-
-admin.site.register(About, AboutAdmin)
-
 
 
 # Register Contact model
@@ -32,4 +28,15 @@ class ContactAdmin(admin.ModelAdmin):
     ordering = ('created_on',)
 
 
+# Register Faq model
+class FaqAdmin(admin.ModelAdmin):
+
+    list_display = (
+                    'query', 
+                    'answer', 
+                    'updated_on'
+                    )
+
+admin.site.register(About, AboutAdmin)
 admin.site.register(Contact, ContactAdmin)
+admin.site.register(Faq, FaqAdmin)

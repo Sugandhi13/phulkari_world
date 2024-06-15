@@ -31,7 +31,7 @@ class Contact(models.Model):
         return f"{self.name}"
 
 # Create faq model
-class faq(models.Model):
+class Faq(models.Model):
     """
     Stores single about us requrest.
     """
