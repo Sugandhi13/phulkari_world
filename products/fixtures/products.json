@@ -348,5 +348,62 @@
          "image_url":"https://pinkphulkari.com/collections/punjabi-jutti/products/womens-multicolor-mirror-phulkari-hand-embroidered-leather-punjabi-jutti",
          "image":"womens-multicolor-mirror-phulkari-hand-embroidered-leather-punjabi-jutti.jpg"
       }
+   },
+   {
+      "pk":47,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw9j0f3a5h",
+         "name":"Handcrafted Phulkari Utility Pouch - Black & Grey",
+         "description":"Handcrafted Phulkari Utility Pouch - Black & Grey. An embroidered zip pouch for all your small essentials. Perfect as a gift or a wedding favour too. This lovely piece is embroidered with phulkari motifs on the front and back on a cotton blend fabric and the front is further embellished with glass beads and sequins.This pouch has one main zip compartment, a YKK Plastic zipper and a hand made tassel on the side.",
+         "price":43.10,
+         "category":4,
+         "rating":4.9,
+         "image_url":"https://theindiacrafthouse.com/cdn/shop/products/HandcraftedPhulkariUtilityPouch-Black_Grey-TICHASPO63_1024x1024@2x.jpg?v=1633866361",
+         "image":"HandcraftedPhulkariUtilityPouch.webp"
+      }
+   },
+   {
+      "pk":48,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw1i2g917w",
+         "name":"Grey and Pink Long Pouch",
+         "description":"Phulkari Hand Crafted Embroidered Zip Pouch for all your small essentials. It makes a perfect wedding giveaway/favour. It is Embroidered with Phulkari motifs on front and back by machine first on a cotton blend fabric and the front is further embellished with Glass beads and sequin.This pouch has one main Zip compartment, YKK Plastic zipper and a hand made Tassel on the side.",
+         "price":50.00,
+         "category":3,
+         "rating":4.4,
+         "image_url":"https://theindiacrafthouse.com/cdn/shop/products/GreyandPinkLongPouch-TICHASP41.b_1024x1024@2x.jpg?v=1602960291",
+         "image":"GreyandPinkLongPouch.webp"
+      }
+   },
+   {
+      "pk":49,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw9j0f6b4h",
+         "name":"Punjabi pipal patti jhumka tikka",
+         "description":"Designed by MEHAR PUNJAB - Punjabi pipal patti jhumka tikka",
+         "price":23.10,
+         "category":3,
+         "rating":4.9,
+         "image_url":"https://meharpunjabdesigns.com/cdn/shop/products/image_c9ccb5d1-0c04-4465-a5cb-251c56c4930c.heic?v=1672435400&width=823",
+         "image":"PunjabiPipalPattiJhumkaTtikka.webp"
+      }
+   },
+   {
+      "pk":50,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw1i2g719w",
+         "name":"Orange Phulkari Splendor Ensemble Custom Stitched",
+         "description":"Embrace the rich cultural heritage with our exquisite Phulkari Splendor Ensemble. This stunning set features a handcrafted Phulkari top crafted from luxurious super Georgette fabric, offering an elegant drape and intricate detailing spread across 2.5 meters. Available in sizes 36 to 46, the top ensures a perfect fit for every silhouette. Complementing the top is a pure Georgette fabric handcrafted Phulkari dupatta, adding a touch of tradition and grace to your ensemble. For the perfect finish, the ensemble includes a Taffeta bottom, custom-stitched to your measurements, ensuring comfort and style in every step. Experience the beauty of Phulkari craftsmanship and make a statement of timeless elegance with the Phulkari Splendor Ensemble.",
+         "price":93.46,
+         "category":4,
+         "rating":4.4,
+         "image_url":"https://inayakhan.shop/cdn/shop/files/490ea1ee-2141-485b-a834-4221a7c090b2.jpg?v=1715843784&width=990",
+         "image":"OrangePhulkariSplendorEnsembleCustomStitched.webp"
+      }
    }
+   
 ]
