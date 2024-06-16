@@ -222,5 +222,131 @@
          "image_url":"https://www.phulkariforever.com/cdn/shop/files/PhulkariSuitKurtaPantDupattaSetPureChanderiParakeetGreen.jpg?v=1709843123&width=713",
          "image":"PhulkariSuitKurtaPantDupattaSetPureChanderiParakeetGreen.webp"
       }
+   },
+   {
+      "pk":38,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw8e7h4t0j",
+         "name":"Phulkari Embroidery Clutch MultiColor Metal Based Clutch with Phulkari Fabric pasted By The Amritsar Store",
+         "description":"A Phulkari Clutch is a small bag or purse that is adorned with phulkari embroidery. It is usually made with richly hued fabric such as silk or cotton, and the embroidery is done using a technique called darn stitch. The threads used for phulkari embroidery are typically bright and contrasting, creating a striking visual effect.",
+         "price":79.49,
+         "category":2,
+         "rating":4.8,
+         "image_url":"https://i.etsystatic.com/9816232/r/il/a1f5d3/4953907446/il_794xN.4953907446_pq0q.jpg",
+         "image":"phulkari-embroidery-clutch-multicolor.avif"
+      }
+   },
+   {
+      "pk":39,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw0q5u3x6m",
+         "name":"Embroidered Phulkari Indian Potli Purse and pouch, Set of 2 Utility Purses, Drawstring purse, Indian Gifts",
+         "description":"This Embroidered potli pouch is beautifully designed and made from Punjabi Phulkari fabric and has golden dori with golden tassels. This beautiful phulkari potli bag is well made to keep your mobile, cash, coins, specs, sunglasses, cosmetics, earphones, travel accessories....every item safely. It is also a perfect gift for your loved ones.",
+         "price":75.88,
+         "category":2,
+         "rating":3.9,
+         "image_url":"https://i.etsystatic.com/22038449/r/il/37cf37/4846196978/il_794xN.4846196978_jqym.jpg",
+         "image":"embroidered-phulkari-indian-potli-purse.avif"
+      }
+   },
+   {
+      "pk":40,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw3v8m6y0q",
+         "name":"Lemon Phulkari Potli bag, Handbag with threadwork, Rainbow coloured and Artistic Pattern for Wedding, Cultural events and Ethnic wear.",
+         "description":"Introducing our vibrant Lemon Phulkari Potli Bag, a delightful handbag that exudes elegance and charm. Adorned with intricate threadwork, rainbow-colored embroidery, and an artistic pattern, this Potli Bag is the perfect accessory for weddings, cultural events, and ethnic wear. Crafted with precision and care, this Potli Bag features traditional Phulkari embroidery in a stunning array of rainbow hues. Each stitch is a testament to the rich heritage of Indian textile artistry, creating a mesmerizing pattern that captivates the eye and adds a touch of whimsy to any ensemble. The lemon-yellow base of the bag provides a refreshing and vibrant backdrop for the colorful embroidery to shine. Whether you're attending a wedding ceremony, a festive celebration, or a cultural event, this bag will instantly elevate your outfit and make you stand out from the crowd.",
+         "price":93.27,
+         "category":2,
+         "rating":4.4,
+         "image_url":"https://i.etsystatic.com/31592924/r/il/ac23cd/6012066429/il_794xN.6012066429_h38s.jpg",
+         "image":"lemon-phulkari-potli-bag-handbag.webp"
+      }
+   },
+   {
+      "pk":41,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw7k9z2b1x",
+         "name":"Pippal patti Bridal kaleere",
+         "description":"Designed by MEHAR PUNJAB. Beautiful pippal patti bridal kaleere.",
+         "price":39.01,
+         "category":5,
+         "rating":3.4,
+         "image_url":"https://meharpunjabdesigns.com/cdn/shop/products/image_5a19f0c6-41de-45c6-867c-feed2c5b4aba.heic?v=1665707352&width=823",
+         "image":"pippal-patti-bridal-kaleere.webp"
+      }
+   },
+   {
+      "pk":42,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw3v8m6y0q",
+         "name":"Punjabi traditional jhumki tikka",
+         "description":"Designed by MEHAR PUNJAB. Punjabi traditional jhumki tikka.",
+         "price":27.07,
+         "category":5,
+         "rating":4.8,
+         "image_url":"https://meharpunjabdesigns.com/cdn/shop/products/image_8a818973-9a12-41b2-b52f-0a9f66f43276.heic?v=1668126989&width=823",
+         "image":"punjabi-traditional-jhumki-tikka.webp"
+      }
+   },
+   {
+      "pk":43,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw5r4d1s9u",
+         "name":"Bridal kundan choker set multi traditional",
+         "description":"Designed by MEHAR PUNJAB. Bridal kundan choker set multi traditional.",
+         "price":85.02,
+         "category":5,
+         "rating":3.9,
+         "image_url":"https://meharpunjabdesigns.com/cdn/shop/files/image_9b15b877-d2c7-4e4c-87df-b2172796ac5d.heic?v=1690428848&width=823",
+         "image":"bridal-kundan-choker-set-multi-traditional.webp"
+      }
+   },
+   {
+      "pk":44,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw2t6x7o4e",
+         "name":"Gold plated kaintha for kids or adults",
+         "description":"Designed by MEHAR PUNJAB. Gold plated kaintha for kids or adults.",
+         "price":20.06,
+         "category":5,
+         "rating":2.4,
+         "image_url":"https://meharpunjabdesigns.com/cdn/shop/files/image_55974185-ea3e-4ebf-b30e-d72203c88684.heic?v=1687739248&width=823",
+         "image":"gold-plated-kaintha-for-kids-or-adults.webp"
+      }
+   },
+   {
+      "pk":45,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw9j0f5a3h",
+         "name":"WOMEN'S PUNJABI JUTTI M03",
+         "description":"This brown color Women's Punjabi Jutti is perfect for both everyday casual wear and dressing up. It is made from soft leather and its light sole makes it comfortable to wear all day. This classic style is adorned with intricate embroidery for a touch of elegance.",
+         "price":43.10,
+         "category":9,
+         "rating":4.9,
+         "image_url":"https://pinkphulkari.com/collections/punjabi-jutti/products/womens-punjabi-jutti-m03",
+         "image":"womens-punjabi-jutti-m03.jpg"
+      }
+   },
+   {
+      "pk":46,
+      "model":"products.product",
+      "fields":{
+         "sku":"pw1i2g8l7w",
+         "name":"MULTICOLOR EMBROIDERED PHULKARI WORK JUTTI",
+         "description":"Experience comfort and luxury with our ladies Punjabi Jutti. Hand made with the finest materials, these leather flats are designed to mold to your feet and provide extra comfort.",
+         "price":48.46,
+         "category":9,
+         "rating":4.4,
+         "image_url":"https://pinkphulkari.com/collections/punjabi-jutti/products/womens-multicolor-mirror-phulkari-hand-embroidered-leather-punjabi-jutti",
+         "image":"womens-multicolor-mirror-phulkari-hand-embroidered-leather-punjabi-jutti.jpg"
+      }
    }
 ]
