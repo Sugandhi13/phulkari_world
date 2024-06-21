@@ -4,7 +4,7 @@ Phulkari World is an e-commerce website. It provides its customer an option to c
 
 # AmIResponsive
 
-![responsive_test](media/readme_images/amiresponsive.png)
+![responsive_test](./media/readme_images/amiresponsive.jpg)
 
 - Phulkari World! is live, to access it <a href="https://phulkari-world-3ca4f249daad.herokuapp.com/" target="_blank">click here.</a>
 - Git Hub Repository [Phulkari World!](https://github.com/Sugandhi13/phulkari_world.git)
@@ -137,17 +137,17 @@ Agile project management principles guided the development of this project, leve
 
 ### Kanban Board
 
-![kanbanboard](media/readme_images/kanbanboard.png)
+![kanbanboard](media/readme_images/kanbanboard.jpg)
 
 ### User Stories
 
-![userstories1](media/readme_images/userstories1.png)
-![userstories2](media/readme_images/userstories2.png)
-![userstories3](media/readme_images/userstories3.png)
+![userstories1](media/readme_images/userstories1.jpg)
+![userstories2](media/readme_images/userstories2.jpg)
+![userstories3](media/readme_images/userstories3.jpg)
 
 ### User Story Template
 
-![userstory_template](media/readme_images/userstorytemplate.png)
+![userstory_template](media/readme_images/userstorytemplate.jpg)
 
 ## Wireframes
 
@@ -289,7 +289,7 @@ The whole project follow the technique of building blocks. Which are sufficient 
 
 The database schema is composed by 6 models: Category, Query, Answer, About, User Profile and Contact information. 
 
-![database_schema](media/readme_images/erdiagram.png)
+![database_schema](media/readme_images/erdiagram.jpg)
 
 ### Category
 
