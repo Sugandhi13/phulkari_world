@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /accounts/
 Disallow: /bag/
-Disallow: /about/
+Disallow: /checkout/
 Sitemap: https://phulkari-world-3ca4f249daad.herokuapp.com/sitemap.xml
