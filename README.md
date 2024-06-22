@@ -447,7 +447,7 @@ This model consist of all contact us information of when a site user writes to t
 
 ### Index
 
-- The landing page of the website display hero image of the website the shows phulkari weaving womens along with the short description of phulkari and shop now button.
+- The landing page of the website display hero image of the website the shows phulkari weaving womens along with the short description of phulkari and *Shop Now* button. Clicking on *Shop Now* button will route the site user to product catalouge page.
 
     <details>
         <summary>Home Page - Desktop View</summary>
@@ -475,11 +475,16 @@ This model consist of all contact us information of when a site user writes to t
         <IMG src="media/readme_images/webpages/aboutus.jpg" alt="aboutus_page"/>
     </details>
 
-- Only the admin of the website has authorization to update the about us page content. Admin can update it either from *'/admin'* page or directly from the website using *'Update About Us'* page. When admin clicks on 'Update About Us' page then the update about us page open and a message display to the user that the page is going to be edited. 
+- Only the admin of the website has authorization to update the about us page content. Admin can update it either from *'/admin'* page or directly from the website using *'Update About Us'* page. When admin clicks on 'Update About Us' page then the update about us page open and a message display to the user that the page is going to be edited. After editing the information on About Us form, if admin clicks on *Update About Us* button then the *About Us* page will start displaying the updated information as well as a successfully updated page message. But if the admin clicks *Cancel* button the website will route the site admin to *Home* page.
 
     <details>
         <summary>Update About Us Page</summary>
         <IMG src="media/readme_images/webpages/updateaboutus.jpg" alt="update_aboutus_page"/>
+    </details>
+
+    <details>
+        <summary>Update About Us Page - Success</summary>
+        <IMG src="media/readme_images/testing/updateaboutussuccess.jpg" alt="update_aboutus_page_success"/>
     </details>
 
     <details>
