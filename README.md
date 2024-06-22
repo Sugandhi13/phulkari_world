@@ -475,7 +475,7 @@ This model consist of all contact us information of when a site user writes to t
         <IMG src="media/readme_images/webpages/aboutus.jpg" alt="aboutus_page"/>
     </details>
 
-- Only the admin of the website has authorization to update the about us page content. Admin can update it either from '/admin' page or directly from the website. When admin clicks on 'Update About Us' page then the update about us page open and a message display to the user that the page is going to be edited. 
+- Only the admin of the website has authorization to update the about us page content. Admin can update it either from *'/admin'* page or directly from the website using *'Update About Us'* page. When admin clicks on 'Update About Us' page then the update about us page open and a message display to the user that the page is going to be edited. 
 
     <details>
         <summary>Update About Us Page</summary>
@@ -525,6 +525,58 @@ This model consist of all contact us information of when a site user writes to t
     <details>
         <summary>Contact Us Model - Admin</summary>
         <IMG src="media/readme_images/adminpage/contactusmodeladminview.jpg" alt="contactus_model_admin"/>
+    </details>
+
+### FAQ
+
+- This page contains a number of frequently asked questions (FAQ) by site users. It contains the list of generic questions and their answer that are common for all site users and doesn't need site owner intervention specifically. If the site user have any specific question , they can reach using *'Contact Us'*'* page. 
+
+    <details>
+        <summary>FAQ Page</summary>
+        <IMG src="media/readme_images/webpages/faq.jpg" alt="faq_page"/>
+    </details>
+
+- The admin of the website can see add more FAQ's or edit/delete exsting FAQ's. The admin can do this from either website if logged in as admin from *'Add New FAQ'* page or from *'/admin'* site. 
+
+    <details>
+        <summary>Add New FAQ Page</summary>
+        <IMG src="media/readme_images/webpages/addnewfaq.jpg" alt="add_new_faq_page"/>
+    </details>
+
+    <details>
+        <summary>Edit FAQ Page</summary>
+        <IMG src="media/readme_images/webpages/editfaq.jpg" alt="edit_faq_page"/>
+    </details>
+
+    <details>
+        <summary>FAQ Page - Admin</summary>
+        <IMG src="media/readme_images/adminpage/faqadminview.jpg" alt="faq_page_admin"/>
+    </details>
+
+    <details>
+        <summary>FAQ Model - Admin</summary>
+        <IMG src="media/readme_images/adminpage/faqmodeladminview.jpg" alt="faq_model_admin"/>
+    </details>
+
+- If the FAQ added successfully. A success message will display displayed.
+
+    <details>
+        <summary>FAQ Page - Success</summary>
+        <IMG src="media/readme_images/testing/faqsuccess.jpg" alt="faq_page_success"/>
+    </details>
+
+- If the FAQ edited successfully. A success message will display displayed.
+
+    <details>
+        <summary>FAQ Edit Page - Success</summary>
+        <IMG src="media/readme_images/testing/faqeditedsuccess.jpg" alt="faq_edit_page_success"/>
+    </details>
+
+- If the FAQ deleted successfully. A success message will display displayed.
+
+    <details>
+        <summary>FAQ Delete Page - Success</summary>
+        <IMG src="media/readme_images/testing/faqdeletesuccess.jpg" alt="faq_delete_page_success"/>
     </details>
 
 ### Ask a Query 
