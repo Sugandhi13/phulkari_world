@@ -435,12 +435,12 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Desktop View</summary>
-    <IMG src="media/readme_images/navbar/footer.png" alt="desktop_footer"/>
+    <IMG src="media/readme_images/navbar/footeronlargescreen.png" alt="desktop_footer"/>
 </details>
 
 <details>
     <summary>Mobile View</summary>
-        <IMG src="media/readme_images/navbar/footermobile.png" alt="mobile_footer"/>
+        <IMG src="media/readme_images/navbar/footeronsmallscreen.png" alt="mobile_footer"/>
 </details>
 
 ### Index
