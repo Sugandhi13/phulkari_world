@@ -426,12 +426,12 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Mobile View</summary>
-        <IMG src="media/readme_images/navbar/nnavbaronsmallscreen.jpg" alt="navbar_on_small_screen"/>
+        <IMG src="media/readme_images/navbar/navbaronsmallscreen.jpg" alt="navbar_on_small_screen"/>
 </details>
 
 ### Footer
 
-- Users have functional links to Facebook, Twitter, Instagram and YouTube. These links will open in a new tab as they are outside the web application. 
+- Users have functional links to Facebook, X, Instagram and YouTube. These links will open in a new tab as they are outside the web application. 
 
 <details>
     <summary>Desktop View</summary>
