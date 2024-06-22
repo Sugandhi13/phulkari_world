@@ -466,18 +466,13 @@ This model consist of all contact us information of when a site user writes to t
         <IMG src="media/readme_images/adminpage/adminhomepage.jpg" alt="admin_dashboard"/>
     </details>
 
-### Products 
+### Products - Site User View
 
-- On Products page, all the products in the catalogue appears on random order. Products will be visible with its short details like image (if available, else default no-image image will be visible), product name, price, category, rating. If the site user is admin then edit and delete options will be visible as well. 
+- On Products page, all the products in the catalogue appears on random order. Products will be visible with its short details like image (if available, else default no-image image will be visible), product name, price, category, rating.
 
     <details>
         <summary>Product Page</summary>
         <IMG src="media/readme_images/webpages/productsuser.jpg" alt="product_page_user"/>
-    </details>
-
-    <details>
-        <summary>Product Page - Admin</summary>
-        <IMG src="media/readme_images/webpages/productsadmin.jpg" alt="product_page_admin"/>
     </details>
 
 - On left side of the page, total products count will be visible and at right side the drop down box with different ways of sorting option will be visible as well. Products can be sorted by name & category (a-z), price & rating (low to high).
@@ -506,6 +501,100 @@ This model consist of all contact us information of when a site user writes to t
     <details>
         <summary>Product Page - Search</summary>
         <IMG src="media/readme_images/webpages/productssearch.jpg" alt="product_page_search"/>
+    </details>
+
+- When a new product is added its starts getting visible on *Product* page.
+
+    <details>
+        <summary>Product Page - Newly Added Product</summary>
+        <IMG src="media/readme_images/testing/newaddedproductvisibleonproductpage.jpg" alt="product_page_new_product_added"/>
+    </details>
+
+
+### Products - Site Admin View
+
+- On Products page for Admin, everything else will remain same as Products page for site user like products will be visible with its short details like image (if available, else default no-image image will be visible), product name, price, category, rating. Only additional information is that the edit and delete options will be visible for admin user. 
+
+    <details>
+        <summary>Product Page - Admin</summary>
+        <IMG src="media/readme_images/webpages/productsadmin.jpg" alt="product_page_admin"/>
+    </details>
+
+- Admin can also access the Products and Categories information from the *'/admin'* Page and also have access to edit or delete the products and category from there.
+
+    <details>
+        <summary>Category - Admin View</summary>
+        <IMG src="media/readme_images/adminpage/categoryadminview.jpg" alt="category_admin_veiw"/>
+    </details>
+
+    <details>
+        <summary>Category - Admin Model</summary>
+        <IMG src="media/readme_images/adminpage/categoryadminmodel.jpg" alt="category_admin_model"/>
+    </details>
+
+    <details>
+        <summary>Product - Admin View</summary>
+        <IMG src="media/readme_images/adminpage/productsadminview.jpg" alt="product_page_admin_veiw"/>
+    </details>
+
+    <details>
+        <summary>Product - Admin Model</summary>
+        <IMG src="media/readme_images/adminpage/productsadminmodel.jpg" alt="product_page_admin_model"/>
+    </details>
+
+### Add New Product
+
+- Admin have option to add a new product from the website. The menu is present under *My Account > Add New Product*.
+
+    <details>
+        <summary>Add New Product Page</summary>
+        <IMG src="media/readme_images/webpages/addaproduct.jpg" alt="add_new_product_page"/>
+    </details>
+
+- If the form is invalid, error messages will be displayed. 
+
+    <details>
+        <summary>Add New Product Page - Error</summary>
+        <IMG src="media/readme_images/testing/addaproducterror.jpg" alt="add_product_error"/>
+    </details>
+
+- If the form is successfully submitted. A success message will display displayed.
+
+    <details>
+        <summary>Add New Product Page - Success</summary>
+        <IMG src="media/readme_images/testing/addaproductsuccess.jpg" alt="add_product_success"/>
+    </details>
+
+### Edit Product
+
+- Admin have option to edit an existing product from the website. The options are present under each product on *Product* Page or *Product Detail* Page.
+
+    <details>
+        <summary>Edit Product Page</summary>
+        <IMG src="media/readme_images/webpages/editaproduct.jpg" alt="edit_product_page"/>
+    </details>
+
+- If the form is invalid, error messages will be displayed. 
+
+    <details>
+        <summary>Edit Product Page - Error</summary>
+        <IMG src="media/readme_images/testing/editaproducterror.jpg" alt="edit_product_error"/>
+    </details>
+
+- If the form is successfully submitted. A success message will display displayed.
+
+    <details>
+        <summary>Edit Product Page - Success</summary>
+        <IMG src="media/readme_images/testing/editaproductsuccess.jpg" alt="edit_product_success"/>
+    </details>
+
+### Delete Product
+
+- Admin have option to delete an existing product from the website. The options are present under each product on *Product* Page or *Product Detail* Page. When delete option is selected, the product gets deleted from the catalogue and site user is route to Products *Home* page.
+
+    <details>
+        <summary>Delete Product</summary>
+        <IMG src="media/readme_images/testing/productdelete.jpg" alt="delete_product"/>
     </details>
 
 ### Products Detail
