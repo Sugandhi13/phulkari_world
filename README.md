@@ -157,55 +157,55 @@ The separate documetns for the wireframes can be found here:
     <summary>Desktop Wireframes</summary>
     <details>
         <summary>Home Page (without login)</summary>
-            <IMG src="media/readme_images/wireframe/homewithoutlogin_wf.png" alt="home_page_without_login"/>
+            <IMG src="media/readme_images/wireframe/homewithoutlogin_wf.jpg" alt="home_page_without_login"/>
     </details>
     <details>
         <summary>Home Page (with login)</summary>
-        <IMG src="media/readme_images/wireframe/homewithlogin_wf.png" alt="home_page_with_login"/>
+        <IMG src="media/readme_images/wireframe/homewithlogin_wf.jpg" alt="home_page_with_login"/>
     </details>
     <details>
         <summary>Ask A Query Page</summary>
-        <IMG src="media/readme_images/wireframe/askaquery_wf.png" alt="ask_query_page"/>
+        <IMG src="media/readme_images/wireframe/askaquery_wf.jpg" alt="ask_query_page"/>
     </details>
     <details>
         <summary>Query Page</summary>
-        <IMG src="media/readme_images/wireframe/query_wf.png" alt="query_page"/>
+        <IMG src="media/readme_images/wireframe/query_wf.jpg" alt="query_page"/>
     </details>
     <details>
         <summary>Answer Page</summary>
-        <IMG src="media/readme_images/wireframe/answer_wf.png" alt="answer_page"/>
+        <IMG src="media/readme_images/wireframe/answer_wf.jpg" alt="answer_page"/>
     </details>
     <details>
         <summary>Add Profile Page</summary>
-        <IMG src="media/readme_images/wireframe/addaprofile_wf.png" alt="add_profile_page"/>
+        <IMG src="media/readme_images/wireframe/addaprofile_wf.jpg" alt="add_profile_page"/>
     </details>
     <details>
         <summary>Profile Page</summary>
-        <IMG src="media/readme_images/wireframe/profile_wf.png" alt="profile_page"/>
+        <IMG src="media/readme_images/wireframe/profile_wf.jpg" alt="profile_page"/>
     </details>
     <details>
         <summary>About Us Page</summary>
-        <IMG src="media/readme_images/wireframe/aboutus_wf.png" alt="about_us_page"/>
+        <IMG src="media/readme_images/wireframe/aboutus_wf.jpg" alt="about_us_page"/>
     </details>
     <details>
         <summary>Contact Us Page</summary>
-        <IMG src="media/readme_images/wireframe/contactus_wf.png" alt="contact_us_page"/>
+        <IMG src="media/readme_images/wireframe/contactus_wf.jpg" alt="contact_us_page"/>
     </details>
     <details>
         <summary>Signup Page</summary>
-        <IMG src="media/readme_images/wireframe/signup_wf.png" alt="sign_up_page"/>
+        <IMG src="media/readme_images/wireframe/signup_wf.jpg" alt="sign_up_page"/>
     </details>
     <details>
         <summary>Login Page</summary>
-        <IMG src="media/readme_images/wireframe/login_wf.png" alt="login_page"/>
+        <IMG src="media/readme_images/wireframe/login_wf.jpg" alt="login_page"/>
     </details>
     <details>
         <summary>Logout Page</summary>
-        <IMG src="media/readme_images/wireframe/logout_wf.png" alt="logout_page"/>
+        <IMG src="media/readme_images/wireframe/logout_wf.jpg" alt="logout_page"/>
     </details>
     <details>
         <summary>Error Page</summary>
-        <IMG src="media/readme_images/wireframe/error_wf.png" alt="error_page"/>
+        <IMG src="media/readme_images/wireframe/error_wf.jpg" alt="error_page"/>
     </details>
 </details>
 
@@ -213,7 +213,7 @@ The separate documetns for the wireframes can be found here:
     <summary>Mobile Wireframes</summary>
     <details>
         <summary>Home Page</summary>
-        <IMG src="media/readme_images/wireframe/homemobile_wf.png" alt="home_page_mobile"/>
+        <IMG src="media/readme_images/wireframe/homemobile_wf.jpg" alt="home_page_mobile"/>
     </details>
 </details>
 
@@ -468,69 +468,64 @@ This model consist of all contact us information of when a site user writes to t
 
 ### About Us 
 
-- This is an informational page that includes a brief description of the website, the mission with this website the owner would like to achieve, the services the website provides and explains what a user can do on the website and different categories available to ask queries and provide responses to already asked queries. Lastly it give short details about the team and encourage the user to reachout to development team with any feedback or suggestions.
+- This is an informational page that includes a brief description of the website, the story of business and collections of different items the website have. It also give some promises to gain the trust of customer and encourges the user to explore the website.
 
-<details>
-    <summary>About Us Page (Without user login)</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/aboutuspagewithoutlogin.png" alt="aboutus_page_without_user_login"/>
-</details>
+    <details>
+        <summary>About Us Page</summary>
+        <IMG src="media/readme_images/webpages/aboutus.jpg" alt="aboutus_page"/>
+    </details>
 
-<details>
-    <summary>About Us Page (With user login)</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/aboutuspagewithuserloggedin.png" alt="aboutus_page_with_user_login"/>
-</details>
+- Only the admin of the website has authorization to update the about us page content. Admin can update it either from '/admin' page or directly from the website. When admin clicks on 'Update About Us' page then the update about us page open and a message display to the user that the page is going to be edited. 
 
-- Only the admin of the website has authorization to update the about us page content. 
+    <details>
+        <summary>Update About Us Page</summary>
+        <IMG src="media/readme_images/webpages/updateaboutus.jpg" alt="update_aboutus_page"/>
+    </details>
 
-<details>
-    <summary>About Us Page - Admin</summary>
-    <IMG src="media/readme_images/adminpage/aboutusadminview.png" alt="aboutus_page_admin"/>
-</details>
+    <details>
+        <summary>About Us Page - Admin</summary>
+        <IMG src="media/readme_images/adminpage/aboutusadminview.jpg" alt="aboutus_page_admin"/>
+    </details>
 
-<details>
-    <summary>About Us Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/aboutusmodeladminview.png" alt="aboutus_model_admin"/>
-</details>
+    <details>
+        <summary>About Us Model - Admin</summary>
+        <IMG src="media/readme_images/adminpage/aboutusmodeladminview.jpg" alt="aboutus_model_admin"/>
+    </details>
 
 ### Contact Us
 
 - This page contains a form for a user to directly contact the admin. The fields include name, email and message. 
 
-<details>
-    <summary>Contact Us Page (Without user login)</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/contactuspagewithoutlogin.png" alt="contactus_page_without_user_login"/>
-</details>
-
-<details>
-    <summary>Contact Us Page (With user login)</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/contactuspagewithuserloggedin.png" alt="contactus_page_with_user_login"/>
-</details>
+    <details>
+        <summary>Contact Us Page</summary>
+        <IMG src="media/readme_images/webpages/contactus.jpg" alt="contactus_page"/>
+    </details>
 
 - If the form is invalid, error messages will be displayed. 
 
-<details>
-    <summary>Contact Us Page - Error</summary>
-    <IMG src="media/readme_images/testing/contactus_error.png" alt="contactus_page_error"/>
-</details>
+    <details>
+        <summary>Contact Us Page - Error</summary>
+        <IMG src="media/readme_images/testing/contactustestingfail.jpg" alt="contactus_page_error"/>
+    </details>
 
-- If the form is successfully submitted. A success message will display below the navbar.
+- If the form is successfully submitted. A success message will display displayed.
 
-<details>
-    <summary>Contact Us Page - Success</summary>
-    <IMG src="media/readme_images/testing/contactus_success.png" alt="contactus_page_success"/>
-</details>
+    <details>
+        <summary>Contact Us Page - Success</summary>
+        <IMG src="media/readme_images/testing/contactustestingsuccess.jpg" alt="contactus_page_success"/>
+    </details>
 
-- The admin of the website can see the different message posted by the users using the contact us form. The admin also has the option to mark the message and read using the check-box option in the contact model. This will help the admin to track how many message he has already read and/or responded. 
+- The admin of the website can see the different message posted by the users using the contact us form. The admin also has the option to mark the message as read using the check-box option in the contact model. This will help the admin to track how many message he has already read and/or responded. 
 
-<details>
-    <summary>Contact Us Page - Admin</summary>
-    <IMG src="media/readme_images/adminpage/contactusadminview.png" alt="contactus_page_admin"/>
-</details>
+    <details>
+        <summary>Contact Us Page - Admin</summary>
+        <IMG src="media/readme_images/adminpage/contactusadminview.jpg" alt="contactus_page_admin"/>
+    </details>
 
-<details>
-    <summary>Contact Us Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/contactusmodeladminview.png" alt="contactus_model_admin"/>
-</details>
+    <details>
+        <summary>Contact Us Model - Admin</summary>
+        <IMG src="media/readme_images/adminpage/contactusmodeladminview.jpg" alt="contactus_model_admin"/>
+    </details>
 
 ### Ask a Query 
 
@@ -538,56 +533,56 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Ask a Query Page (Without user login)</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/askaquerypagewithoutlogin.png" alt="askaquery_page_without_user_login"/>
+    <IMG src="media/readme_images/webpagewithoutuserlogin/askaquerypagewithoutlogin.jpg" alt="askaquery_page_without_user_login"/>
 </details>
 
 - If the user is logged in then a query form will appear that the user can fill to ask a query. If any required input is not give then the error will displays. 
 
 <details>
     <summary>Ask a Query Error</summary>
-    <IMG src="media/readme_images/testing/query_error.png" alt="askaquery_page_error"/>
+    <IMG src="media/readme_images/testing/query_error.jpg" alt="askaquery_page_error"/>
 </details>
 
 - If all requried data is filled and user select a valid category as well then upon submission the a success message will appear just below the top navbar.
 
 <details>
     <summary>Ask a Query Success</summary>
-    <IMG src="media/readme_images/testing/queryaskedsuccessfullmessage.png" alt="askaquery_page_success"/>
+    <IMG src="media/readme_images/testing/queryaskedsuccessfullmessage.jpg" alt="askaquery_page_success"/>
 </details>
 
 - After successfully submitting the query. The user can go and see the query showing in respective category. Though, until the query is approved by the admin the query will only be visible to the authorized user only along with option of delete button to delete the query. Once the query is approved then the query is visible for all other users to see and write response against it.
 
 <details>
     <summary>Queries Asked View</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/querypagewithunapprovedquerydisplay.png" alt="queries_asked_view"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/querypagewithunapprovedquerydisplay.jpg" alt="queries_asked_view"/>
 </details>
 
 - If the user press the delete button then a popup will appear to re-confirm the users choice to delete the query asked. An authonticated user can delete any old queries asked by them as well. But, the user can not delete any query asked by the other users.
 
 <details>
     <summary>Query Delete Popup</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/deletequerypopupwhenclickeddeletebuttonbyloggedinuser.png" alt="queries_delete_reconfirm"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/deletequerypopupwhenclickeddeletebuttonbyloggedinuser.jpg" alt="queries_delete_reconfirm"/>
 </details>
 
 - If the users clicks on close button then nothing happen. But, if the users clicks on delete button again and confirms that he wants to delete the query asked. The delete success message will appear and the query will be delete from the database.
 
 <details>
     <summary>Query Delete Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/querydeletedsuccessmessage.png" alt="queries_delete_success"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/querydeletedsuccessmessage.jpg" alt="queries_delete_success"/>
 </details>
 
 - Once the users posts a query and it goes to admin for approval. Admin gets a view of all the queries asked by different users. I have used summernotes admin functionality to display the customized details to admin and he has option to filter or sort the queries based upon time, users, category.
 
 <details>
     <summary>Queries View - Admin</summary>
-    <IMG src="media/readme_images/adminpage/queriesadminview.png" alt="queries_view_admin"/>
+    <IMG src="media/readme_images/adminpage/queriesadminview.jpg" alt="queries_view_admin"/>
 </details>
 
 - Admin can click on any query, specifically the un-approved ones that has status of 'Draft' and go into the query model view to approve it. After selecting the 'Published' option from the dropdown menu the query will be start displaying for all the users. Henceforth other users on the website can write in response to that query.
 
 <details>
     <summary>Queries Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/querymodeladminview.png" alt="queries_model_view_admin"/>
+    <IMG src="media/readme_images/adminpage/querymodeladminview.jpg" alt="queries_model_view_admin"/>
 </details>
 
 ### Write an Answer 
@@ -596,70 +591,70 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Write an Answer Page (Without user login)</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/answerspagewithoutlogin.png" alt="answer_page_without_user_login"/>
+    <IMG src="media/readme_images/webpagewithoutuserlogin/answerspagewithoutlogin.jpg" alt="answer_page_without_user_login"/>
 </details>
 
 - If the user is logged in then answer form will appear that the user can fill about the asked query. If required input is not give then the error will displays. 
 
 <details>
     <summary>Write an Answer Error</summary>
-    <IMG src="media/readme_images/testing/answer_error.png" alt="answer_page_error"/>
+    <IMG src="media/readme_images/testing/answer_error.jpg" alt="answer_page_error"/>
 </details>
 
 - If all requried data is filled then upon submission the a success message will appear just below the top navbar.
 
 <details>
     <summary>Write an Answer Success</summary>
-    <IMG src="media/readme_images/testing/answersubmittedsuccessmessage.png" alt="answer_page_success"/>
+    <IMG src="media/readme_images/testing/answersubmittedsuccessmessage.jpg" alt="answer_page_success"/>
 </details>
 
 - After successfully submitting the answer. The user can see the answer at top of other queries and below the write an answer box. Though, until the answer is approved by the admin the answer will only be visible to the authorized user only along with option of edit and delete button to edit or delete the answer. Once the answer is approved then the answer is visible for all other users to see.
 
 <details>
     <summary>Answer Written View</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/answersubmittedandwaitingforapproval.png" alt="answer_written_view"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/answersubmittedandwaitingforapproval.jpg" alt="answer_written_view"/>
 </details>
 
 - If the user press the edit button then the existing answer written by the user will re-appear in the write an answer box. An authonticated user further edit/update the old answer written by them as well.
 
 <details>
     <summary>Answer Edit</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/answereditedbyuser.png" alt="answer_delete"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/answereditedbyuser.jpg" alt="answer_delete"/>
 </details>
 
 - Once the answer is update by the user then the user can click on submit button again and the answer will be re-submitted and will show to authunticated user only with message of waiting for approval.
 
 <details>
     <summary>Answer Edit Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/answerupdatedsuccessmessage.png" alt="answer_edit_success"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/answerupdatedsuccessmessage.jpg" alt="answer_edit_success"/>
 </details>
 
 - If the user press the delete button then a popup will appear to re-confirm the users choice to delete the answer wrote. An authonticated user can delete any old answer written by them as well. But, the user can not delete any answer written by the other users.
 
 <details>
     <summary>Answer Delete Popup</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/deleteanswerpopoup.png" alt="answer_delete_reconfirm"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/deleteanswerpopoup.jpg" alt="answer_delete_reconfirm"/>
 </details>
 
 - If the users clicks on close button then nothing happen. But, if the users clicks on delete button again and confirms that he wants to delete the answer written. The delete success message will appear and the answer will be delete from the database.
 
 <details>
     <summary>Answer Delete Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/answerdeletedsuccessmessage.png" alt="answer_delete_success"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/answerdeletedsuccessmessage.jpg" alt="answer_delete_success"/>
 </details>
 
 - Once the users posts an answer and it goes to admin for approval. Admin gets a view of all the answers written by different users. I have used summernotes admin functionality to display the customized details to admin and he has option to filter or sort the answer based upon time, users etc.,
 
 <details>
     <summary>Answer View - Admin</summary>
-    <IMG src="media/readme_images/adminpage/answersadminview.png" alt="answer_view_admin"/>
+    <IMG src="media/readme_images/adminpage/answersadminview.jpg" alt="answer_view_admin"/>
 </details>
 
 - Admin can click on any answer, specifically the un-approved ones and go into the answer model view to approve it. After ticking the checkbox 'Approved' the answer will be start displaying for all the users.
 
 <details>
     <summary>Answer Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/answermodeladminview.png" alt="answer_model_view_admin"/>
+    <IMG src="media/readme_images/adminpage/answermodeladminview.jpg" alt="answer_model_view_admin"/>
 </details>
 
 ### Sign Up
@@ -668,33 +663,33 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Signup Page</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/signuppage.png" alt="signup_page"/>
+    <IMG src="media/readme_images/webpagewithoutuserlogin/signuppage.jpg" alt="signup_page"/>
 </details>
 
 - When the user attempts to create an account with an existing username, a password that does not fulfill the requirements, or if the passwords do not match, an error is displayed in the form.
 
 <details>
     <summary>Signup Error</summary>
-    <IMG src="media/readme_images/testing/signup_error.png" alt="signup_error"/>
+    <IMG src="media/readme_images/testing/signup_error.jpg" alt="signup_error"/>
 </details>
 
 - When users fill all details as per required criteria and submit the form. Signup successfull message will appear and user will logged into the website and redirected to Home page.
 
 <details>
     <summary>Signup Form Example</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/testusersignup.png" alt="signup_form"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/testusersignup.jpg" alt="signup_form"/>
 </details>
 
 <details>
     <summary>Signup Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/signupsuccessmessage.png" alt="signup_success"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/signupsuccessmessage.jpg" alt="signup_success"/>
 </details>
 
 - The admin can see all the user who has created their account on website from the User model on django admin page.
 
 <details>
     <summary>User Model View</summary>
-    <IMG src="media/readme_images/adminpage/useradminview.png" alt="user_model_view"/>
+    <IMG src="media/readme_images/adminpage/useradminview.jpg" alt="user_model_view"/>
 </details>
 
 ### Log In
@@ -703,14 +698,14 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Login Page</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/loginpageuserlogin.png" alt="login_page"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/loginpageuserlogin.jpg" alt="login_page"/>
 </details>
 
 - If, when logging in, the user inputs an incorrect username or password, the form will display the error.
 
 <details>
     <summary>Login Error</summary>
-    <IMG src="media/readme_images/testing/login_error.png" alt="login_error"/>
+    <IMG src="media/readme_images/testing/login_error.jpg" alt="login_error"/>
 </details>
 
 ### Log Out
@@ -720,7 +715,7 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Logout Page</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/logoutpage.png" alt="logout_page"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/logoutpage.jpg" alt="logout_page"/>
 </details>
 
 ### Profile 
@@ -729,47 +724,47 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Profile Not Found</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/errorwhennewuserclickonprofilepage.png" alt="profile_not_found"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/errorwhennewuserclickonprofilepage.jpg" alt="profile_not_found"/>
 </details>
 
 - Then the user can create its profile by filling the information like the firstname, lastname, email id, profile image and writing few lines about itself under describe yourself text box.
 
 <details>
     <summary>Profile Form</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/createprofilepage.png" alt="profile_form"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/createprofilepage.jpg" alt="profile_form"/>
 </details>
 
 - If any incorrect information is filled then the user wil face error.
 
 <details>
     <summary>Profile Form Error</summary>
-    <IMG src="media/readme_images/testing/addprofile_error.png" alt="profile_form_error"/>
+    <IMG src="media/readme_images/testing/addprofile_error.jpg" alt="profile_form_error"/>
 </details>
 
 - If the form is valid, a success message stating that their profile has been created populate just below the navbar with a link to view the profile. The user can click on that link or from top navbar Profile menu can route to user profile page view. 
 
 <details>
     <summary>Profile Form Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/profilecreatesuccessmessagewithlinkofprofileviewpage.png" alt="profile_form_success"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/profilecreatesuccessmessagewithlinkofprofileviewpage.jpg" alt="profile_form_success"/>
 </details>
 
 <details>
     <summary>Profile View</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/profilepageofloggedinuserifusercreateditsprofile.png" alt="profile_form_success"/>
+    <IMG src="media/readme_images/webpagewithuserlogin/profilepageofloggedinuserifusercreateditsprofile.jpg" alt="profile_form_success"/>
 </details>
 
 - The admin can view all the profiles created from the UserProfile view on the django admin dashboard. The user of summernotes helps here to customize the look of admin page as per admin need and also has various filter and sorting options.
 
 <details>
     <summary>User Profile View - Admin</summary>
-    <IMG src="media/readme_images/adminpage/usersprofileadminview.png" alt="user_profile_view_admin"/>
+    <IMG src="media/readme_images/adminpage/usersprofileadminview.jpg" alt="user_profile_view_admin"/>
 </details>
 
 - The admin can edit a little like upload the profile photo on behalf of the user if the user writes to admin. As the upload photo functionality is not yet working on the website and it an open bug.
 
 <details>
     <summary>User Profile Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/userprofilemodeladminview.png" alt="user_profile_model_admin"/>
+    <IMG src="media/readme_images/adminpage/userprofilemodeladminview.jpg" alt="user_profile_model_admin"/>
 </details>
 
 ## Future Features
@@ -908,7 +903,7 @@ Testing was an integral part of the project development, encompassing the use of
 
 - Automated testing results:
 
-![automated_forms_testing](media/readme_images/testing/formsautomatedtestingresult.png)
+![automated_forms_testing](media/readme_images/testing/formsautomatedtestingresult.jpg)
 
 ## Validator Testing 
 
@@ -916,28 +911,28 @@ Testing was an integral part of the project development, encompassing the use of
 
 - Error's found: Verified all html pages on the website.
 
-![W3C_validator_error](media/readme_images/testing/w3cvalidation_errors.png)
+![W3C_validator_error](media/readme_images/testing/w3cvalidation_errors.jpg)
 
 - Error's Fixed:
 
-![W3C_validator_results](media/readme_images/testing/w3cvalidation.png)
+![W3C_validator_results](media/readme_images/testing/w3cvalidation.jpg)
 
 ### CSS Validator
 
 - No error found.
 
-![W3C_CSS_validator_results](media/readme_images/testing/w3ccssvalidation.png)
+![W3C_CSS_validator_results](media/readme_images/testing/w3ccssvalidation.jpg)
 
 ### JavaScript (JSHint) Validator
 
 - No error found.
 
-![JavaScript_validator_results](media/readme_images/testing/jshintjavascriptvalidation.png)
+![JavaScript_validator_results](media/readme_images/testing/jshintjavascriptvalidation.jpg)
 
 ### Python (PEP8) Validator
 
 - Validated all *.py pages on website and fixed the warning based upon suggestion for PEP8 tool. Mostly the warnings are related to training whitespace or length exceed. No code bug found.
-![PP8 validator](media/readme_images/testing/pep8ci_pythonlinter_validation.png) 
+![PP8 validator](media/readme_images/testing/pep8ci_pythonlinter_validation.jpg) 
 
 ### Lighhouse Validator
 
@@ -945,11 +940,11 @@ Testing was an integral part of the project development, encompassing the use of
 
 - Desktop
 
-![desktop_lighthouse](media/readme_images/testing/lighthousemobilescore.png) 
+![desktop_lighthouse](media/readme_images/testing/lighthousemobilescore.jpg) 
 
 - Mobile
 
-![mobile_lighthouse](media/readme_images/testing/lighthousedesktopscore.png)
+![mobile_lighthouse](media/readme_images/testing/lighthousedesktopscore.jpg)
 
 # Frameworks, Libraries and Programs Used
 
