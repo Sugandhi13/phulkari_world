@@ -533,7 +533,14 @@ This model consist of all contact us information of when a site user writes to t
 
     <details>
         <summary>FAQ Page</summary>
-        <IMG src="media/readme_images/webpages/faq.jpg" alt="faq_page"/>
+        <IMG src="media/readme_images/webpages/faquserpage.jpg" alt="faq_user_page"/>
+    </details>
+
+- When admin opens the same FAQ Page. The 'Edit' & 'Delete' links get visible below each FAQ question/answer. Admin can reach edit FAQ page by clicking on *Edit* link or Delete a sepecific FAQ by clicking the *Delete* link.
+
+    <details>
+        <summary>FAQ Page - Admin</summary>
+        <IMG src="media/readme_images/webpages/faqadminpage.jpg" alt="faq_admin_page"/>
     </details>
 
 - The admin of the website can see add more FAQ's or edit/delete exsting FAQ's. The admin can do this from either website if logged in as admin from *'Add New FAQ'* page or from *'/admin'* site. 
