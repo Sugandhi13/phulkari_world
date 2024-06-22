@@ -757,9 +757,8 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Profile Form Error</summary>
-    <IMG src="media/readme_images/testing/addprofile_error.jpg" alt="profile_form_error"/>
+    <IMG src="media/readme_images/testing/myprofileerror.jpg" alt="profile_form_error"/>
 </details>
-
 
 ### About Us 
 
