@@ -741,24 +741,24 @@ This model consist of all contact us information of when a site user writes to t
 
 - Site user has option to view its profile using *My Profile* menu under *My Account*. The profile page consist of user order history with short summary of orders like Order Number with a link for order details, Date of order, Names of items order, Order Total cost. Also, on My Profile page the user can view its personal details like username and email id, deafult delivery information like phone number, street address, city, county, pin code, and country information. The user also have option to update the information.
 
-<details>
-    <summary>My Profile Page</summary>
-    <IMG src="media/readme_images/webpages/myprofile.jpg" alt="my_profile_page"/>
-</details>
+    <details>
+        <summary>My Profile Page</summary>
+        <IMG src="media/readme_images/webpages/myprofile.jpg" alt="my_profile_page"/>
+    </details>
 
 - Then the user can create its profile by filling the information like the firstname, lastname, email id, profile image and writing few lines about itself under describe yourself text box.
 
-<details>
-    <summary>Update Profile</summary>
-    <IMG src="media/readme_images/testing/myprofilesuccess.jpg" alt="update_profile_success"/>
-</details>
+    <details>
+        <summary>Update Profile</summary>
+        <IMG src="media/readme_images/testing/myprofilesuccess.jpg" alt="update_profile_success"/>
+    </details>
 
 - If any incorrect information is filled then the user wil face error.
 
-<details>
-    <summary>Profile Form Error</summary>
-    <IMG src="media/readme_images/testing/myprofileerror.jpg" alt="profile_form_error"/>
-</details>
+    <details>
+        <summary>Profile Form Error</summary>
+        <IMG src="media/readme_images/testing/myprofileerror.jpg" alt="profile_form_error"/>
+    </details>
 
 ### About Us 
 
