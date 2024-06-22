@@ -544,7 +544,7 @@ This model consist of all contact us information of when a site user writes to t
 
 ### Add New Product
 
-- Admin have option to add a new product from the website. The menu is present under *My Account > Add New Product*.
+- Admin have option to add a new product from the website. The menu is present under *My Account > Add New Product*. If admin adds a product successfully, the website route to *Product Detail* page. If the admin clicks cancel button, the website routes to Products *Home* page.
 
     <details>
         <summary>Add New Product Page</summary>
@@ -567,7 +567,7 @@ This model consist of all contact us information of when a site user writes to t
 
 ### Edit Product
 
-- Admin have option to edit an existing product from the website. The options are present under each product on *Product* Page or *Product Detail* Page.
+- Admin have option to edit an existing product from the website. The options are present under each product on *Product* Page or *Product Detail* Page. If admin edits a product successfully or clicks cancel button, the website route to *Product Detail* page that the user tried to edit.
 
     <details>
         <summary>Edit Product Page</summary>
@@ -599,21 +599,22 @@ This model consist of all contact us information of when a site user writes to t
 
 ### Products Detail
 
-- On Products page, all the products in the catalogue appears on random order. Products will be visible with its short details like image (if available, else default no-image image will be visible), product name, price, category, rating. If the site user is admin then edit and delete options will be visible as well. On left side of the page, total products count will be visible and at right side the drop down box with different ways of sorting option will be visible as well. Products can be sorted by name & category (a-z), price & rating (low to high).
+- On Products detail page, selected products complete details will be visible like image (if available, else default no-image image will be visible), product name, price, category, rating, description, quantity (with option to increase or decrease), size (only, if the product item has a size). At the end there will be 2 botton, first *Keep Shopping*, if the user clicks on this button then the website takes the user back to Product *Home* page. Second, *Add to Bag* button. If the site user is admin then edit and delete options will be visible as well.
 
     <details>
-        <summary>Product Page</summary>
-        <IMG src="media/readme_images/webpages/productsuser.jpg" alt="product_page_user"/>
+        <summary>Product Detail Page</summary>
+        <IMG src="media/readme_images/webpages/productdetailuser.jpg" alt="product_detail_page_user"/>
     </details>
 
     <details>
-        <summary>Product Page - Admin</summary>
-        <IMG src="media/readme_images/webpages/productsadmin.jpg" alt="product_page_admin"/>
+        <summary>Product Detail Page - Admin</summary>
+        <IMG src="media/readme_images/webpages/productdetailadmin.jpg" alt="product_detail_page_admin"/>
     </details>
 
+- When user clicks this button the product gets added into the users account and ready for purchase. A popup message will apear in the top right corner under the Shopping bag icon with a button to go for checkout. The popup contains the information like count of items in the bag, product name, image, size, quantity, total amount to pay and go to secure checkout button. If the users adds more then 1 product of different kind then the popup handles multiple products via chaning itself to scrollable popup.
     <details>
-        <summary>Product Page - Sorting Options</summary>
-        <IMG src="media/readme_images/webpages/productssorting.jpg" alt="product_page_sorting"/>
+        <summary>Product Detail Page - Add to Bag</summary>
+        <IMG src="media/readme_images/testing/productdetailaddtobag.jpg" alt="product_detail_page_addtobag"/>
     </details>
 
 ### Sign Up
