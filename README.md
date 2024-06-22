@@ -591,6 +591,60 @@ This model consist of all contact us information of when a site user writes to t
         <IMG src="media/readme_images/testing/faqdeletesuccess.jpg" alt="faq_delete_page_success"/>
     </details>
 
+### Newsletter
+
+- This page contains a form for a user to directly contact the admin. The fields include name, email and message. 
+
+    <details>
+        <summary>Newsletter Page</summary>
+        <IMG src="media/readme_images/webpages/newsletter.jpg" alt="newsletter_page"/>
+    </details>
+
+- If the form is invalid, error messages will be displayed. 
+
+    <details>
+        <summary>Newsletter Page - Error</summary>
+        <IMG src="media/readme_images/testing/newslettererror.jpg" alt="newsletter_page_error"/>
+    </details>
+
+- If the form is successfully submitted. A success message will display displayed.
+
+    <details>
+        <summary>Newsletter Page - Success</summary>
+        <IMG src="media/readme_images/testing/newslettersuccess.jpg" alt="newsletter_page_success"/>
+    </details>
+
+- The admin of the website can see the list of all subscribers those have subscribed for the newsletter using Mailchimp account.
+
+    <details>
+        <summary>Mailchimp Page - Admin</summary>
+        <IMG src="media/readme_images/adminpage/newslettersubscribed.jpg" alt="newsletter_subscribed_page_admin"/>
+    </details>
+
+- We have created a template for sending a thanks email to all customers who subscribed for the newsletter and introuducing the business to them using Mailchimp account.
+
+    <details>
+        <summary>Subscriber Thanks Email - Admin</summary>
+        <IMG src="media/readme_images/adminpage/subscriberthanksemail.jpg" alt="subscriber_thanks_email_admin"/>
+    </details>
+
+    <details>
+        <summary>Subscriber Thanks Email - Configuration</summary>
+        <IMG src="media/readme_images/adminpage/subscriberthanksemailconfig.jpg" alt="subscriber_thanks_email_configuration"/>
+    </details>
+
+    <details>
+        <summary>Subscriber Thanks Email - User</summary>
+        <IMG src="media/readme_images/testing/subscriberthanksemailuser.jpg" alt="subscriber_thanks_email_user"/>
+    </details>
+
+- I've also created a customer journey using the Mailchimp account. This will help to send an automated welcome email to every new newsletter subscriber. But because its a paid service, hence its not functional at them moement.
+
+    <details>
+        <summary>Subscriber Welcome Email - Customer Journey</summary>
+        <IMG src="media/readme_images/adminpage/customerwelcomeemailjourney.jpg" alt="subscriber_welcome_email_journey"/>
+    </details>
+
 ### Ask a Query 
 
 - A user should be logged in to ask a query on the webstie. If user is not yet logged in then a message with login button link will displays to the user. 
