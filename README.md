@@ -92,7 +92,7 @@ Our missing is to promote ancient embroidery technique that has adorned generati
 
 ## Audience
 
-Phulkari World is for everyone those are interested in tradisional wear and love for the historical punjabi hand embroidery techniques. We have various options like,
+Phulkari World is for everyone those are interested in traditional wear and love the historical punjabi hand embroidery techniques. We have various options like,
 
 - Phulkari Suits
 - Dupattas
@@ -129,7 +129,7 @@ I want to keep it simple yet elegent hence used the combination of Black & White
 
 ## Typography
 
-Lato font is the major font used in this website for all kind of text with fallback option to sans-serif if the browser don't support the preffered color Lato.
+**Lato** font is the major font used in this website for all kind of text with fallback option to **sans-serif** if the browser don't support the preffered color Lato.
 
 ## Agile Methodology
 
@@ -221,69 +221,70 @@ The separate documetns for the wireframes can be found here:
 
 The whole project follow the technique of building blocks. Which are sufficient on their own and enhance the experience when they clubbed together. 
 
-- phulkari_world (Core Project)
-    - settings.py (contains all settings)
-    - urls.py (contains the base and other urls linked to apps)
-    - views.py (handles 404 error)
-- home (App 1)
-    - templates (contains index.html page)
-    - view.py (contains the view that will render in index.html page)
-    - urls.py (contains the urls for home app html pages)
-- products (App 2)
-    - template (contains products, product detail, add product, edit product html pages as well as custom widegt template like clearable file input)
-    - models.py (contains the models like Category and Product)
-    - admin.py (registers the Category and Product models)
-    - forms.py (contains the forms like ProductForm)
-    - view.py (contains the view that will render in different html pages like list all products, individual product detail, add/edit/delete products)
-    - urls.py (contains the urls for products, products detail, add/edit/delete products apps html pages)
-    - widgets.py (contains CustomClearableFileInput template)
-    - products.css (contains individual css file to handle view of product images in 768px and larger screens)
-- bag (App 3)
-    - template (contains bag html page and sub template like bag total, checkout buttons, product image and info, quantity form)
-    - template_tags (contains the bag_tools.py file to calculate the subtotal of item in bag)
-    - contexts.py (contains the defination of bag_contents)
-    - view.py (contains the view that will render in different html pages like view bag, add to bag, adjust bag, remove from bag)
-    - urls.py (contains the urls for view bag, add to bag, adjust bag, remove from bag html pages)
-- checkout (App 4)
-    - template (contains checkout and checkout success html pages as well as text for confirmation email (subject line and email body))
-    - models.py (contains the models like Order and OrderLineItem)
-    - admin.py (registers the OrderAdmin models and display OrderLineItemAdminInline as tabluar inline)
-    - forms.py (contains the OrderForm)
-    - view.py (contains the view that will render in different html pages like cache checkout data, checkout and checkout success)
-    - urls.py (contains the urls for checkout apps html pages like cache checkout data, checkout, checkout success and webhook handler)
-    - signals.py (contains the signals like post_save and post_delete)
-    - webhook_handler.py (contains the class to perform different activity after connecting with Stripe payment app)
-    - webhooks.py (contains the definitaion of webhook to connect with Stripe payment app)
-    - checkout.css (contains the css for Stripe payment app elements, payment form, loading overlay and spinner)
-    - stripe_elements.js (contains the javascript codes for perfoming the stripe payment actions)
-- profile (App 5)
-    - template (contains view profile html page)
-    - models.py (contains the models like UserProfile and definition to create or update user profile)
-    - forms.py (contains the forms UserProfileForm)
-    - view.py (contains the view that will render in different html pages like display user profile and orders history)
-    - urls.py (contains the urls for profile apps html pages like display user profile and orders history)
-    - profile.css (contains the css to handle user profile, country id list and order history view on the page)
-    - countryfield.js (contains the javascript code to receive the country id from country field)
-- about (App 6)
-    - template (contains about us, edit about us, faq, add/edit faq and contact us html pages)
-    - models.py (contains the models like About, Contact and Faq)
-    - admin.py (registers the models like About, Contact and Faq)
-    - forms.py (contains the forms like AboutForm, ContactForm and FaqForm)
-    - view.py (contains the view that will render in different html about us, edit about us, contact, faq, add faq, edit faq, delete faq)
-    - urls.py (contains the urls for about apps html pages like about us, edit about us, contact, faq, add faq, edit faq, delete faq)
-- newsletter (App 7)
-    - template (contains newsletter subscribe html page)
-    - view.py (contains the view that will render in newsletter subscribe html page)
-    - urls.py (contains the urls for newsletter apps html page)
-    - newsletter.css (contains the css to handle mailchimp form css to align with website template)
-- static (media and style library)
-    - css (css stylesheet file)
-    - favicon (favicon icon file)
-- templates (base, 404 error, main-nav bar, mobile top header and authentication template)
-- media (all kind of images for development & readme page)
-- Others:
-    - Amazon Web Services (AWS): AWS like S3 and IAM are used to load website images on cloud to load fast.
-    - Stripe: Stripe payment app is used to enable payment option to make test purchases.
+- **Core Project: phulkari_world**
+    - **settings.py:** Contains all settings.
+    - **urls.py:** Contains the base and other urls linked to apps.
+    - **views.py:** Handles 404 error.
+- **App 1: home**
+    - **templates:** Contains index.html page.
+    - **view.py:** Contains the view that will render in index.html page.
+    - **urls.py:** Contains the urls for home app html pages.
+- **App 2: products**
+    - **template:** Contains products, product detail, add product, edit product html pages as well as custom widegt template like clearable file input.
+    - **models.py:** Contains the models like Category and Product.
+    - **admin.py:** Registers the Category and Product models.
+    - **forms.py:** Contains the forms like ProductForm.
+    - **view.py:** Contains the view that will render in different html pages like list all products, individual product detail, add/edit/delete products.
+    - **urls.py:** Contains the urls for products, products detail, add/edit/delete products apps html pages.
+    - **widgets.py:** Contains CustomClearableFileInput template.
+    - **products.css:** Contains individual css file to handle view of product images in 768px and larger screens.
+- **App 3: bag**
+    - **template:** Contains bag html page and sub template like bag total, checkout buttons, product image and info, quantity form.
+    - **template_tags:** Contains the bag_tools.py file to calculate the subtotal of item in bag.
+    - **contexts.py:** Contains the defination of bag_contents.
+    - **view.py:** Contains the view that will render in different html pages like view bag, add to bag, adjust bag, remove from bag.
+    - **urls.py:** Contains the urls for view bag, add to bag, adjust bag, remove from bag html pages.
+- **App 4: checkout**
+    - **template:** Contains checkout and checkout success html pages as well as text for confirmation email (subject line and email body.
+    - **models.py:** Contains the models like Order and OrderLineItem.
+    - **admin.py:** Registers the OrderAdmin models and display OrderLineItemAdminInline as tabluar inline.
+    - **forms.py:** Contains the OrderForm.
+    - **view.py:** Contains the view that will render in different html pages like cache checkout data, checkout and checkout success.
+    - **urls.py:** Contains the urls for checkout apps html pages like cache checkout data, checkout, checkout success and webhook handler.
+    - **signals.py:** Contains the signals like post_save and post_delete.
+    - **webhook_handler.py:** Contains the class to perform different activity after connecting with Stripe payment app.
+    - **webhooks.py:** Contains the definitaion of webhook to connect with Stripe payment app.
+    - **checkout.css:** Contains the css for Stripe payment app elements, payment form, loading overlay and spinner.
+    - **stripe_elements.js:** Contains the javascript codes for perfoming the stripe payment actions.
+- **App 5: profile**
+    - **template:** Contains view profile html page.
+    - **models.py:** Contains the models like UserProfile and definition to create or update user profile.
+    - **forms.py:** Contains the forms UserProfileForm.
+    - **view.py:** Contains the view that will render in different html pages like display user profile and orders history.
+    - **urls.py:** Contains the urls for profile apps html pages like display user profile and orders history.
+    - **profile.css:** Contains the css to handle user profile, country id list and order history view on the page.
+    - **countryfield.js:** Contains the javascript code to receive the country id from country field.
+- **App 6: about**
+    - **template:** Contains about us, edit about us, faq, add/edit faq and contact us html pages.
+    - **models.py:** Contains the models like About, Contact and Faq.
+    - **admin.py:** Registers the models like About, Contact and Faq.
+    - **forms.py:** Contains the forms like AboutForm, ContactForm and FaqForm.
+    - **view.py:** Contains the view that will render in different html about us, edit about us, contact, faq, add faq, edit faq, delete faq.
+    - **urls.py:** Contains the urls for about apps html pages like about us, edit about us, contact, faq, add faq, edit faq, delete faq.
+- **App 7: newsletter**
+    - **template:** Contains newsletter subscribe html page.
+    - **view.py:** Contains the view that will render in newsletter subscribe html page.
+    - **urls.py:** Contains the urls for newsletter apps html page.
+    - **newsletter.css:** Contains the css to handle mailchimp form css to align with website template.
+- **Others:**
+    - **static:**
+        - **css:** Core css stylesheet file.
+        - **favicon:** Favicon icon file.
+    - **templates:** Base, 404 error, main-nav bar, mobile top header and authentication template.
+    - **media:** All kind of images for development & readme page.
+    - **External location:**
+        - **Amazon Web Services (AWS):** AWS like S3 and IAM are used to load website images on cloud to load fast.
+        - **Stripe:** Stripe payment app is used to enable payment option to make test purchases.
 
 ## Database Schema
 
@@ -374,28 +375,58 @@ This model consist of all contact us information of when a site user writes to t
 
 ### Navbar
 
-- On large screens, the navbar displays brand icon and name along with links to Home, About, Contact Us, Ask a query. If user is not logged in it displays the Sign Up and Login links too. Also, on right corner a message dispalys that user is not logged in. 
-- When the user is logged in apart from showing the navbar displays brand icon and name along with links to Home, About, Contact Us, Ask a query the Profile and logout links are dispalyed too. Also, on right corner a Hi username message display with some stylized view.
-- In small screens, all links are placed within a burger menu. The brand name and icon display outside the collapseable burger menu.
+- On large screens, the navbar displays brand name in left side, in center along with search bar it shows expandable menu with submenus described below. Also, on right corner of navbar My Account and shopping bag with information of amount of product bought displays. 
+    - **All Products:** By Price, By Rating, By Category, All Products.
+        <details>
+            <summary>All Products</summary>
+            <IMG src="media/readme_images/navbar/menuallproducts.jpg" alt="menu_all_products"/>
+        </details>
+    - **Clothing:** Dupatta, Kurti, Suit, All Clothing.
+        <details>
+            <summary>Clothing</summary>
+            <IMG src="media/readme_images/navbar/menuclothing.jpg" alt="menu_clothing"/>
+        </details>
+    - **Accessories:** Jewelry, Purse, Jutti, All Accessories.
+        <details>
+            <summary>Accessories</summary>
+            <IMG src="media/readme_images/navbar/menuaccessories.jpg" alt="menu_accessories"/>
+        </details>
+    - **Special Offer:** New Arrivals, Deals, Clearance, All Special Offers.
+        <details>
+            <summary>Special Offer</summary>
+            <IMG src="media/readme_images/navbar/menuspecialoffers.jpg" alt="menu_special_offers"/>
+        </details>
+    - **About:** About Us, Contact Us, Newsletter, FAQs.
+        <details>
+            <summary>About</summary>
+            <IMG src="media/readme_images/navbar/menuabout.jpg" alt="menu_about"/>
+        </details>
+    - **My Account:**
+        - **Without Login:** Register, Login.
+            <details>
+                <summary>My Account - Without Login</summary>
+                <IMG src="media/readme_images/navbar/menumyaccountnouserlogin.jpg" alt="menu_my_account_no_user_login"/>
+            </details>
+        - **Customer Login:** My Profile, Logout.
+            <details>
+                <summary>My Account - Customer Login</summary>
+                <IMG src="media/readme_images/navbar/menumyaccountuserlogin.jpg" alt="menu_my_account_user_login"/>
+            </details>
+        - **Admin Login:** Add New Product, Add New FAQ, Update About Us, My Profile, Logout.
+            <details>
+                <summary>My Account - Admin Login</summary>
+                <IMG src="media/readme_images/navbar/menumyaccountadmin.jpg" alt="menu_my_account_admin"/>
+            </details>
+- In small screens, all links are placed within a burger menu. The search icon, My account and shopping bag displays outside the collapseable burger menu.
 
 <details>
-    <summary>Desktop View (Without user login) </summary>
-    <IMG src="media/readme_images/navbar/navbarwithoutuserlogin.png" alt="desktop_navbar_without_user_login"/>
+    <summary>Desktop View</summary>
+    <IMG src="media/readme_images/navbar/navbaronlargescreen.jpg" alt="navbar_on_large_screen"/>
 </details>
 
 <details>
-    <summary>Mobile View  (Without user login) </summary>
-        <IMG src="media/readme_images/navbar/navbarmobilewithoutuserlogin.png" alt="mobile_navbar_without_user_login"/>
-</details>
-
-<details>
-    <summary>Desktop View  (With user login) </summary>
-    <IMG src="media/readme_images/navbar/navbarwithuserlogin.png" alt="desktop_navbar_with_user_login"/>
-</details>
-
-<details>
-    <summary>Mobile View  (With user login) </summary>
-        <IMG src="media/readme_images/navbar/navbarmobilewithuserlogin.png" alt="mobile_navbar_with_user_login"/>
+    <summary>Mobile View</summary>
+        <IMG src="media/readme_images/navbar/nnavbaronsmallscreen.jpg" alt="navbar_on_small_screen"/>
 </details>
 
 ### Footer
