@@ -376,6 +376,10 @@ This model consist of all contact us information of when a site user writes to t
 ### Navbar
 
 - On large screens, the navbar displays brand name in left side, in center along with search bar it shows expandable menu with submenus described below. Also, on right corner of navbar My Account and shopping bag with information of amount of product bought displays. 
+    <details>
+        <summary>Desktop View</summary>
+        <IMG src="media/readme_images/navbar/navbaronlargescreen.jpg" alt="navbar_on_large_screen"/>
+    </details>
     - **All Products:** By Price, By Rating, By Category, All Products.
         <details>
             <summary>All Products</summary>
@@ -419,29 +423,24 @@ This model consist of all contact us information of when a site user writes to t
             </details>
 - In small screens, all links are placed within a burger menu. The search icon, My account and shopping bag displays outside the collapseable burger menu.
 
-<details>
-    <summary>Desktop View</summary>
-    <IMG src="media/readme_images/navbar/navbaronlargescreen.jpg" alt="navbar_on_large_screen"/>
-</details>
-
-<details>
-    <summary>Mobile View</summary>
-        <IMG src="media/readme_images/navbar/navbaronsmallscreen.jpg" alt="navbar_on_small_screen"/>
-</details>
+    <details>
+        <summary>Mobile View</summary>
+            <IMG src="media/readme_images/navbar/navbaronsmallscreen.jpg" alt="navbar_on_small_screen"/>
+    </details>
 
 ### Footer
 
 - Users have functional links to Facebook, X, Instagram and YouTube. These links will open in a new tab as they are outside the web application. 
 
-<details>
-    <summary>Desktop View</summary>
-    <IMG src="media/readme_images/navbar/footeronlargescreen.png" alt="desktop_footer"/>
-</details>
+    <details>
+        <summary>Desktop View</summary>
+        <IMG src="media/readme_images/navbar/footeronlargescreen.jpg" alt="desktop_footer"/>
+    </details>
 
-<details>
-    <summary>Mobile View</summary>
-        <IMG src="media/readme_images/navbar/footeronsmallscreen.png" alt="mobile_footer"/>
-</details>
+    <details>
+        <summary>Mobile View</summary>
+            <IMG src="media/readme_images/navbar/footeronsmallscreen.jpg" alt="mobile_footer"/>
+    </details>
 
 ### Index
 
