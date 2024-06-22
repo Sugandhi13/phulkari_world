@@ -681,61 +681,136 @@ This model consist of all contact us information of when a site user writes to t
 
 - When not authenticated, users can create an account using a unique username and password.
 
-<details>
-    <summary>Signup Page</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/signuppage.jpg" alt="signup_page"/>
-</details>
+    <details>
+        <summary>Signup Page</summary>
+        <IMG src="media/readme_images/webpages/signup.jpg" alt="signup_page"/>
+    </details>
 
 - When the user attempts to create an account with an existing username, a password that does not fulfill the requirements, or if the passwords do not match, an error is displayed in the form.
 
-<details>
-    <summary>Signup Error</summary>
-    <IMG src="media/readme_images/testing/signup_error.jpg" alt="signup_error"/>
-</details>
+    <details>
+        <summary>Signup Error</summary>
+        <IMG src="media/readme_images/testing/signuperror.jpg" alt="signup_error"/>
+    </details>
 
-- When users fill all details as per required criteria and submit the form. Signup successfull message will appear and user will logged into the website and redirected to Home page.
+- When users fill all details as per required criteria and submit the form. 
 
-<details>
-    <summary>Signup Form Example</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/testusersignup.jpg" alt="signup_form"/>
-</details>
+    <details>
+        <summary>Signup Form Example</summary>
+        <IMG src="media/readme_images/webpages/newaccountsignup.jpg" alt="signup_form"/>
+    </details>
 
-<details>
-    <summary>Signup Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/signupsuccessmessage.jpg" alt="signup_success"/>
-</details>
+- A *Verify your email address* page open up with the message about the same.
+
+    <details>
+        <summary>Signup Verification Email Page</summary>
+        <IMG src="media/readme_images/webpages/emailverificationlinksent.jpg" alt="verification_email_sent_message"/>
+    </details>
+
+- A verification email is sent to the user on registered email id. 
+
+    <details>
+        <summary>Email Verification Mail</summary>
+        <IMG src="media/readme_images/testing/emailverificationmail.jpg" alt="email_verification_mail"/>
+    </details>
+
+- When user click on the link provided on the email. *Confirm Email Address* page open up with confirmation button.
+
+    <details>
+        <summary>Confirm Email Address</summary>
+        <IMG src="media/readme_images/webpages/confirmemailaddresspage.jpg" alt="confirm_email_address"/>
+    </details>
+
+    <details>
+        <summary>Email Confirmation Success</summary>
+        <IMG src="media/readme_images/testing/emailconfirmationsuccess.jpg" alt="email_confirmation_success"/>
+    </details>
+
+- When user confirm the email by clicking on *Confirm* button on last page. Signup process completes successfully and *Login* Page open up for user to login using the username/email id and password.
+
+    <details>
+        <summary>Signup Success</summary>
+        <IMG src="media/readme_images/testing/signupsuccess.jpg" alt="signup_success"/>
+    </details>
 
 - The admin can see all the user who has created their account on website from the User model on django admin page.
 
-<details>
-    <summary>User Model View</summary>
-    <IMG src="media/readme_images/adminpage/useradminview.jpg" alt="user_model_view"/>
-</details>
+    <details>
+        <summary>User Model View</summary>
+        <IMG src="media/readme_images/adminpage/signupadminusermodel.jpg" alt="user_model_admin_view"/>
+    </details>
 
-### Log In
+    <details>
+        <summary>Email Registered View</summary>
+        <IMG src="media/readme_images/adminpage/signupadminview.jpg" alt="email_registered_admin_view"/>
+    </details>
 
-- Login Page: A user can log in to the application by inputting their username and correct password.
+- If the user already have an account and tried to register again. An email will be sent to the user for confirmation if they are trying to create account that already exists along with the link to reset the password if they have forgot it.
 
-<details>
-    <summary>Login Page</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/loginpageuserlogin.jpg" alt="login_page"/>
-</details>
+    <details>
+        <summary>User Already Exists</summary>
+        <IMG src="media/readme_images/testing/accountalreadyexists.jpg" alt="account_already_exists"/>
+    </details>
 
-- If, when logging in, the user inputs an incorrect username or password, the form will display the error.
+- If user clicks on *Forgot Password* link then the corresponding page open up and asks user to confirm its email id to provide password reset link in the email.
 
-<details>
-    <summary>Login Error</summary>
-    <IMG src="media/readme_images/testing/login_error.jpg" alt="login_error"/>
-</details>
+    <details>
+        <summary>Password Reset Page</summary>
+        <IMG src="media/readme_images/webpages/passwordreset.jpg" alt="password_reset_page"/>
+    </details>
 
-### Log Out
+- Once user provide its email id then a reset password link will be sent to user's email account and a confirmation message will display to the user.
 
-- Logout Page: Here, the application asks the user for confirmation before logging out. 
+    <details>
+        <summary>Password Reset Email Sent</summary>
+        <IMG src="media/readme_images/webpages/passwordresetemailsent.jpg" alt="password_reset_email_sent"/>
+    </details>
 
-<details>
-    <summary>Logout Page</summary>
-    <IMG src="media/readme_images/webpages/logoutpage.jpg" alt="logout_page"/>
-</details>
+- The user recevies a password reset link via email on its email account.
+
+    <details>
+        <summary>Password Reset Email</summary>
+        <IMG src="media/readme_images/testing/passwordresetemail.jpg" alt="password_reset_email"/>
+    </details>
+
+- Once user clicks on password reset link. A webpage open up and asks user to add a new password and confirm it.
+
+    <details>
+        <summary>Change Password Page</summary>
+        <IMG src="media/readme_images/webpages/changepassword.jpg" alt="change_password"/>
+    </details>
+
+- Once user enter correct password in both boxes and follow all validation rule for password. Password reset successfully message comes up.
+
+    <details>
+        <summary>Password Change Success</summary>
+        <IMG src="media/readme_images/testing/passwordchangesuccess.jpg" alt="password_changes_uccess"/>
+    </details>
+
+### Sign In
+
+- Signin Page: A user can sign in to the application by entering their username and correct password.
+
+    <details>
+        <summary>Signin Page</summary>
+        <IMG src="media/readme_images/webpages/signinpage.jpg" alt="signin_page"/>
+    </details>
+
+- If, when signing in, the user inputs an incorrect username or password, the form will display the error.
+
+    <details>
+        <summary>Signin Error</summary>
+        <IMG src="media/readme_images/testing/signinpageerror.jpg" alt="signin_page_error"/>
+    </details>
+
+### Sign Out
+
+- Signout Page: Here, the application asks the user for confirmation before signing out. 
+
+    <details>
+        <summary>Signout Page</summary>
+        <IMG src="media/readme_images/webpages/signoutpage.jpg" alt="signout_page"/>
+    </details>
 
 ### Profile 
 
