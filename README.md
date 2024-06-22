@@ -734,23 +734,23 @@ This model consist of all contact us information of when a site user writes to t
 
 <details>
     <summary>Logout Page</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/logoutpage.jpg" alt="logout_page"/>
+    <IMG src="media/readme_images/webpages/logoutpage.jpg" alt="logout_page"/>
 </details>
 
 ### Profile 
 
-- After a user signs in the user has option to add its profile page. This page open up first with error with a button that is linked to add a profile, when the user clicks on Profile link from the navbar menu and if the user doesn't have an existing profile.
+- Site user has option to view its profile using *My Profile* menu under *My Account*. The profile page consist of user order history with short summary of orders like Order Number with a link for order details, Date of order, Names of items order, Order Total cost. Also, on My Profile page the user can view its personal details like username and email id, deafult delivery information like phone number, street address, city, county, pin code, and country information. The user also have option to update the information.
 
 <details>
-    <summary>Profile Not Found</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/errorwhennewuserclickonprofilepage.jpg" alt="profile_not_found"/>
+    <summary>My Profile Page</summary>
+    <IMG src="media/readme_images/webpages/myprofile.jpg" alt="my_profile_page"/>
 </details>
 
 - Then the user can create its profile by filling the information like the firstname, lastname, email id, profile image and writing few lines about itself under describe yourself text box.
 
 <details>
-    <summary>Profile Form</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/createprofilepage.jpg" alt="profile_form"/>
+    <summary>Update Profile</summary>
+    <IMG src="media/readme_images/testing/myprofilesuccess.jpg" alt="update_profile_success"/>
 </details>
 
 - If any incorrect information is filled then the user wil face error.
@@ -760,31 +760,6 @@ This model consist of all contact us information of when a site user writes to t
     <IMG src="media/readme_images/testing/addprofile_error.jpg" alt="profile_form_error"/>
 </details>
 
-- If the form is valid, a success message stating that their profile has been created populate just below the navbar with a link to view the profile. The user can click on that link or from top navbar Profile menu can route to user profile page view. 
-
-<details>
-    <summary>Profile Form Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/profilecreatesuccessmessagewithlinkofprofileviewpage.jpg" alt="profile_form_success"/>
-</details>
-
-<details>
-    <summary>Profile View</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/profilepageofloggedinuserifusercreateditsprofile.jpg" alt="profile_form_success"/>
-</details>
-
-- The admin can view all the profiles created from the UserProfile view on the django admin dashboard. The user of summernotes helps here to customize the look of admin page as per admin need and also has various filter and sorting options.
-
-<details>
-    <summary>User Profile View - Admin</summary>
-    <IMG src="media/readme_images/adminpage/usersprofileadminview.jpg" alt="user_profile_view_admin"/>
-</details>
-
-- The admin can edit a little like upload the profile photo on behalf of the user if the user writes to admin. As the upload photo functionality is not yet working on the website and it an open bug.
-
-<details>
-    <summary>User Profile Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/userprofilemodeladminview.jpg" alt="user_profile_model_admin"/>
-</details>
 
 ### About Us 
 
