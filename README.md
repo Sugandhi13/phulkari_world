@@ -376,10 +376,12 @@ This model consist of all contact us information of when a site user writes to t
 ### Navbar
 
 - On large screens, the navbar displays brand name in left side, in center along with search bar it shows expandable menu with submenus described below. Also, on right corner of navbar My Account and shopping bag with information of amount of product bought displays. 
+
     <details>
         <summary>Desktop View</summary>
         <IMG src="media/readme_images/navbar/navbaronlargescreen.jpg" alt="navbar_on_large_screen"/>
     </details>
+
     - **All Products:** By Price, By Rating, By Category, All Products.
         <details>
             <summary>All Products</summary>
@@ -421,6 +423,7 @@ This model consist of all contact us information of when a site user writes to t
                 <summary>My Account - Admin Login</summary>
                 <IMG src="media/readme_images/navbar/menumyaccountadmin.jpg" alt="menu_my_account_admin"/>
             </details>
+
 - In small screens, all links are placed within a burger menu. The search icon, My account and shopping bag displays outside the collapseable burger menu.
 
     <details>
@@ -444,34 +447,24 @@ This model consist of all contact us information of when a site user writes to t
 
 ### Index
 
-- The landing page of the website display different categories a user can access or choose to ask queries or write answer for queries asked by other users.
-- If user is not logged in then a message displays in the top right corner on navbar that the user is not logged in. Also, Signup and Login links show in navbar menu. Whereas the add or view profile buttons doesn't appear in navbar menu.
+- The landing page of the website display hero image of the website the shows phulkari weaving womens along with the short description of phulkari and shop now button.
 
-<details>
-    <summary>Home Page - Desktop View (Without user login)</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/homepagewithoutlogin.png" alt="homepage_without_user_login"/>
-</details>
+    <details>
+        <summary>Home Page - Desktop View</summary>
+        <IMG src="media/readme_images/webpages/homepagedesktop.jpg" alt="homepage_desktop"/>
+    </details>
 
-- If user is logged in then a greetings to the user as 'Hi! USERNAME' displays in the top right corner on navbar. Also, Signup and Login links disappear, whereas the profile and logout buttons become visible in navbar menu.
+    <details>
+        <summary>Home Page - Mobile View</summary>
+        <IMG src="media/readme_images/webpages/homepagemobile.jpg" alt="homepage_mobile"/>
+    </details>
 
-<details>
-    <summary>Home Page - Desktop View (With user login)</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/homepageafteruserloginwithloginmessage.png" alt="homepage_with_user_login"/>
-</details>
+- Apart from the user, admin of the website additionally have the admin dashboard. From this the admin can access the different models that are used to store the data in them. Admin can take any kind of add, update, delete actions. At some places the access to admin is also restricted and that will be explained in upcoming steps.
 
-- On mobile, the navbar displays with collapseble burger menu icon. By default its collapsed. On first click over burger menu it expands and show all navbar menu links as per same criteria that applied in desktop view.
-
-<details>
-    <summary>Home Page - Mobile View</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/mobilehomepage.png" alt="mobile_homepage"/>
-</details>
-
-- Apart from the user, admin of the website additionally have the admin dashboard. From this the admin can access the different models that are used to store the data in them. Admin can take any kind of add, update, delete actions. At some places the access to admin is also restricted and that will be explained in upcoming steps. For e.g., Query or Answers content are un-editable by the admin. Though, admin still have the access to not approving them, hence not visible to all users or can delete them.
-
-<details>
-    <summary>Admin Dashboard</summary>
-    <IMG src="media/readme_images/adminpage/adminhomepage.png" alt="admin_dashboard"/>
-</details>
+    <details>
+        <summary>Admin Dashboard</summary>
+        <IMG src="media/readme_images/adminpage/adminhomepage.jpg" alt="admin_dashboard"/>
+    </details>
 
 ### About Us 
 
