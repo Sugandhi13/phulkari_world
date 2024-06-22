@@ -447,7 +447,7 @@ This model consist of all contact us information of when a site user writes to t
 
 ### Index
 
-- The landing page of the website display hero image of the website the shows phulkari weaving womens along with the short description of phulkari and *Shop Now* button. Clicking on *Shop Now* button will route the site user to product catalouge page.
+- The landing page of the website display hero image of the website the shows phulkari weaving womens along with the short description of phulkari and *Shop Now* button. Clicking on *Shop Now* button will route the site user to product catalogue page.
 
     <details>
         <summary>Home Page - Desktop View</summary>
@@ -465,6 +465,176 @@ This model consist of all contact us information of when a site user writes to t
         <summary>Admin Dashboard</summary>
         <IMG src="media/readme_images/adminpage/adminhomepage.jpg" alt="admin_dashboard"/>
     </details>
+
+### Products 
+
+- On Products page, all the products in the catalogue appears on random order. Products will be visible with its short details like image (if available, else default no-image image will be visible), product name, price, category, rating. If the site user is admin then edit and delete options will be visible as well. 
+
+    <details>
+        <summary>Product Page</summary>
+        <IMG src="media/readme_images/webpages/productsuser.jpg" alt="product_page_user"/>
+    </details>
+
+    <details>
+        <summary>Product Page - Admin</summary>
+        <IMG src="media/readme_images/webpages/productsadmin.jpg" alt="product_page_admin"/>
+    </details>
+
+- On left side of the page, total products count will be visible and at right side the drop down box with different ways of sorting option will be visible as well. Products can be sorted by name & category (a-z), price & rating (low to high).
+
+    <details>
+        <summary>Product Page - Sorting Options</summary>
+        <IMG src="media/readme_images/webpages/productssorting.jpg" alt="product_page_sorting"/>
+    </details>
+
+- When a sorting option is selected then the view of *Product* page changes a bit and all items in catalogue appears accoring to the sorting order selected. Also in the top left corner of the page now before the product count a link to route back to *Product Home* page appears. Sorting drop down box also show that which sorting has been applied.
+
+    <details>
+        <summary>Product Page - Sorting Applied</summary>
+        <IMG src="media/readme_images/webpages/productssortingapplied.jpg" alt="product_page_sorting_applied"/>
+    </details>
+
+- If a category of the product is selected from the nav bar menu then only products w.r.t. that specific category will be displayed on Product page. Also, link to *Product Home* page appears alongside total product count of that category. Sorting drop down box will set to default of no sorting order and a user can choose to select any sorting as we already described under product sorting section above. In the top middle side of the page you can see a button with the name of category as well.
+
+    <details>
+        <summary>Product Page - Category</summary>
+        <IMG src="media/readme_images/webpages/productscategory.jpg" alt="product_page_category"/>
+    </details>
+
+- If a user try to search for a product by typing something on the search box. All results matches with that searched word will appear on products page. The search functionality will look for the searched word in Product name and description and return the results. Also, link to *Product Home* page appears alongside total product count of that searched word. Sorting drop down box will set to default of no sorting order and a user can choose to select any sorting as we already described under product sorting section above.
+
+    <details>
+        <summary>Product Page - Search</summary>
+        <IMG src="media/readme_images/webpages/productssearch.jpg" alt="product_page_search"/>
+    </details>
+
+### Products Detail
+
+- On Products page, all the products in the catalogue appears on random order. Products will be visible with its short details like image (if available, else default no-image image will be visible), product name, price, category, rating. If the site user is admin then edit and delete options will be visible as well. On left side of the page, total products count will be visible and at right side the drop down box with different ways of sorting option will be visible as well. Products can be sorted by name & category (a-z), price & rating (low to high).
+
+    <details>
+        <summary>Product Page</summary>
+        <IMG src="media/readme_images/webpages/productsuser.jpg" alt="product_page_user"/>
+    </details>
+
+    <details>
+        <summary>Product Page - Admin</summary>
+        <IMG src="media/readme_images/webpages/productsadmin.jpg" alt="product_page_admin"/>
+    </details>
+
+    <details>
+        <summary>Product Page - Sorting Options</summary>
+        <IMG src="media/readme_images/webpages/productssorting.jpg" alt="product_page_sorting"/>
+    </details>
+
+### Sign Up
+
+- When not authenticated, users can create an account using a unique username and password.
+
+<details>
+    <summary>Signup Page</summary>
+    <IMG src="media/readme_images/webpagewithoutuserlogin/signuppage.jpg" alt="signup_page"/>
+</details>
+
+- When the user attempts to create an account with an existing username, a password that does not fulfill the requirements, or if the passwords do not match, an error is displayed in the form.
+
+<details>
+    <summary>Signup Error</summary>
+    <IMG src="media/readme_images/testing/signup_error.jpg" alt="signup_error"/>
+</details>
+
+- When users fill all details as per required criteria and submit the form. Signup successfull message will appear and user will logged into the website and redirected to Home page.
+
+<details>
+    <summary>Signup Form Example</summary>
+    <IMG src="media/readme_images/webpagewithuserlogin/testusersignup.jpg" alt="signup_form"/>
+</details>
+
+<details>
+    <summary>Signup Success</summary>
+    <IMG src="media/readme_images/webpagewithuserlogin/signupsuccessmessage.jpg" alt="signup_success"/>
+</details>
+
+- The admin can see all the user who has created their account on website from the User model on django admin page.
+
+<details>
+    <summary>User Model View</summary>
+    <IMG src="media/readme_images/adminpage/useradminview.jpg" alt="user_model_view"/>
+</details>
+
+### Log In
+
+- Login Page: A user can log in to the application by inputting their username and correct password.
+
+<details>
+    <summary>Login Page</summary>
+    <IMG src="media/readme_images/webpagewithuserlogin/loginpageuserlogin.jpg" alt="login_page"/>
+</details>
+
+- If, when logging in, the user inputs an incorrect username or password, the form will display the error.
+
+<details>
+    <summary>Login Error</summary>
+    <IMG src="media/readme_images/testing/login_error.jpg" alt="login_error"/>
+</details>
+
+### Log Out
+
+- Logout Page: Here, the application asks the user for confirmation before logging out. 
+
+<details>
+    <summary>Logout Page</summary>
+    <IMG src="media/readme_images/webpagewithuserlogin/logoutpage.jpg" alt="logout_page"/>
+</details>
+
+### Profile 
+
+- After a user signs in the user has option to add its profile page. This page open up first with error with a button that is linked to add a profile, when the user clicks on Profile link from the navbar menu and if the user doesn't have an existing profile.
+
+<details>
+    <summary>Profile Not Found</summary>
+    <IMG src="media/readme_images/webpagewithuserlogin/errorwhennewuserclickonprofilepage.jpg" alt="profile_not_found"/>
+</details>
+
+- Then the user can create its profile by filling the information like the firstname, lastname, email id, profile image and writing few lines about itself under describe yourself text box.
+
+<details>
+    <summary>Profile Form</summary>
+    <IMG src="media/readme_images/webpagewithuserlogin/createprofilepage.jpg" alt="profile_form"/>
+</details>
+
+- If any incorrect information is filled then the user wil face error.
+
+<details>
+    <summary>Profile Form Error</summary>
+    <IMG src="media/readme_images/testing/addprofile_error.jpg" alt="profile_form_error"/>
+</details>
+
+- If the form is valid, a success message stating that their profile has been created populate just below the navbar with a link to view the profile. The user can click on that link or from top navbar Profile menu can route to user profile page view. 
+
+<details>
+    <summary>Profile Form Success</summary>
+    <IMG src="media/readme_images/webpagewithuserlogin/profilecreatesuccessmessagewithlinkofprofileviewpage.jpg" alt="profile_form_success"/>
+</details>
+
+<details>
+    <summary>Profile View</summary>
+    <IMG src="media/readme_images/webpagewithuserlogin/profilepageofloggedinuserifusercreateditsprofile.jpg" alt="profile_form_success"/>
+</details>
+
+- The admin can view all the profiles created from the UserProfile view on the django admin dashboard. The user of summernotes helps here to customize the look of admin page as per admin need and also has various filter and sorting options.
+
+<details>
+    <summary>User Profile View - Admin</summary>
+    <IMG src="media/readme_images/adminpage/usersprofileadminview.jpg" alt="user_profile_view_admin"/>
+</details>
+
+- The admin can edit a little like upload the profile photo on behalf of the user if the user writes to admin. As the upload photo functionality is not yet working on the website and it an open bug.
+
+<details>
+    <summary>User Profile Model - Admin</summary>
+    <IMG src="media/readme_images/adminpage/userprofilemodeladminview.jpg" alt="user_profile_model_admin"/>
+</details>
 
 ### About Us 
 
@@ -644,246 +814,6 @@ This model consist of all contact us information of when a site user writes to t
         <summary>Subscriber Welcome Email - Customer Journey</summary>
         <IMG src="media/readme_images/adminpage/customerwelcomeemailjourney.jpg" alt="subscriber_welcome_email_journey"/>
     </details>
-
-### Ask a Query 
-
-- A user should be logged in to ask a query on the webstie. If user is not yet logged in then a message with login button link will displays to the user. 
-
-<details>
-    <summary>Ask a Query Page (Without user login)</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/askaquerypagewithoutlogin.jpg" alt="askaquery_page_without_user_login"/>
-</details>
-
-- If the user is logged in then a query form will appear that the user can fill to ask a query. If any required input is not give then the error will displays. 
-
-<details>
-    <summary>Ask a Query Error</summary>
-    <IMG src="media/readme_images/testing/query_error.jpg" alt="askaquery_page_error"/>
-</details>
-
-- If all requried data is filled and user select a valid category as well then upon submission the a success message will appear just below the top navbar.
-
-<details>
-    <summary>Ask a Query Success</summary>
-    <IMG src="media/readme_images/testing/queryaskedsuccessfullmessage.jpg" alt="askaquery_page_success"/>
-</details>
-
-- After successfully submitting the query. The user can go and see the query showing in respective category. Though, until the query is approved by the admin the query will only be visible to the authorized user only along with option of delete button to delete the query. Once the query is approved then the query is visible for all other users to see and write response against it.
-
-<details>
-    <summary>Queries Asked View</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/querypagewithunapprovedquerydisplay.jpg" alt="queries_asked_view"/>
-</details>
-
-- If the user press the delete button then a popup will appear to re-confirm the users choice to delete the query asked. An authonticated user can delete any old queries asked by them as well. But, the user can not delete any query asked by the other users.
-
-<details>
-    <summary>Query Delete Popup</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/deletequerypopupwhenclickeddeletebuttonbyloggedinuser.jpg" alt="queries_delete_reconfirm"/>
-</details>
-
-- If the users clicks on close button then nothing happen. But, if the users clicks on delete button again and confirms that he wants to delete the query asked. The delete success message will appear and the query will be delete from the database.
-
-<details>
-    <summary>Query Delete Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/querydeletedsuccessmessage.jpg" alt="queries_delete_success"/>
-</details>
-
-- Once the users posts a query and it goes to admin for approval. Admin gets a view of all the queries asked by different users. I have used summernotes admin functionality to display the customized details to admin and he has option to filter or sort the queries based upon time, users, category.
-
-<details>
-    <summary>Queries View - Admin</summary>
-    <IMG src="media/readme_images/adminpage/queriesadminview.jpg" alt="queries_view_admin"/>
-</details>
-
-- Admin can click on any query, specifically the un-approved ones that has status of 'Draft' and go into the query model view to approve it. After selecting the 'Published' option from the dropdown menu the query will be start displaying for all the users. Henceforth other users on the website can write in response to that query.
-
-<details>
-    <summary>Queries Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/querymodeladminview.jpg" alt="queries_model_view_admin"/>
-</details>
-
-### Write an Answer 
-
-- A user should be logged in to write an answer on the webstie. If user is not yet logged in then a message with login button link will displays to the user. 
-
-<details>
-    <summary>Write an Answer Page (Without user login)</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/answerspagewithoutlogin.jpg" alt="answer_page_without_user_login"/>
-</details>
-
-- If the user is logged in then answer form will appear that the user can fill about the asked query. If required input is not give then the error will displays. 
-
-<details>
-    <summary>Write an Answer Error</summary>
-    <IMG src="media/readme_images/testing/answer_error.jpg" alt="answer_page_error"/>
-</details>
-
-- If all requried data is filled then upon submission the a success message will appear just below the top navbar.
-
-<details>
-    <summary>Write an Answer Success</summary>
-    <IMG src="media/readme_images/testing/answersubmittedsuccessmessage.jpg" alt="answer_page_success"/>
-</details>
-
-- After successfully submitting the answer. The user can see the answer at top of other queries and below the write an answer box. Though, until the answer is approved by the admin the answer will only be visible to the authorized user only along with option of edit and delete button to edit or delete the answer. Once the answer is approved then the answer is visible for all other users to see.
-
-<details>
-    <summary>Answer Written View</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/answersubmittedandwaitingforapproval.jpg" alt="answer_written_view"/>
-</details>
-
-- If the user press the edit button then the existing answer written by the user will re-appear in the write an answer box. An authonticated user further edit/update the old answer written by them as well.
-
-<details>
-    <summary>Answer Edit</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/answereditedbyuser.jpg" alt="answer_delete"/>
-</details>
-
-- Once the answer is update by the user then the user can click on submit button again and the answer will be re-submitted and will show to authunticated user only with message of waiting for approval.
-
-<details>
-    <summary>Answer Edit Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/answerupdatedsuccessmessage.jpg" alt="answer_edit_success"/>
-</details>
-
-- If the user press the delete button then a popup will appear to re-confirm the users choice to delete the answer wrote. An authonticated user can delete any old answer written by them as well. But, the user can not delete any answer written by the other users.
-
-<details>
-    <summary>Answer Delete Popup</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/deleteanswerpopoup.jpg" alt="answer_delete_reconfirm"/>
-</details>
-
-- If the users clicks on close button then nothing happen. But, if the users clicks on delete button again and confirms that he wants to delete the answer written. The delete success message will appear and the answer will be delete from the database.
-
-<details>
-    <summary>Answer Delete Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/answerdeletedsuccessmessage.jpg" alt="answer_delete_success"/>
-</details>
-
-- Once the users posts an answer and it goes to admin for approval. Admin gets a view of all the answers written by different users. I have used summernotes admin functionality to display the customized details to admin and he has option to filter or sort the answer based upon time, users etc.,
-
-<details>
-    <summary>Answer View - Admin</summary>
-    <IMG src="media/readme_images/adminpage/answersadminview.jpg" alt="answer_view_admin"/>
-</details>
-
-- Admin can click on any answer, specifically the un-approved ones and go into the answer model view to approve it. After ticking the checkbox 'Approved' the answer will be start displaying for all the users.
-
-<details>
-    <summary>Answer Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/answermodeladminview.jpg" alt="answer_model_view_admin"/>
-</details>
-
-### Sign Up
-
-- When not authenticated, users can create an account using a unique username and password.
-
-<details>
-    <summary>Signup Page</summary>
-    <IMG src="media/readme_images/webpagewithoutuserlogin/signuppage.jpg" alt="signup_page"/>
-</details>
-
-- When the user attempts to create an account with an existing username, a password that does not fulfill the requirements, or if the passwords do not match, an error is displayed in the form.
-
-<details>
-    <summary>Signup Error</summary>
-    <IMG src="media/readme_images/testing/signup_error.jpg" alt="signup_error"/>
-</details>
-
-- When users fill all details as per required criteria and submit the form. Signup successfull message will appear and user will logged into the website and redirected to Home page.
-
-<details>
-    <summary>Signup Form Example</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/testusersignup.jpg" alt="signup_form"/>
-</details>
-
-<details>
-    <summary>Signup Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/signupsuccessmessage.jpg" alt="signup_success"/>
-</details>
-
-- The admin can see all the user who has created their account on website from the User model on django admin page.
-
-<details>
-    <summary>User Model View</summary>
-    <IMG src="media/readme_images/adminpage/useradminview.jpg" alt="user_model_view"/>
-</details>
-
-### Log In
-
-- Login Page: A user can log in to the application by inputting their username and correct password.
-
-<details>
-    <summary>Login Page</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/loginpageuserlogin.jpg" alt="login_page"/>
-</details>
-
-- If, when logging in, the user inputs an incorrect username or password, the form will display the error.
-
-<details>
-    <summary>Login Error</summary>
-    <IMG src="media/readme_images/testing/login_error.jpg" alt="login_error"/>
-</details>
-
-### Log Out
-
-
-- Logout Page: Here, the application asks the user for confirmation before logging out. 
-
-<details>
-    <summary>Logout Page</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/logoutpage.jpg" alt="logout_page"/>
-</details>
-
-### Profile 
-
-- After a user signs in the user has option to add its profile page. This page open up first with error with a button that is linked to add a profile, when the user clicks on Profile link from the navbar menu and if the user doesn't have an existing profile.
-
-<details>
-    <summary>Profile Not Found</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/errorwhennewuserclickonprofilepage.jpg" alt="profile_not_found"/>
-</details>
-
-- Then the user can create its profile by filling the information like the firstname, lastname, email id, profile image and writing few lines about itself under describe yourself text box.
-
-<details>
-    <summary>Profile Form</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/createprofilepage.jpg" alt="profile_form"/>
-</details>
-
-- If any incorrect information is filled then the user wil face error.
-
-<details>
-    <summary>Profile Form Error</summary>
-    <IMG src="media/readme_images/testing/addprofile_error.jpg" alt="profile_form_error"/>
-</details>
-
-- If the form is valid, a success message stating that their profile has been created populate just below the navbar with a link to view the profile. The user can click on that link or from top navbar Profile menu can route to user profile page view. 
-
-<details>
-    <summary>Profile Form Success</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/profilecreatesuccessmessagewithlinkofprofileviewpage.jpg" alt="profile_form_success"/>
-</details>
-
-<details>
-    <summary>Profile View</summary>
-    <IMG src="media/readme_images/webpagewithuserlogin/profilepageofloggedinuserifusercreateditsprofile.jpg" alt="profile_form_success"/>
-</details>
-
-- The admin can view all the profiles created from the UserProfile view on the django admin dashboard. The user of summernotes helps here to customize the look of admin page as per admin need and also has various filter and sorting options.
-
-<details>
-    <summary>User Profile View - Admin</summary>
-    <IMG src="media/readme_images/adminpage/usersprofileadminview.jpg" alt="user_profile_view_admin"/>
-</details>
-
-- The admin can edit a little like upload the profile photo on behalf of the user if the user writes to admin. As the upload photo functionality is not yet working on the website and it an open bug.
-
-<details>
-    <summary>User Profile Model - Admin</summary>
-    <IMG src="media/readme_images/adminpage/userprofilemodeladminview.jpg" alt="user_profile_model_admin"/>
-</details>
 
 ## Future Features
 
