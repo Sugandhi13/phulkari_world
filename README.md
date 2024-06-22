@@ -617,6 +617,66 @@ This model consist of all contact us information of when a site user writes to t
         <IMG src="media/readme_images/testing/productdetailaddtobag.jpg" alt="product_detail_page_addtobag"/>
     </details>
 
+- If the user has total price less than the minimum limit for free delivery of the products to user. A message will shop with pop message of shopping bag.
+
+    <details>
+        <summary>Product Detail Page - Free Delivery Message</summary>
+        <IMG src="media/readme_images/testing/freedeliveryoptionmessage.jpg" alt="shopping_bag_page_free_delivery_message"/>
+    </details>
+
+### Checkout Page
+
+- Once user is ready to make a purchase and clicked on *Secure Checkout* button on *Shopping Bag* page. The next page open for user is *Checkout* page. In this page the user will see short order summary once again with product image, name, size (if available), quantity, subtotal, order total, delivery charges (if any) and grand total. Also, the user will get option to add the details for delivery of the products like Personal detail (name, email id), delivery details (Phone number, Street Addresses, Town, County, Pin Code, Country (selection from a drop down menu containing list of all countries)),  Payment detail (Card number, expiry date, cvv number and Pincode). If the user is not logged in the a message will appear to login or create account to save the delivery information.
+
+    <details>
+        <summary>Checkout Page - Without Login</summary>
+        <IMG src="media/readme_images/webpages/checkoutwithoutlogin.jpg" alt="checkout_page_without_login"/>
+    </details>
+
+- If the user is logged in then an option (checkbox) will be available to the user to save the delivery information. By choosing the saving delivery information email id and delivery details will be stored in the database so that when next time the user logs in they don't have to refil the same information again and again. 
+
+    <details>
+        <summary>Checkout Page - With Login</summary>
+        <IMG src="media/readme_images/webpages/checkoutwithlogin.jpg" alt="checkout_page_with_login"/>
+    </details>
+
+- At the bottom of screen 2 button will also be available. First *Adjust Bag* button will take the user back to *Shopping Bag* page where user can make adjustments to the order. Second *Complete Order* button, if user selects this button then an order will be placed and order placed successfully message and webpage will open next. Also a confirmation email will be sent to the user.
+
+    <details>
+        <summary>Checkout Page - Order Placed</summary>
+        <IMG src="media/readme_images/testing/orderplaced.jpg" alt="checkout_page_order_placed"/>
+    </details>
+
+    <details>
+        <summary>Checkout Page - Order Placed Email</summary>
+        <IMG src="media/readme_images/testing/orderplacedemail.jpg" alt="checkout_page_order_placed_email"/>
+    </details>
+
+- If the form is invalid, error messages will be displayed. 
+
+    <details>
+        <summary>Checkout Page - Error</summary>
+        <IMG src="media/readme_images/testing/invalidcardnumbercheck.jpg" alt="checkout_error"/>
+    </details>
+
+### Order Page - Admin
+
+- Admin can also view the order placed on *'/admin'* page. 
+
+    <details>
+        <summary>Order Placed - Admin view</summary>
+        <IMG src="media/readme_images/webpages/orderadminview.jpg" alt="order_placed_admin_view"/>
+    </details>
+
+    <details>
+        <summary>Order Placed - Admin Model</summary>
+        <IMG src="media/readme_images/webpages/orderadminmodel1.jpg" alt="order_placed_admin_model"/>
+    </details>
+    <details>
+        <summary>Order Placed - Admin Model</summary>
+        <IMG src="media/readme_images/webpages/orderadminmodel2.jpg" alt="order_placed_admin_model"/>
+    </details>
+
 ### Sign Up
 
 - When not authenticated, users can create an account using a unique username and password.
