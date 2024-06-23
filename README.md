@@ -303,10 +303,12 @@ The whole project follow the technique of building blocks. Which are sufficient 
                     <summary>AWS Cloud System</summary>
                     <IMG src="media/readme_images/awscloudsystem.jpg" alt="aws_cloud_system"/>
                 </details>
+
                 <details>
                     <summary>AWS - IAM</summary>
                     <IMG src="media/readme_images/awsiam.jpg" alt="aws_iam"/>
                 </details>
+
                 <details>
                     <summary>AWS - S3</summary>
                     <IMG src="media/readme_images/awss3.jpg" alt="aws_s3"/>
@@ -318,17 +320,19 @@ The whole project follow the technique of building blocks. Which are sufficient 
                     <summary>Stripe Payment App</summary>
                     <IMG src="media/readme_images/stripepaymentapp.jpg" alt="stripe_payment_app"/>
                 </details>
+
                 <details>
                     <summary>Stripe Payment App - Webhook</summary>
                     <IMG src="media/readme_images/stripepaymentwebhookinfo.jpg" alt="stripe_payment_webhook_info"/>
                 </details>
 
         - **Facebook Page:** Facebook page is created for promotional marketing and user engagement purpose.
-        
+
                 <details>
                     <summary>Facebook Page - Admin View</summary>
                     <IMG src="media/readme_images/facebookpageadminview.jpg" alt="facebook_page_admin"/>
                 </details>
+                
                 <details>
                     <summary>Facebook Page - User View</summary>
                     <IMG src="media/readme_images/facebookpage.jpg" alt="facebook_page_user"/>
