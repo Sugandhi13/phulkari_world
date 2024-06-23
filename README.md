@@ -812,7 +812,7 @@ This model consist of all contact us information of when a site user writes to t
         <IMG src="media/readme_images/webpages/signoutpage.jpg" alt="signout_page"/>
     </details>
 
-### Profile 
+### My Profile 
 
 - Site user has option to view its profile using *My Profile* menu under *My Account*. The profile page consist of user order history with short summary of orders like Order Number with a link for order details, Date of order, Names of items order, Order Total cost. Also, on My Profile page the user can view its personal details like username and email id, deafult delivery information like phone number, street address, city, county, pin code, and country information. The user also have option to update the information.
 
@@ -1017,140 +1017,139 @@ This model consist of all contact us information of when a site user writes to t
 ## Future Features
 
 - Asynchronous behaviour
-    - When a query or answer submitted once but if the page is refreshed the same query or answer gets re-submitted. A future feature is planned to avoid resubmitting it and clear out the page when these actions are taken by the user.
+    - If user clicks on back or forward button from the browser the session remains active. I would like to handle this issue in future release.
 
-- Profile image upload by the user
-    - When a user try to create its profile. Currently the profile image upload option is given but its not working and the site user is not able to load the profile image by itself. Only the admin can do it on the users behalf. Hence, in future release this bug is planned to fix.
+- Reduce quantity button not disable automatically on desktop screens
+    - While testing a bug has been found that on *Shopping Bag* page the minus (-) sign is not disabling on quantity box when count of quantity reach 1. This feature is working on mobile (smaller screens). I would like to fix this issue in future release.
+
+- User can enter characters in phone number field on checkout page
+    - While testing a bug has been found that the user can enter characters in phone number field in checkout page. I would like to fix this issue in future release.
 
 - Further relevant feedback
     - Implement autohide notifications.
-    - Implement like, upvote feature on queries and answers.
-    - Implement edit query feature.
-    - Implement a user can see all its queries and answer from a single profile page too.
-    - Implement all profile page where a user can see breif profile info about other users too like how many query they have asked or answer they have given. What feilds they are expert of etc.,
+    - Implement rating to be provided by the user.
+    - Implement review by the user feature for product bought by the user.
 
 # Testing
 
 ## Methodology 
 
-Testing was an integral part of the project development, encompassing the use of Django debug pages and strategically placed print statements to verify the functionality of the code at various stages. Furthermore, a comprehensive testing approach was adopted, outlined below. This involved meticulous manual testing to ensure alignment with all user stories and acceptance criteria as well as some automated testing using for different forms.
+Testing was an integral part of the project development, encompassing the use of Django debug pages and strategically placed print statements to verify the functionality of the code at various stages. Furthermore, a comprehensive testing approach was adopted, outlined below. This involved meticulous manual testing to ensure alignment with all user stories and acceptance criteria.
 
 ### Index Page
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| Navigation bar functionality (user not authenticated) | Click all available links | User is directed respectively to the home, about us, contact us, ask a query or account signup links | PASS |
-| Navigation bar functionality (user authenticated) | Click all available links | User is directed respectively to the navbar links and has the correct account links (profile and logout) | PASS |
-| Footer links | Click all available social media links | User is directed respectively to all social media links with  | PASS |
-| Cateogries | Click all categories links | User is directed to queries page respected to each category and all queries belogns to that category should display on next page  | PASS |
+| Navigation bar functionality (user not authenticated) | Click all available links | Apart from product catalogue navbar the user can only see signup and login links. | PASS |
+| Navigation bar functionality (user authenticated) | Click all available links | Apart from product catalogue navbar links and the user can see My Profile and Signout links. | PASS |
+| Navigation bar functionality (Admin authenticated) | Click all available links | Apart from product catalogue navbar links and the admin can see Add New Product, Add New FAQ, Update About Us, My Profile and Signout links. | PASS |
+| Footer links | Click all available social media links | User is directed to respective social media pages.  | PASS |
+| Shop Now link | Click Shop Now link | User is redirected Product page with a catalogue of all products.  | PASS |
 
-### About Us Page
-
-| Testing  | Steps | Expected Outcome | Results |  
-| - | - | - | - |
-| About us info | Goto about us page and see info, profile image and updated on datetime | The latest about us info displays and the correct updated on datetime is visible on the page. | PASS |
-
-### Contact Us Page
+### Product Page
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| ContactUs form - Form Validation | Submit empty form | Browser promts that required fields need to be filled | PASS |
-| ContactUs form - Form Validation | Submit with an invalid email address | Error message is successfully displayed | PASS |
-| ContactUs form - Form Validation | Submit valid form | User is redirect to success page stating that the response has been recorded | PASS |
+| Product Page - User View | A list of all products should be visible | When user reach product page, the page should display all type of products on website with the information like product image (if available, else show default no-image image), product name, rating, price and category. Also, clicking on the product image should route to Product detail page. | PASS |
+| Product Page - Admin View | A list of all products should be visible with option to edit or delete the product | When admin reach product page, the page should display all type of products on website with the information like product image (if available, else show default no-image image), product name, rating, price and category. Also, clicking on the product image should route to Product detail page. For admin, the link to edit or delete the product should be visible too. | PASS |
+| Product Page - Sorting Options | Various type of sorting available | When user reach product page, the page should display the user option to sort the product by various ways like name, category, price or rating. | PASS |
+| Product Page - Searching Options | User the search box to searching a product | When user try to search a product by writing a word in search box, the product page should display all the product matches that word regardless of the word existing in product name or description. | PASS |
+| Product Page - Category Selections | User selects a specific category from the navbar | When user try select a specific category of product from the navbar. Only the products belongs to that category should be visible. | PASS |
 
-### Ask a Query Page
-
-| Testing  | Steps | Expected Outcome | Results |  
-| - | - | - | - |
-| Log-in button display and functionality (user not authenticated) | Access as an unauthenticated user and try to login using the link given. | A message successfully displays along with a button that redirects to log-in page | PASS |
-| Create query form (user authenticated) | Access the ask a query page as an authenticated user. | When user is authenticated, the ask a query form is successfully displayed with the correct sign-in user at the top | PASS |
-| Create query form - Form validation | Submit an empty form | The browser promts validation that all fields need to be filled. | PASS |
-| Create query form - Form validation | Submit an incomplete form. | The browser promts validation that all fields need to be filled. | PASS |
-| Create query form - Form validation | Submit a complete query. | The query is successfully submited and a success message is displayed, stating that the query is awaiting review. | PASS |
-
-### Queries Page
+### Product Detail Page
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| Queries view page | Click on a category on index page | The new page open all queries belongs to that category asked by different users. The query count should display the number of all approved queries and a link to go back to Home page along with move to other category should display on this page. | PASS |
-| Under review query | View a query that is yet to be approved by the admin and posted by the logged in user | The query title should display in faded text with a message underneath that the query is still under review with an option of delete button. The username and query asked datetime stamp should be visible too. | PASS |
-| Approved query - asked by the logged in user | View a query that is approved and posted by the logged in user | The query title should display with normal text and delete query option button. The username and query asked datetime stamp should be visible too. | PASS |
-| Under review query - Other user | Query asked by another user that is still under reivew with admin | The query posted by a user that is still under review should not be visible to other users. | PASS |
-| Approved query - asked by any user | Query should be visible without delete query button | When an admin publishes a query the query should be visible to all users. But delete query button should be visible to authunticated user only who post that query initially and no other user. | PASS |
-| Delete Query | As a query author click the delete query button under query options. | When the authenticated user is the author, it successfully displays the delete query modal when clicking the delete query option. On reconfirmation to delete, the query should delete permanently from the model. | PASS |
+| Product Detail Page - User View | Individual product should be visible | When user reach product detail page, the page should display the detailed information of the product like product image (if available, else show default no-image image), product name, rating, price, category, description, size (if available) and option to increase or decrease quantity. Also, the page should have button like Keep Shopping to continue more shopping or add the product to shopping bag. | PASS |
+| Product Detail Page - Admin View | Individual product should be visible | When user reach product detail page, the page should display the detailed information of the product like product image (if available, else show default no-image image), product name, rating, price, category, description, size (if available) and option to increase or decrease quantity. Also, the page should have button like Keep Shopping to continue more shopping or add the product to shopping bag. For admin, the link to edit or delete the product should be visible too. | PASS |
 
-### Answers Page
+### Add New Product Page
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| Answer view page | Click on a query on queries page | The new page open all answers belongs to that query asked by a users. The answer count should display the number of all approved answers and a link to go back to queries page for the category that query belongs to should display on this page. | PASS |
-| Log-in button display and functionality (user not authenticated) | Access as an unauthenticated user and try to login using the link given. | A message successfully displays along with a button that redirects to log-in page | PASS |
-| Create answer form (user authenticated) | Displays write an answer text box as an authenticated user. | When user is authenticated, a write an answer text box should displayed. | PASS |
-| Under review answer | View an answer that is yet to be approved by the admin and posted by the logged in user | The answer should display in faded text with a message underneath that the answer that it is still under review with options of edit and delete button. The username and answer written datetime stamp should be visible too. | PASS |
-| Approved answer - asked by the logged in user | View an answer that is approved by admin and posted by the logged in user | The answer should display with normal text and edit / delete answer option button. The username and answer written datetime stamp should be visible too. | PASS |
-| Under review answer - Other user | Answer written by another user that is still under reivew with admin | The answer posted by a user that is still under review should not be visible to other users. | PASS |
-| Approved answer - asked by any user | Answer should be visible without edit and delete button | When an admin approves an answer the answer should be visible to all users. But edit and delete answer button should be visible to authunticated user only who wrote that answer initially and no other user. | PASS |
-| Delete answer | As an answer author click the delete answer button under answer options. | When the authenticated user is the author, it successfully displays the delete answer modal when clicking the delete answer option. On reconfirmation to delete, the answer should delete permanently from the model. | PASS |
-| Edit answer - Form validation | Submit an empty answer form. | An error message is displayed, stating that fields are are required. | PASS |
-| Edit answer - Form validation | Submit an valid answer form. | A success message is displayed, stating that the answer was successfully updated and is awating for approval. | PASS |
+| Add New Product | Add new product as admin | Only when admin logs in the user should get options to Add New Product from the website. If user enters all required information correctly then the new product should be added successfully and starts getting visible on Product catalogue to all users. | PASS |
+| Add New Product - Validation check | Add new product incorrectly as admin | If any validation fail when the admin trying to add a new product then an error message should displays to the user and askes it to correct it. | PASS |
+
+### Edit Product Page
+
+| Testing  | Steps | Expected Outcome | Results |  
+| - | - | - | - |
+| Edit Product | Edit existing product as admin | Only when admin logs in the user should get options to edit existing product from the website *Product* or *Product Detail* pages. If user enters required information correctly then the edit should be update successfully and starts getting visible on Product catalogue to all users. | PASS |
+| Edit Product - Validation check | Edit existing product incorrectly as admin | If any validation fail when the admin trying to edit an existing product then an error message should displays to the user and askes it to correct it. | PASS |
+
+### Delete Product
+
+| Testing  | Steps | Expected Outcome | Results |  
+| - | - | - | - |
+| Delete Product | Delete existing product as admin | Only when admin logs in the user should get options to delete existing product from the website *Product* or *Product Detail* pages. If user deletes an existing product then the product should be removed from the Product catalogue for all users. | PASS |
 
 ### Sign Up Page
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| User sign-up page  | Page should display the sign up form. | User is successfully directed to the signup page and sees the signup form. | PASS |
+| User sign-up page  | Page should display the sign up form | A verification email will be sent to the User on its registered email account. | PASS |
+| User sign-up page  | Email verification | The user should receive a verification email with link to verify its email account. On clicking the link user should route back on the website with confirm email button. When user verifies email then the user should be able to login on the website with its account. | PASS |
 | User sign-up - Form validation  | Submit an empty form. | Browser promts that required fields need to be filled. | PASS |
 | User sign-up - Form validation  | Submit an incomplete form. | Browser promts that required fields need to be filled. | PASS |
 | User sign-up - Form validation  | Submit an invalid password. | Form promts the errors in the password. | PASS |
 | User sign-up - Form validation  | Submit non-matching invalid password. | Form promts the error. | PASS |
 | User sign-up - Form validation  | Submit an exisiting user name. | Form promts that the username is already taken error. | PASS |
+| User sign-up - Form validation  | Submit an exisiting email id. | An email should be sent to the user registered email account with message that someone trying to login already existing email account. Along with this a forgot password link should be provided in the email to provide the option to reset the password. | PASS |
 
 ### Log In Page
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| User login page  | Page should display the login form. | User is successfully directed to the login page and sees the login form. | PASS |
-| User login page - Form validation | Submit an incorrect username password. | Form promts that the username and/or password is not correct. | PASS |
+| User login page  | Page should display the login form | User is successfully directed to the login page and sees the login form. | PASS |
+| User login page - Form validation | Submit an incorrect username password | Form promts that the username and/or password is not correct. | PASS |
+| User login page - Forgot Password | Click on forgot password link | The user should be able to reset the password by confirming its email id. An email should be sent to the user when the user enteres after clicking on forgot password. The email should contains the link to reset the password. When user clicks on the reset password link in the email, the user routes back on website with option to reset its password. After resetting the password the user should be able to signin on the website with new password only. | PASS |
 
 ### Log Out Page
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| User logout page  | Page should display the logout reconfirm message. | User is successfully directed to the logout page and sees the logout reconfim message with logout button. | PASS |
-| User logout page - Form validation | Click in logout. | User is successfully logged out and a display message is displayed at the top. | PASS |
+| User logout page  | Page should display the logout reconfirm message | User is successfully directed to the logout page and sees the logout reconfim message with logout button. | PASS |
+| User logout page - Form validation | Click in logout | User is successfully logged out and a display message is displayed at the top. | PASS |
 
-### Profile Page
+### My Profile Page
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| Add profile page | As a new user click on Profile link on navbar menu | An error message should display that no profile found and gives a redirect button to goto add a user profile page. | PASS |
-| Add profile - Form validation | Submit an empty form. | Browser promts that required fields need to be filled. | PASS |
+| My profile page | As a user click on My Profile link under My Account on navbar | The user profile should be visible containing the user registered delivery information, if already added. Also the page should contains the list of all the orders ordered by the user. | PASS |
+| My profile page - Update delivery information | User updates the delivery information | If user changes any information under delivery information form and click on update information. The new information should be visible by default on checkout page while ordering an item from product catalogue. | PASS |
 | Add profile - Form validation | Submit an incomplete form. | Browser promts that required fields need to be filled. | PASS |
-| Add profile - Form validation | Submit a valid form. | A success message is displayed with the link to redirect user to their profile. | PASS |
-| View profile - Existing profile user | Click on Profile link on navbar menu. | If you already have a profile created previously. When click on navbar menu profile link the logged in user profile should be visible | PASS |
+| Add profile - Form validation | Submit a valid form. | A success message is displayed. | PASS |
 
-## Automatec Form Testing 
-| Form  | Test Case | Expected Outcome | Results |  
+### About Us Page
+
+| Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
-| Contact Form | Testing when all valid inputs were given then form works as expected | Form is valid. | PASS |
-| Contact Form | Testing when name field is missing then form should fail  | Name field is not valid, but the Form is valid | PASS |
-| Contact Form | Testing when email field is entered incorrect then form should fail | Email field is not valid, but the Form is valid | PASS |
-| Contact Form | Testing when message field is missing then form should fail | Message field is not valid, but the Form is valid | PASS |
-| User Profile Form | Testing when all valid inputs were given then form works as expected | Form is valid | PASS |
-| User Profile Form | Testing when firstname field is missing then form should fail | First name field is not valid, but the Form is valid | PASS |
-| User Profile Form | Testing when lastname field is missing then form should fail | Last name field is not valid, but the Form is valid | PASS |
-| User Profile Form | Testing when email field is missing then form should fail | Email field is not valid, but the Form is valid | PASS |
-| User Profile Form | Testing when describe yourself field is missing then form should fail | Describe yourself field is not valid, but the Form is valid | PASS |
-| Answer Form | Testing when all valid inputs were given then form works as expected | Form is valid | PASS |
-| Answer Form | Testing when content field is missing then form should fail | Answer content can not be empty but Answer form is not valid | PASS |
-| Query Form | Testing when title field is missing then form should fail | Query title can not be empty, but Query form is valid | PASS |
-| Query Form | Testing when category field is missing then form should fail | Query category can not be empty, but Query form is valid | PASS |
-| Query Form | Testing when category incorrect field is provided then form should fail | Random category is invalid, but Query form is valid | PASS |
-| Query Form | Testing when content field is missing then form should fail | Query Content can not be empty, but Query form is valid | PASS |
+| About us info | Goto about us page and see about us page info and updated on datetime | The latest about us info displays and the correct updated on datetime is visible on the page. | PASS |
+| Update About us | Goto Update about us page as admin and udpate some info on the page | The latest about us info displays and the correct updated on datetime is visible on the page. | PASS |
 
-- Automated testing results:
+### Contact Us Page
 
-![automated_forms_testing](media/readme_images/testing/formsautomatedtestingresult.jpg)
+| Testing  | Steps | Expected Outcome | Results |  
+| - | - | - | - |
+| Contact Us form - Form Validation | Submit empty form | Browser promts that required fields need to be filled. | PASS |
+| Contact Us form - Form Validation | Submit with an invalid email address | Error message is successfully displayed. | PASS |
+| Contact Us form - Form Validation | Submit valid form | User is redirect to success page stating that the response has been recorded. | PASS |
+
+### FAQ Page
+
+| Testing  | Steps | Expected Outcome | Results |  
+| - | - | - | - |
+| FAQ info | Goto FAQ page and see FAQ list | The latest FAQ info displays on the page. | PASS |
+| Add New FAQ | Goto Add New FAQ page as admin and add new FAQ | The latest added FAQ displays on the FAQ page to all users. | PASS |
+| Edit/Delete FAQ links | Goto FAQ page as admin | The admin should see Edit and Delete link under each FAQ when visit the FAQ page. | PASS |
+| Edit FAQ | Goto FAQ page as admin and edit an existing FAQ | The latest added FAQ information displays on the FAQ page to all users. | PASS |
+| Delete FAQ | Goto FAQ page as admin and delete an existing FAQ | The deleted FAQ information removed from the FAQ page for all users. | PASS |
+
+### Newsletter
+
+| Testing  | Steps | Expected Outcome | Results |  
+| - | - | - | - |
+| Newsletter | Goto Newsletter page and subscribe for newsletter | When a user subscribe by providing email id for newsletter. The user email id should be stored in Mailchimp account. The admin have option to send welcome email manually for any newly registered user. The admin should be able to create future campains as well on Mailchimp. | PASS |
 
 ## Validator Testing 
 
