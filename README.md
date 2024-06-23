@@ -296,24 +296,45 @@ The whole project follow the technique of building blocks. Which are sufficient 
     - **media:** All kind of images for development & readme page.
     - **External location:**
         - **Amazon Web Services (AWS):** AWS like S3 and IAM are used to load website images on cloud to load fast.
+                <details>
+                    <summary>AWS Cloud System</summary>
+                    <IMG src="media/readme_images/awscloudsystem.jpg" alt="aws_cloud_system"/>
+                </details>
+                <details>
+                    <summary>AWS - IAM</summary>
+                    <IMG src="media/readme_images/awsiam.jpg" alt="aws_iam"/>
+                </details>
+                <details>
+                    <summary>AWS - S3</summary>
+                    <IMG src="media/readme_images/awss3.jpg" alt="aws_s3"/>
+                </details>
         - **Stripe:** Stripe payment app is used to enable payment option to make test purchases.
+                <details>
+                    <summary>Stripe Payment App</summary>
+                    <IMG src="media/readme_images/stripepaymentapp.jpg" alt="stripe_payment_app"/>
+                </details>
+                <details>
+                    <summary>Stripe Payment App - Webhook</summary>
+                    <IMG src="media/readme_images/stripepaymentwebhookinfo.jpg" alt="stripe_payment_webhook_info"/>
+                </details>
+        - **Facebook Page:** Facebook page is created for promotional marketing and user engagement purpose.
 
 ## Database Schema
 
 The database schema is composed by 8 models in total under 4 different apps: 
 
-- About App:
-    - About: This model consist of all about us information of this website. Only admin can update this model.
-    - Contact: This model consist of all contact us information of when a site user writes to the admin. Any site user can update this model regardless of the user is logged in or not.
-    - Faq: This model consist of all frequently asked question updated by admin on the side. Only admin can update this model.
+- **About App:**
+    - **About:** This model consist of all about us information of this website. Only admin can update this model.
+    - **Contact:** This model consist of all contact us information of when a site user writes to the admin. Any site user can update this model regardless of the user is logged in or not.
+    - **Faq:** This model consist of all frequently asked question updated by admin on the side. Only admin can update this model.
 - Profiles App:
-    - UserProfile: This model consist of all user profiles that any logged in user create for itself. The user has been identify with the help of django user model to display the correct profile at front end. Site user have access to write information about its profile in this model and all ordered items are added in this model to display at my profile page.
-- Checkout App:
-    - Order: This model consist of all order information when a user try to order an item by making a purchase. Various calculations like delivery cost, order total and grand total are calculated while updating this model based upon the prices and quantity of the items purchased by the user.
-    - OrderLineItem: This model consist of order line items information when a user try to order some item and not yet ordered it. This model helps to display the line item total cost for each item ordered under a single order.
+    - **UserProfile:** This model consist of all user profiles that any logged in user create for itself. The user has been identify with the help of django user model to display the correct profile at front end. Site user have access to write information about its profile in this model and all ordered items are added in this model to display at my profile page.
+- **Checkout App:**
+    - **Order:** This model consist of all order information when a user try to order an item by making a purchase. Various calculations like delivery cost, order total and grand total are calculated while updating this model based upon the prices and quantity of the items purchased by the user.
+    - **OrderLineItem:** This model consist of order line items information when a user try to order some item and not yet ordered it. This model helps to display the line item total cost for each item ordered under a single order.
 - Product App:
-    - Category: This model consist of different categories available on website. Only admin have access to this model and access to create a new categories.
-    - Product: This model consist of all differnt products belongs to different categories available on the website. Only admin have the access to update this model.
+    - **Category:** This model consist of different categories available on website. Only admin have access to this model and access to create a new categories.
+    - **Product:** This model consist of all differnt products belongs to different categories available on the website. Only admin have the access to update this model.
 
 ![database_schema](media/readme_images/erdiagram.jpg)
 
