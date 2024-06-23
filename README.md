@@ -289,6 +289,8 @@ The whole project follow the technique of building blocks. Which are sufficient 
     - **urls.py:** Contains the urls for newsletter apps html page.
     - **newsletter.css:** Contains the css to handle mailchimp form css to align with website template.
 - **Others:**
+    - **robot.txt:** File containing the location on the website that shouldn't be searched by the search engines.
+    - **sitemap.xml:** File containing the addresses of all pages of the website to help in getting discovered by search engines.
     - **static:**
         - **css:** Core css stylesheet file.
         - **favicon:** Favicon icon file.
@@ -318,6 +320,14 @@ The whole project follow the technique of building blocks. Which are sufficient 
                     <IMG src="media/readme_images/stripepaymentwebhookinfo.jpg" alt="stripe_payment_webhook_info"/>
                 </details>
         - **Facebook Page:** Facebook page is created for promotional marketing and user engagement purpose.
+                <details>
+                    <summary>Facebook Page - Admin View</summary>
+                    <IMG src="media/readme_images/facebookpageadminview.jpg" alt="facebook_page_admin"/>
+                </details>
+                <details>
+                    <summary>Facebook Page - User View</summary>
+                    <IMG src="media/readme_images/facebookpage.jpg" alt="facebook_page_user"/>
+                </details>
 
 ## Database Schema
 
