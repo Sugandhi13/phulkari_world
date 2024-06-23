@@ -1418,64 +1418,78 @@ How to deploy the repository:
 1. On terminal:
    - Install all the necessary applications:
         - Install dj_database_url and psycopg2:
-            pip3 install dj_database_url==0.5.0 psycopg2
+
+                pip3 install dj_database_url==0.5.0 psycopg2
+
         - Install Django and gunicorn:
-            pip3 install 'django<4' gunicorn
+
+                pip3 install 'django<4' gunicorn
+
         - Install storages package:
-            pip3 install django-storages
+
+                pip3 install django-storages
+
         - Create requirements file:
-            pip3 freeze --local > requirements.txt
+
+                pip3 freeze --local > requirements.txt
    
 2. Create the new Database:
     - In your settings.py file, import dj_database_url underneath the import for os:
-        import os
-      	import dj_database_url
+        
+            import os
+            import dj_database_url
     
     - Scroll to the DATABASES section and update it to the following code, so that the original connection to sqlite3 is commented out and we connect to the new ElephantSQL database instead. Paste in your ElephantSQL database URL in the position indicated:
-        # DATABASES = {
-        #     'default': {
-        #         'ENGINE': 'django.db.backends.sqlite3',
-        #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        #     }
-        # }
+
+            # DATABASES = {
+            #     'default': {
+            #         'ENGINE': 'django.db.backends.sqlite3',
+            #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            #     }
+            # }
            
-        DATABASES = {
-        'default': dj_database_url.parse('your-database-url-here')
-        }
+            DATABASES = {
+            'default': dj_database_url.parse('your-database-url-here')
+            }
 
         **DO NOT commit this file with your database string in the code, this is temporary so that we can connect to the new database and make migrations. We will remove it in a moment.**
 
     - In the terminal, run the showmigrations command to confirm you are connected to the external database:
-        python3 manage.py showmigrations
+
+            python3 manage.py showmigrations
     
     - If you are, you should see a list of all migrations, but none of them are checked off.
 
     - Migrate your database models to your new database:
-        python3 manage.py migrate
+
+            python3 manage.py migrate
     
     - Load in the fixtures. Please note the order is very important here. We need to load categories first:
-        python3 manage.py loaddata categories
+
+            python3 manage.py loaddata categories
 
     - Then products, as the products require a category to be set:
-        python3 manage.py loaddata products
+
+            python3 manage.py loaddata products
 
     - Create a superuser for your new database:
-        python3 manage.py createsuperuser
+
+            python3 manage.py createsuperuser
 
     - Follow the steps to create a your superuser username and password. The email address can be left blank.
     - Finally, to prevent exposing our database when we push to GitHub, your DATABASE in the settings.py file should look like this:
 
-        if 'DATABASE_URL' in os.environ:
-            DATABASES = {
-            'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-            }
-        else:
-            DATABASES = {
-                'default': {
-                    'ENGINE': 'django.db.backends.sqlite3',
-                    'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            if 'DATABASE_URL' in os.environ:
+                DATABASES = {
+                'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
                 }
-            }
+            else:
+                DATABASES = {
+                    'default': {
+                        'ENGINE': 'django.db.backends.sqlite3',
+                        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                    }
+                }
 
 3. On [Elephantsql](https://customer.elephantsql.com/login):
     - Log in/or create an account to access your ElephantSQL account
@@ -1506,20 +1520,20 @@ How to deploy the repository:
     - Still on bucket, click on permissions tab
     - Scroll to the bottom of the page, on CORS Cross-origin resource sharing (CORS), click on edit and paste the below then save.
 
-                [
-            {
-                "AllowedHeaders": [
-                    "Authorization"
-                ],
-                "AllowedMethods": [
-                    "GET"
-                ],
-                "AllowedOrigins": [
-                    "*"
-                ],
-                "ExposeHeaders": []
-            }
-        ]
+            [
+                {
+                    "AllowedHeaders": [
+                        "Authorization"
+                    ],
+                    "AllowedMethods": [
+                        "GET"
+                    ],
+                    "AllowedOrigins": [
+                        "*"
+                    ],
+                    "ExposeHeaders": []
+                }
+            ]
       
     - On Bucket policy click on edit and click o policy generator
     - It will open a new tap, and then needs to fill the below:
@@ -1574,130 +1588,130 @@ How to deploy the repository:
 
     - Reference env.py by adding on the top:
     
-        import os
-        import dj_database_url
-        if os.path.isfile("env.py"):
-        import env
+            import os
+            import dj_database_url
+            if os.path.isfile("env.py"):
+            import env
 
     - Remove the insecure secret key (if any) and replace with:
     
-        SECRET_KEY = os.environ.get('SECRET_KEY')
+            SECRET_KEY = os.environ.get('SECRET_KEY')
         
     - Add new DATABASES Section:
 
-        if 'DATABASE_URL' in os.environ:
-            DATABASES = {
-            'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-            }
-        else:
-            DATABASES = {
-                'default': {
-                    'ENGINE': 'django.db.backends.sqlite3',
-                    'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            if 'DATABASE_URL' in os.environ:
+                DATABASES = {
+                'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
                 }
-            }
+            else:
+                DATABASES = {
+                    'default': {
+                        'ENGINE': 'django.db.backends.sqlite3',
+                        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                    }
+                }
 
     - Add ‘storages’ to installed apps:
 
-        INSTALLED_APPS = [
-            'django.contrib.admin',
-            'django.contrib.auth',
-            'django.contrib.contenttypes',
-            'django.contrib.sessions',
-            'django.contrib.messages',
-            'django.contrib.staticfiles',
-            'django.contrib.sites',
-            'allauth',
-            'allauth.account',
-            'allauth.socialaccount',
-            'home',
-            'products',
-            'bag',
-            'checkout',
-            'profiles',
-        
-            # Other
-            'crispy_forms',
-            'storages',
+            INSTALLED_APPS = [
+                'django.contrib.admin',
+                'django.contrib.auth',
+                'django.contrib.contenttypes',
+                'django.contrib.sessions',
+                'django.contrib.messages',
+                'django.contrib.staticfiles',
+                'django.contrib.sites',
+                'allauth',
+                'allauth.account',
+                'allauth.socialaccount',
+                'home',
+                'products',
+                'bag',
+                'checkout',
+                'profiles',
+            
+                # Other
+                'crispy_forms',
+                'storages',
 
     - Add AWS section for the static files and media:
 
-            if 'USE_AWS' in os.environ:
-            # Cache control
-            AWS_S3_OBJECT_PARAMETERS = {
-                'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-                'CacheControl': 'max-age=94608000',
-            }
-        
-            # Bucket Config
-            AWS_STORAGE_BUCKET_NAME = 'gifts-and-flowers-6d75002e0957'
-            AWS_S3_REGION_NAME = 'eu-west-1'
-            AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-            AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-            AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
-        
-            # Static and media files
-            STATICFILES_STORAGE = 'custom_storages.StaticStorage'
-            STATICFILES_LOCATION = 'static'
-            DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
-            MEDIAFILES_LOCATION = 'media'
-        
-            # Override static and media URLs in production
-            STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
-            MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
-                - Tell Django to use Cloudinary to store media and static files:
-    
-            STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
-            STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
-            STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+                if 'USE_AWS' in os.environ:
+                # Cache control
+                AWS_S3_OBJECT_PARAMETERS = {
+                    'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+                    'CacheControl': 'max-age=94608000',
+                }
             
-            MEDIA_URL = '/media/'
-            DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+                # Bucket Config
+                AWS_STORAGE_BUCKET_NAME = 'gifts-and-flowers-6d75002e0957'
+                AWS_S3_REGION_NAME = 'eu-west-1'
+                AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+                AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+                AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+            
+                # Static and media files
+                STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+                STATICFILES_LOCATION = 'static'
+                DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+                MEDIAFILES_LOCATION = 'media'
+            
+                # Override static and media URLs in production
+                STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+                MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+                    - Tell Django to use Cloudinary to store media and static files:
+        
+                STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+                STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
+                STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+                
+                MEDIA_URL = '/media/'
+                DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
-    - Link file to the templates directory in Heroku:
+        - Link file to the templates directory in Heroku:
 
-        TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+            TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
-    - Change the templates directory to TEMPLATES_DIR:
+        - Change the templates directory to TEMPLATES_DIR:
 
-        TEMPLATES = [
-            {
-                …,
-                'DIRS': [TEMPLATES_DIR],
-                …,
-                    ],
+            TEMPLATES = [
+                {
+                    …,
+                    'DIRS': [TEMPLATES_DIR],
+                    …,
+                        ],
+                    },
                 },
-            },
-        ]
+            ]
 
     - Add Heroku Hostname to ALLOWED_HOSTS:
 
-        ALLOWED_HOSTS = ["**PROJ_NAME**.herokuapp.com", "**YOUR_HOSTNAME**"]
+            ALLOWED_HOSTS = ["**PROJ_NAME**.herokuapp.com", "**YOUR_HOSTNAME**"]
 
 8. Create a Procfile on the top level directory, and add the code below inside:
 
-    web: gunicorn **PROJ_NAME**.wsgi
+        web: gunicorn **PROJ_NAME**.wsgi
 
 9. Create the env.py file on the top level directory, and add the secret keys:
 
-    import os
-        os.environ['DATABASE_URL'] = 'your postgres key'
-        os.environ['SECRET_KEY'] = 'your secret key7'
-        os.environ['AWS_ACCESS_KEY_ID'] = 'AWS key'
-        os.environ['AWS_SECRET_ACCESS_KEY'] = 'AWS secret key'
-        os.environ['STRIPE_PUBLIC_KEY'] = 'your stripe public key'
-        os.environ['STRIPE_SECRET_KEY'] = 'stripe secret key'
-        os.environ['USE_AWS'] = 'True'
+        import os
+            os.environ['DATABASE_URL'] = 'your postgres key'
+            os.environ['SECRET_KEY'] = 'your secret key7'
+            os.environ['AWS_ACCESS_KEY_ID'] = 'AWS key'
+            os.environ['AWS_SECRET_ACCESS_KEY'] = 'AWS secret key'
+            os.environ['STRIPE_PUBLIC_KEY'] = 'your stripe public key'
+            os.environ['STRIPE_SECRET_KEY'] = 'stripe secret key'
+            os.environ['USE_AWS'] = 'True'
     
 10. Make sure you have debug set to False on Settings.py:
 
-        DEBUG = False
+            DEBUG = False
 
 11. Commit your changes to github:
 
-        git add .
-        git commit -m "YOUR MESSAGE"
-        git push
+            git add .
+            git commit -m "YOUR MESSAGE"
+            git push
 
 12. On Heroku, you can manually deploy it our set up an automatic deployment.
    
