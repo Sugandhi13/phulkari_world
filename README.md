@@ -297,6 +297,13 @@ The whole project follow the technique of building blocks. Which are sufficient 
     - **templates:** Base, 404 error, main-nav bar, mobile top header and authentication template.
     - **media:** All kind of images for development & readme page.
     - **External location:**
+        - **Privacy Policy:** Privacy policy are created using Privacy Policy Generator tool and hosted on [Termsfeed](https://www.termsfeed.com/live/5e36537f-96cf-4cdf-ac47-17f04f36f32c) webpage.
+
+            <details>
+                    <summary>Privacy Policy</summary>
+                    <IMG src="media/readme_images/privacypolicy.jpg" alt="privacy_policy"/>
+            </details>
+
         - **Amazon Web Services (AWS):** AWS like S3 and IAM are used to load website images on cloud to load fast.
 
             <details>

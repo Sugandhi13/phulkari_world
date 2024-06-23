@@ -2,8 +2,21 @@
 {% load static %}
 
 {% block extra_css%}
-<link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-<link href="{% static 'newsletter/css/newsletter.css' %}" rel="stylesheet" type="text/css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <link href="{% static 'newsletter/css/newsletter.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block extra_meta %}
+    <meta 
+        name="description" 
+        content="Phulkari, Punjabi Phulkaris, About Phulkari, 
+            About Phulkari World. Developer: Sugandhi,
+            The folk embroidery of the punjab, traditional and contemporary fashion, 
+            ancient embroidery technique, womens clothing, accessories, 
+            Phulkari Suits, Dupattas, juttis, purses, jewelry, kurtis, Suits, 
+            Phulkari Dupattas, Phulkari juttis, Phulkari purses, Phulkari jewelry, Phulkari kurtis,
+            newsletter, subscribe, phulkari news, phulkari updates, deals, special offers on phulkari"
+    >
 {% endblock %}
 
 {% block page_header %}
