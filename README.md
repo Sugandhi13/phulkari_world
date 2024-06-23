@@ -88,7 +88,7 @@ Phulkari World is an e-commerce website. It provides its customer an option to c
 
 ## Site Purpose
 
-Our missing is to promote ancient embroidery technique that has adorned generations of women. Inspired by this timeless craft, we embarked on a journey to curate a collection that captures the essence of Punjab. Each piece tells a story—a blend of tradition and modernity, passed down through generations. At the same time we also wants to provide our customer the authentic phulkari dresses and accessories as well as give best option to local and genunine craftsman a plateform to show their talent.
+Our mission is to promote ancient embroidery technique that has adorned generations of women. Inspired by this timeless craft, we embarked on a journey to curate a collection that captures the essence of Punjab. Each piece tells a story—a blend of tradition and modernity, passed down through generations. At the same time we also wants to provide our customer the authentic phulkari dresses and accessories as well as give best option to local and genunine craftsman a plateform to show their talent.
 
 ## Audience
 
@@ -151,61 +151,73 @@ Agile project management principles guided the development of this project, leve
 
 ## Wireframes
 
-The separate documetns for the wireframes can be found here:
+Wireframes were used to plan the structure of the webstie. Below you can found them:
 
 <details>
     <summary>Desktop Wireframes</summary>
     <details>
-        <summary>Home Page (without login)</summary>
-            <IMG src="media/readme_images/wireframe/homewithoutlogin_wf.jpg" alt="home_page_without_login"/>
+        <summary>Home Page</summary>
+            <IMG src="media/readme_images/wireframe/index.png" alt="index_page"/>
     </details>
     <details>
-        <summary>Home Page (with login)</summary>
-        <IMG src="media/readme_images/wireframe/homewithlogin_wf.jpg" alt="home_page_with_login"/>
+        <summary>Products Page</summary>
+        <IMG src="media/readme_images/wireframe/products.png" alt="products_page"/>
     </details>
     <details>
-        <summary>Ask A Query Page</summary>
-        <IMG src="media/readme_images/wireframe/askaquery_wf.jpg" alt="ask_query_page"/>
+        <summary>Product Detail Page</summary>
+        <IMG src="media/readme_images/wireframe/productdetail.png" alt="product_detail_page"/>
     </details>
     <details>
-        <summary>Query Page</summary>
-        <IMG src="media/readme_images/wireframe/query_wf.jpg" alt="query_page"/>
+        <summary>Add a Product Page</summary>
+        <IMG src="media/readme_images/wireframe/addaproduct.png" alt="add_a_product_page"/>
     </details>
     <details>
-        <summary>Answer Page</summary>
-        <IMG src="media/readme_images/wireframe/answer_wf.jpg" alt="answer_page"/>
+        <summary>Shopping Bag Page</summary>
+        <IMG src="media/readme_images/wireframe/shoppingbag.png" alt="shopping_bag_page"/>
     </details>
     <details>
-        <summary>Add Profile Page</summary>
-        <IMG src="media/readme_images/wireframe/addaprofile_wf.jpg" alt="add_profile_page"/>
+        <summary>Checkout Page</summary>
+        <IMG src="media/readme_images/wireframe/checkout.png" alt="checkout_page"/>
     </details>
     <details>
-        <summary>Profile Page</summary>
-        <IMG src="media/readme_images/wireframe/profile_wf.jpg" alt="profile_page"/>
+        <summary>My Profile Page</summary>
+        <IMG src="media/readme_images/wireframe/myprofile.png" alt="my_profile_page"/>
     </details>
     <details>
         <summary>About Us Page</summary>
-        <IMG src="media/readme_images/wireframe/aboutus_wf.jpg" alt="about_us_page"/>
+        <IMG src="media/readme_images/wireframe/aboutus.png" alt="about_us_page"/>
+    </details>
+    <details>
+        <summary>Edit About Us Page</summary>
+        <IMG src="media/readme_images/wireframe/editaboutus.png" alt="edit_about_us_page"/>
     </details>
     <details>
         <summary>Contact Us Page</summary>
-        <IMG src="media/readme_images/wireframe/contactus_wf.jpg" alt="contact_us_page"/>
+        <IMG src="media/readme_images/wireframe/contactus.png" alt="contact_us_page"/>
+    </details>
+    <details>
+        <summary>Newsletter Page</summary>
+        <IMG src="media/readme_images/wireframe/newsletter.png" alt="newsletter_page"/>
+    </details>
+    <details>
+        <summary>FAQ Page</summary>
+        <IMG src="media/readme_images/wireframe/faq.png" alt="faq_page"/>
+    </details>
+    <details>
+        <summary>Add New FAQ Page</summary>
+        <IMG src="media/readme_images/wireframe/addanewfaq.png" alt="add_new_page"/>
     </details>
     <details>
         <summary>Signup Page</summary>
-        <IMG src="media/readme_images/wireframe/signup_wf.jpg" alt="sign_up_page"/>
+        <IMG src="media/readme_images/wireframe/signup.png" alt="sign_up_page"/>
     </details>
     <details>
-        <summary>Login Page</summary>
-        <IMG src="media/readme_images/wireframe/login_wf.jpg" alt="login_page"/>
+        <summary>Signin Page</summary>
+        <IMG src="media/readme_images/wireframe/signin.png" alt="signin_page"/>
     </details>
     <details>
-        <summary>Logout Page</summary>
-        <IMG src="media/readme_images/wireframe/logout_wf.jpg" alt="logout_page"/>
-    </details>
-    <details>
-        <summary>Error Page</summary>
-        <IMG src="media/readme_images/wireframe/error_wf.jpg" alt="error_page"/>
+        <summary>Signout Page</summary>
+        <IMG src="media/readme_images/wireframe/signout.png" alt="signout_page"/>
     </details>
 </details>
 
@@ -213,7 +225,7 @@ The separate documetns for the wireframes can be found here:
     <summary>Mobile Wireframes</summary>
     <details>
         <summary>Home Page</summary>
-        <IMG src="media/readme_images/wireframe/homemobile_wf.jpg" alt="home_page_mobile"/>
+        <IMG src="media/readme_images/wireframe/indexmobileview.png" alt="index_page_mobile"/>
     </details>
 </details>
 
