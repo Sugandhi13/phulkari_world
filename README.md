@@ -299,44 +299,44 @@ The whole project follow the technique of building blocks. Which are sufficient 
     - **External location:**
         - **Amazon Web Services (AWS):** AWS like S3 and IAM are used to load website images on cloud to load fast.
 
-                <details>
-                    <summary>AWS Cloud System</summary>
-                    <IMG src="media/readme_images/awscloudsystem.jpg" alt="aws_cloud_system"/>
-                </details>
+            <details>
+                <summary>AWS Cloud System</summary>
+                <IMG src="media/readme_images/awscloudsystem.jpg" alt="aws_cloud_system"/>
+            </details>
 
-                <details>
-                    <summary>AWS - IAM</summary>
-                    <IMG src="media/readme_images/awsiam.jpg" alt="aws_iam"/>
-                </details>
+            <details>
+                <summary>AWS - IAM</summary>
+                <IMG src="media/readme_images/awsiam.jpg" alt="aws_iam"/>
+            </details>
 
-                <details>
-                    <summary>AWS - S3</summary>
-                    <IMG src="media/readme_images/awss3.jpg" alt="aws_s3"/>
-                </details>
+            <details>
+                <summary>AWS - S3</summary>
+                <IMG src="media/readme_images/awss3.jpg" alt="aws_s3"/>
+            </details>
 
         - **Stripe:** Stripe payment app is used to enable payment option to make test purchases.
 
-                <details>
-                    <summary>Stripe Payment App</summary>
-                    <IMG src="media/readme_images/stripepaymentapp.jpg" alt="stripe_payment_app"/>
-                </details>
+            <details>
+                <summary>Stripe Payment App</summary>
+                <IMG src="media/readme_images/stripepaymentapp.jpg" alt="stripe_payment_app"/>
+            </details>
 
-                <details>
-                    <summary>Stripe Payment App - Webhook</summary>
-                    <IMG src="media/readme_images/stripepaymentwebhookinfo.jpg" alt="stripe_payment_webhook_info"/>
-                </details>
+            <details>
+                <summary>Stripe Payment App - Webhook</summary>
+                <IMG src="media/readme_images/stripepaymentwebhookinfo.jpg" alt="stripe_payment_webhook_info"/>
+            </details>
 
         - **Facebook Page:** Facebook page is created for promotional marketing and user engagement purpose.
 
-                <details>
-                    <summary>Facebook Page - Admin View</summary>
-                    <IMG src="media/readme_images/facebookpageadminview.jpg" alt="facebook_page_admin"/>
-                </details>
-                
-                <details>
-                    <summary>Facebook Page - User View</summary>
-                    <IMG src="media/readme_images/facebookpage.jpg" alt="facebook_page_user"/>
-                </details>
+            <details>
+                <summary>Facebook Page - Admin View</summary>
+                <IMG src="media/readme_images/facebookpageadminview.jpg" alt="facebook_page_admin"/>
+            </details>
+
+            <details>
+                <summary>Facebook Page - User View</summary>
+                <IMG src="media/readme_images/facebookpage.jpg" alt="facebook_page_user"/>
+            </details>
 
 ## Database Schema
 
