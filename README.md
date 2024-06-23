@@ -1177,147 +1177,147 @@ Testing was an integral part of the project development, encompassing the use of
 
 - Errors found for same name meta tags and some id nameing related. Fixed them by updating the respective html file.
 
-<details>
-    <summary>Index Page - Error</summary>
-    <IMG src="media/readme_images/w3cvalidator/homeerror.jpg" alt="w3c_validator_home_error"/>
-</details>
+    <details>
+        <summary>Index Page - Error</summary>
+        <IMG src="media/readme_images/w3cvalidator/homeerror.jpg" alt="w3c_validator_home_error"/>
+    </details>
 
-<details>
-    <summary>Index Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/homesuccess.jpg" alt="w3c_validator_home_success"/>
-</details>
+    <details>
+        <summary>Index Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/homesuccess.jpg" alt="w3c_validator_home_success"/>
+    </details>
 
 #### Product Page
 
 - No errors found.
 
-<details>
-    <summary>Product Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/productssuccess.jpg" alt="w3c_validator_product_success"/>
-</details>
+    <details>
+        <summary>Product Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/productssuccess.jpg" alt="w3c_validator_product_success"/>
+    </details>
 
 #### Product Detail Page
 
 - No errors found.
 
-<details>
-    <summary>Product Detail Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/productdetailsuccess.jpg" alt="w3c_validator_product_detail_success"/>
-</details>
+    <details>
+        <summary>Product Detail Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/productdetailsuccess.jpg" alt="w3c_validator_product_detail_success"/>
+    </details>
 
 #### Add Product Page
 
 - No errors found, only one info that I couldn't find to fix.
 
-<details>
-    <summary>Add Product Page - Error</summary>
-    <IMG src="media/readme_images/w3cvalidator/addproducterror.jpg" alt="w3c_validator_add_product_error"/>
-</details>
+    <details>
+        <summary>Add Product Page - Error</summary>
+        <IMG src="media/readme_images/w3cvalidator/addproducterror.jpg" alt="w3c_validator_add_product_error"/>
+    </details>
 
 #### Shopping Bag Page
 
 - No errors found.
 
-<details>
-    <summary>Shopping Bag Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/bagsuccess.jpg" alt="w3c_validator_shopping_bag_success"/>
-</details>
+    <details>
+        <summary>Shopping Bag Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/bagsuccess.jpg" alt="w3c_validator_shopping_bag_success"/>
+    </details>
 
 #### Checkout Page
 
 - No errors found.
 
-<details>
-    <summary>Checkout Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/checkoutsuccess.jpg" alt="w3c_validator_checkout_success"/>
-</details>
+    <details>
+        <summary>Checkout Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/checkoutsuccess.jpg" alt="w3c_validator_checkout_success"/>
+    </details>
 
 #### About Us Page
 
 - Errors found for the user of center html tag. Fixed them by removing that from respective html file.
 
-<details>
-    <summary>About Us Page - Error</summary>
-    <IMG src="media/readme_images/w3cvalidator/aboutuserror.jpg" alt="w3c_validator_aboutus_error"/>
-</details>
+    <details>
+        <summary>About Us Page - Error</summary>
+        <IMG src="media/readme_images/w3cvalidator/aboutuserror.jpg" alt="w3c_validator_aboutus_error"/>
+    </details>
 
-<details>
-    <summary>About Us Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/aboutussuccess.jpg" alt="w3c_validator_aboutus_success"/>
-</details>
+    <details>
+        <summary>About Us Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/aboutussuccess.jpg" alt="w3c_validator_aboutus_success"/>
+    </details>
 
 #### Update About Us Page
 
 - No errors found, only one info that I couldn't find to fix.
 
-<details>
-    <summary>Update About Us Page - Error</summary>
-    <IMG src="media/readme_images/w3cvalidator/editaboutuserror.jpg" alt="w3c_validator_update_aboutus_error"/>
-</details>
+    <details>
+        <summary>Update About Us Page - Error</summary>
+        <IMG src="media/readme_images/w3cvalidator/editaboutuserror.jpg" alt="w3c_validator_update_aboutus_error"/>
+    </details>
 
 #### Contact Us Page
 
 - No errors found.
 
-<details>
-    <summary>Contact Us Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/contactsuccess.jpg" alt="w3c_validator_contactus_success"/>
-</details>
+    <details>
+        <summary>Contact Us Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/contactsuccess.jpg" alt="w3c_validator_contactus_success"/>
+    </details>
 
 #### FAQ Page
 
 - Errors found for aria-controls to match with similar id in the file. Fixed them by updating the respective html file.
 
-<details>
-    <summary>FAQ Page - Error</summary>
-    <IMG src="media/readme_images/w3cvalidator/faqerror.jpg" alt="w3c_validator_faq_error"/>
-</details>
+    <details>
+        <summary>FAQ Page - Error</summary>
+        <IMG src="media/readme_images/w3cvalidator/faqerror.jpg" alt="w3c_validator_faq_error"/>
+    </details>
 
-<details>
-    <summary>FAQ Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/faqsuccess.jpg" alt="w3c_validator_faq_success"/>
-</details>
+    <details>
+        <summary>FAQ Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/faqsuccess.jpg" alt="w3c_validator_faq_success"/>
+    </details>
 
 #### Edit FAQ Page
 
 - No errors found, only one info that I couldn't find to fix.
 
-<details>
-    <summary>Edit FAQ Page - Error</summary>
-    <IMG src="media/readme_images/w3cvalidator/editfaqerror.jpg" alt="w3c_validator_edit_faq_error"/>
-</details>
+    <details>
+        <summary>Edit FAQ Page - Error</summary>
+        <IMG src="media/readme_images/w3cvalidator/editfaqerror.jpg" alt="w3c_validator_edit_faq_error"/>
+    </details>
 
 #### My Profile Page
 
 - No errors found, only one info that I couldn't find to fix.
 
-<details>
-    <summary>My Profile Page - Error</summary>
-    <IMG src="media/readme_images/w3cvalidator/myprofileerror.jpg" alt="w3c_validator_my_profile_error"/>
-</details>
+    <details>
+        <summary>My Profile Page - Error</summary>
+        <IMG src="media/readme_images/w3cvalidator/myprofileerror.jpg" alt="w3c_validator_my_profile_error"/>
+    </details>
 
 #### Newsletter Page
 
 - Errors found for javascript code. Fixed them by updating the javascript code in the respective html file.
 
-<details>
-    <summary>Newsletter Page - Error</summary>
-    <IMG src="media/readme_images/w3cvalidator/newslettererror.jpg" alt="w3c_validator_newsletter_error"/>
-</details>
+    <details>
+        <summary>Newsletter Page - Error</summary>
+        <IMG src="media/readme_images/w3cvalidator/newslettererror.jpg" alt="w3c_validator_newsletter_error"/>
+    </details>
 
-<details>
-    <summary>Newsletter Page - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/newslettersuccess.jpg" alt="w3c_validator_newsletter_success"/>
-</details>
+    <details>
+        <summary>Newsletter Page - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/newslettersuccess.jpg" alt="w3c_validator_newsletter_success"/>
+    </details>
 
 ### CSS Validator
 
 - No error found.
 
-<details>
-    <summary>CSS Validation - Success</summary>
-    <IMG src="media/readme_images/w3cvalidator/w3ccssvalidation.jpg" alt="w3c_css_validation_success"/>
-</details>
+    <details>
+        <summary>CSS Validation - Success</summary>
+        <IMG src="media/readme_images/w3cvalidator/w3ccssvalidation.jpg" alt="w3c_css_validation_success"/>
+    </details>
 
 ### JavaScript (JSHint) Validator
 
@@ -1325,169 +1325,410 @@ Testing was an integral part of the project development, encompassing the use of
 
 - No errors found.
 
-<details>
-    <summary>Product Page - Success</summary>
-    <IMG src="media/readme_images/jshintvalidation/jsproduct.jpg" alt="jshint_product_success"/>
-</details>
+    <details>
+        <summary>Product Page - Success</summary>
+        <IMG src="media/readme_images/jshintvalidation/jsproduct.jpg" alt="jshint_product_success"/>
+    </details>
 
 #### Shopping Bag Page
 
 - No errors found.
 
-<details>
-    <summary>Shopping Bag Page - Success</summary>
-    <IMG src="media/readme_images/jshintvalidation/jsshoppingbag.jpg" alt="jshint_bag_success"/>
-</details>
+    <details>
+        <summary>Shopping Bag Page - Success</summary>
+        <IMG src="media/readme_images/jshintvalidation/jsshoppingbag.jpg" alt="jshint_bag_success"/>
+    </details>
 
 #### Checkout Page
 
 - No errors found.
 
-<details>
-    <summary>Checkout Page - Success</summary>
-    <IMG src="media/readme_images/jshintvalidation/jscheckout.jpg" alt="jshint_checkout_success"/>
-</details>
+    <details>
+        <summary>Checkout Page - Success</summary>
+        <IMG src="media/readme_images/jshintvalidation/jscheckout.jpg" alt="jshint_checkout_success"/>
+    </details>
 
 #### Checkout Page
 
 - No errors found.
 
-<details>
-    <summary>Profile Page - Success</summary>
-    <IMG src="media/readme_images/jshintvalidation/jsprofile.jpg" alt="jshint_profile_success"/>
-</details>
+    <details>
+        <summary>Profile Page - Success</summary>
+        <IMG src="media/readme_images/jshintvalidation/jsprofile.jpg" alt="jshint_profile_success"/>
+    </details>
 
 ### Python (PEP8) Validator
 
 - Validated all *.py pages on website and fixed the warning based upon suggestion for PEP8 tool. Mostly the warnings are related to training whitespace or length exceed. No code bug found.
-![PP8 validator](media/readme_images/testing/pep8ci_pythonlinter_validation.jpg) 
+
+![PEP8 validator](media/readme_images/pep8pythonvalidation.jpg) 
 
 ### Lighhouse Validator
 
-- Page has an excellent rating in Lighthouse. 
+- Page has an good rating in Lighthouse. 
 
 - Desktop
 
-![desktop_lighthouse](media/readme_images/testing/lighthousemobilescore.jpg) 
+![desktop_lighthouse](media/readme_images/lighthousedesktop.jpg) 
 
 - Mobile
 
-![mobile_lighthouse](media/readme_images/testing/lighthousedesktopscore.jpg)
+![mobile_lighthouse](media/readme_images/lighthousemobile.jpg)
 
 # Frameworks, Libraries and Programs Used
 
 - [Google Fonts](https://fonts.google.com/) 
+- [Favicon](https://favicon.io/)
 - [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Github](https://github.com/juanovt10)
 - [Gitpod](https://gitpod.io/workspaces)
 - [Heroku](https://id.heroku.com/login)
 - [Django](https://www.djangoproject.com/)
-- [Django databases](https://docs.djangoproject.com/en/5.0/ref/databases/)
-- [Django cloudinary storage](https://djangopackages.org/packages/p/django-cloudinary-storage/)
+- [AWS cloud storage](https://eu-north-1.console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin&region=eu-north-1)
 - [Django-allauth](https://docs.allauth.org/en/latest/)
 - [ElephantSQL](https://customer.elephantsql.com/)
 - [Guinicorn](https://gunicorn.org/)
 - [Psycopg](https://www.psycopg.org/docs/)
+- [Temp mail](https://temp-mail.org/) - For generating temp email addresses
 - [Balsamiq](https://balsamiq.com/) - For wireframes 
 - [Lucidchart](https://lucid.app/users/login#/login) - For database diagram 
 - [Microsoft Copilot](https://copilot.microsoft.com/) - For generating imaginary profiles of users and about us page
+- [MailChimp](https://login.mailchimp.com/) - For newsletter subscription
+- [Privacy policy generator](https://www.privacypolicygenerator.info/)
+- [Sitemap generator](https://www.xml-sitemaps.com/)
+- [Stripe Payment](https://dashboard.stripe.com/test/dashboard) - For handling payment system
+- [JSHint](https://jshint.com/) - For testing javascript code
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - For CSS code verification
+- [W3C Validator](https://validator.w3.org/) - For HTML code validation
+- [PEP8 - CI Python Linter](https://pep8ci.herokuapp.com/#) - For python code validation
+- [Am I Responsive](https://ui.dev/amiresponsive) - For webpage validation on different screen sizes
 
-# Deployment
+## :heavy_check_mark: Deployment
 
-## Forking the Github Repository 
+### :round_pushpin: How to Fork
 
-1. Go to [Phulkari World! Repository](https://github.com/Sugandhi13/help-me.git)
-2. In the top right, click the "Fork" button.
-3. There will now be a copy of the repository in your own Github account.
+To fork the repository:
 
-## Running the Project Locally
+1. Log in (or sign up) to Github.
 
-1. Go to [Phulkari World! Repository](https://github.com/Sugandhi13/help-me.git)
-2. Click on the "Code" button.
-3. Choose one of the following three options and click copy.
-    - HTTPS
-    - SSH
-    - Github CLI
-4. Open terminal in your preferable IDE (cloud or local).
-5. Type `git clone` and paste the URL that was copied in step 3. 
-6. Press enter and the local close will be created.
+2. Go to the repository for this project.
 
-## Deploying with Heroku
+3. Click the Fork button in the top right corner.
+   
+### :round_pushpin: How to deploy
 
-The following steps were taken from the Django "I think before I blog" walkthrough project provided by [Code Institute](https://codeinstitute.net/global/).
+How to deploy the repository:
 
-1. Login or create an account in [Heroku](https://id.heroku.com/login). 
-2. Go to your dashboard on the top right and click the `New` dropdown button and select `Create New App`.
-3. Enter a name of the project (must be unique).
-4. Select the region your are working in. 
+1. On terminal:
 
-### External Database Setup
+   - Install all the necessary applications:
+    
+       - Install dj_database_url and psycopg2:
+   
+               pip3 install dj_database_url==0.5.0 psycopg2
+   
+       - Install Django and gunicorn:
+   
+               pip3 install 'django<4' gunicorn
 
-I used [ElephantSQL](https://www.elephantsql.com/) as my database. 
+      - Install storages package:
+    
+     		      pip3 install django-storages
 
-1. Login or create an account. 
-2. In dashboard on the right top corner click `Create New Instance`
-3. You will be forward to a `Select a plan and name`:
-    - `Name` should be the name of the project
-    - `Plan` should be the type of subscription you have with ElephantSQL, in my case I used the `Tiny Turtle (Free)` plan.
-    - `Tags` can be left in blank
-Then click on `Select Region`.
+       - Create requirements file:
+   
+               pip3 freeze --local > requirements.txt
+   
+2. Create the new Database:
 
-4. Here selecte your `Data center`. This is hosted with AWS. In my case due to my location I used `EU-North-1 (Stockholm)`. Please note that you should select an AWS Availability Zone (AZ) closest where your main users will be located to reduce downtime. Then click `Review`.
-5. Here you will check the name, cloud provider and region where the application will be hosted. If, everything is correct, click `Create instance`.
-6. Go to dashboard and your instance will be there. Click in the name and under `Details` copy the `URL`, this will be values that will be needed for the [Heroku variables setup](#heroku-settings) and the [env.py](#envpy-file-set-up) file.
+   - In your settings.py file, import dj_database_url underneath the import for os:
+     
+      	   import os
+      	   import dj_database_url
 
-### External Storage Setup
+   - Scroll to the DATABASES section and update it to the following code, so that the original connection to sqlite3 is commented out and we connect to the new ElephantSQL database instead. Paste in your ElephantSQL database URL in the position indicated:
+     
+            # DATABASES = {
+      	   #     'default': {
+      	   #         'ENGINE': 'django.db.backends.sqlite3',
+      	   #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+      	   #     }
+      	   # }
+           
+      	   DATABASES = {
+      	   'default': dj_database_url.parse('your-database-url-here')
+      	   }
+   **DO NOT commit this file with your database string in the code, this is temporary so that we can connect to the new database and make migrations. We will remove it in a moment.**
 
-I used [Cloudinary](https://console.cloudinary.com/console/c-24efd5faa3f26bc4dbe6b501d1a6e8/media_library/search?q=&view_mode=mosaic) as cloud storage for this project. 
+   - In the terminal, run the showmigrations command to confirm you are connected to the external database:
 
-1. Create and account or login. 
-2. Go to `Dashboard` and copy the `API Environment variable`.
-3. This URL will be required when setting up the [env.py](#envpy-file-set-up) and the [Heroku variables](#heroku-settings). 
+           python3 manage.py showmigrations
+   - If you are, you should see a list of all migrations, but none of them are checked off.
 
-### env.py File Setup
+   - Migrate your database models to your new database:
 
-1. In the root directory of your project create a new file called `env.py`.
-2. Add this `env.py` file to your `.gitignore` file so the confidential information in the file is not push to Github.
-3. In the `env.py` file import the `os` module and add the [database URL](#external-database-set-up).
+           python3 manage.py migrate
 
-```
-os.environ["DATABASE_URL"]="<copiedURL>"
-```
+   - Load in the fixtures. Please note the order is very important here. We need to load categories first:
 
-4. Then, using the same process create a `SECRET_KEY`. This can be anything, I used [RandomKeygen](https://randomkeygen.com/) to create a complicated key. 
+           python3 manage.py loaddata categories
 
-```
-os.environ["SECRET_KEY"]="<copiedGeneratedKEY>"
-```
+   - Then products, as the products require a category to be set:
 
-5. Then, using the same process, in the `env.py` file import the `os` module and add the [storageURL](#external-storage-set-up).
+           python3 manage.py loaddata products
 
-```
-os.environ["CLOUDINARY_URL"]="<copiedCloudinaryURL>"
-```
+   - Create a superuser for your new database:
 
-6. Save the file.
+           python3 manage.py createsuperuser
 
-### Heroku Settings 
+   - Follow the steps to create a your superuser username and password. The email address can be left blank.
+   - Finally, to prevent exposing our database when we push to GitHub, your DATABASE in the settings.py file should look like this:
 
-After the application is created in Heroku. Got to your dashboard and you will see the application name, click on it and then follow the following: 
+            if 'DATABASE_URL' in os.environ:
+             DATABASES = {
+              'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+             }
+            else:
+              DATABASES = {
+                 'default': {
+                     'ENGINE': 'django.db.backends.sqlite3',
+                     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                 }
+             }
 
-1. Go to the settings tab and go to `ConfigVars` and click on `Reveal Config Vars` and set the following variables: 
-    - Key: `PORT`, Value: `8000`
-    - Key: `DATABASE_URL`, Value: [databaseURL](#external-database-set-up)
-    - Key: `CLOUDINARY_URL`, Value [storageURL](#external-storage-set-up)
-    - Key: `SECRET_KEY`, Value: [randomKey](#envpy-file-set-up)
 
-2. After setting up the variables, go to `Buildpacks` and select `Python`.
+3.	On [Elephantsql](https://customer.elephantsql.com/login):
+     - Log in/or create an account to access your ElephantSQL account
+     - Click “Create New Instance”
+     - Set up your plan:
+        - Give your plan a Name (this is commonly the name of the project)
+        - Select the Tiny Turtle (Free) plan
+        - You can leave the Tags field blank
+     - Click “Select Region”
+     - Click “Review”
+     - Return to the ElephantSQL dashboard and click on the database instance name for this project
+     - Copy your ElephantSQL database URL using the Copy icon. It will start with postgres://
+  
+4. On [AWS - Amazon](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fs3.console.aws.amazon.com%2Fs3%2Fhome%3Fregion%3Deu-north-1%26state%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fs3&forceMobileApp=0&code_challenge=3nuR8Bl59qVf9AK1xcJXvIq-d1MAld6tTuy2SuRGdXI&code_challenge_method=SHA-256):
+      - Log in/or create an account to access your AWS account
+      - On AWS page go to S3
+      - Click on create new bucket
+      - Create a name (best to be the same as Heroku) and select region.
+      - Select ACLs Enabled and Bucket owner preferred
+      - Deselect all "Block all puclic access"
+      - Confirm the yellow alert
+      - Click on create bucket
+      - Click on the new bucket
+      - Click on the Properties tab
+      - Scroll to the bottom of the page and on static website hosting click on edit
+      - Select “enable” static website hosting, then add the text “index.html” and “error.html” to index document
+      - Save changes
+      - Still on bucket, click on permissions tab
+      - Scroll to the bottom of the page, on CORS Cross-origin resource sharing (CORS), click on edit and paste the below then save.
 
-### Heroku Deployment 
+                  [
+              {
+                  "AllowedHeaders": [
+                      "Authorization"
+                  ],
+                  "AllowedMethods": [
+                      "GET"
+                  ],
+                  "AllowedOrigins": [
+                      "*"
+                  ],
+                  "ExposeHeaders": []
+              }
+            ]
+      
+      - On Bucket policy click on edit and click o policy generator
+      - It will open a new tap, and then needs to fill the below:
+         - Type of policy: S3 Bucket policy
+         - Principal: *
+         - Action: Get object
+         - ARN: Copy from the AWS page on bucket policy
+      - Click add statement and then generate policy
+      - Copy the policy
+      - Paste the policy on the bucket page, add “/*” at the end of resource link and save.
+      - On Access control list (ACL), click on edit and select everyone (public access)
+      - Select the “I understand box” and save.
+      - Now, search for IAM and click on the dashboard click on User groups
+      - Give it a name and press create group
+      - On the dashboard click on policies and create policy
+      - Click on JSON then on import policy
+      - Write “S3” on the search menu and select AmazonS3FullAccess then click on Import policy
+      - Add the ARN (From bucket page) on the resource twice but on the second link add “/*” and the click on next
+      - Give the policy a name and a description and click on create policy
+      - Go back to User groups, click on the group you created and then click on permissions, add permissions and attach policies.
+      - Find you policy by the name and attach
+      - On the dashboard click on users.
+      - Create a new user
+      - Give the user a name and click next
+      - Select the group and click next and create user
+      - On the users menu, click on the user you created
+      - Click on create access key
+      - Select application running on an AWS compute service, click on the box “I understand” and click next
+      - Leave the description blank and click on create access key
+      - Download the CSV file
+      - On the CSV file from AWS you will find the SECRET KEY and ACCESS KEY, that needs to be added on Heroku as well the USE AWS set to TRUE.
 
-1. Go to `Deploy` tab and under `Deployment method` connect to the Github repository.
-2. Then there can be two options: manual or automatic deployment. 
-    - Manual deployment means that it will be necessary to go to Heroku and deploy the application each time that changes are made. 
-    - Automatic deployment will re-deploy the application each time new code is pushed to Github. 
-3. After selecting the deployment method, under `Manual Deployment` click `Deploy branch`. 
+5. On [Stripe](https://stripe.com/ie):
+     
+     - Log in/or create an account to access your Stripe account
+     - On your dashboard you will have your test API key that you will need to add on your Heroku.
+
+6.	On [Heroku](https://id.heroku.com/login):
+     - Login/or create an account to access your Heroku account
+     - Create new Heroku App
+     - Open the settings tab
+     - Click Reveal Config Vars
+         - Add a Config Var called DATABASE_URL: The value should be the ElephantSQL database url you copied from step 3.
+         - Add a Config Var called MY_SECRET_KEY: The value should be of your choice, but keep ot secret. (Should be the same as set on your env.py file)
+         - Add a config Var called AWS_ACCESS_KEY_ID: The value should be the AWS access key from step 4.
+         - Add a config Var called AWS_SECRET_ACCESS_KEY: The value should be the AWS secret access key from step 4.
+         - Add a config Var called STRIPE_PUBLIC_KEY: The value should be the Stripe public key from step 5.
+         - Add a config Var called STRIPE_SECRET_KEY: The value should be the Stripe secret key from step 5.
+         - Add a config Var called USE_AWS: the value should be "True"
+
+7. On your settings.py:
+
+     - Reference env.py by adding on the top:
+       
+           import os
+           import dj_database_url
+           if os.path.isfile("env.py"):
+           import env
+
+     - Remove the insecure secret key (if any) and replace with:
+       
+           SECRET_KEY = os.environ.get('SECRET_KEY')
+            
+     - Add new DATABASES Section:
+  
+           if 'DATABASE_URL' in os.environ:
+             DATABASES = {
+              'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+             }
+            else:
+              DATABASES = {
+                 'default': {
+                     'ENGINE': 'django.db.backends.sqlite3',
+                     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                 }
+             }
+    
+      - Add ‘storages’ to installed apps:
+  
+            INSTALLED_APPS = [
+                'django.contrib.admin',
+                'django.contrib.auth',
+                'django.contrib.contenttypes',
+                'django.contrib.sessions',
+                'django.contrib.messages',
+                'django.contrib.staticfiles',
+                'django.contrib.sites',
+                'allauth',
+                'allauth.account',
+                'allauth.socialaccount',
+                'home',
+                'products',
+                'bag',
+                'checkout',
+                'profiles',
+            
+                # Other
+                'crispy_forms',
+                'storages',
+
+     - Add AWS section for the static files and media:
+  
+             if 'USE_AWS' in os.environ:
+                # Cache control
+                AWS_S3_OBJECT_PARAMETERS = {
+                    'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+                    'CacheControl': 'max-age=94608000',
+                }
+            
+                # Bucket Config
+                AWS_STORAGE_BUCKET_NAME = 'gifts-and-flowers-6d75002e0957'
+                AWS_S3_REGION_NAME = 'eu-west-1'
+                AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+                AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+                AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+            
+                # Static and media files
+                STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+                STATICFILES_LOCATION = 'static'
+                DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+                MEDIAFILES_LOCATION = 'media'
+            
+                # Override static and media URLs in production
+                STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+                MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+                 - Tell Django to use Cloudinary to store media and static files:
+     
+               STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+               STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
+               STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+               
+               MEDIA_URL = '/media/'
+               DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+     - Link file to the templates directory in Heroku:
+  
+            TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+
+     - Change the templates directory to TEMPLATES_DIR:
+  
+           TEMPLATES = [
+                {
+                   …,
+                    'DIRS': [TEMPLATES_DIR],
+                   …,
+                        ],
+                    },
+                },
+            ]
+     - Add Heroku Hostname to ALLOWED_HOSTS:
+
+           ALLOWED_HOSTS = ["**PROJ_NAME**.herokuapp.com", "**YOUR_HOSTNAME**"]
+
+8. Create a Procfile on the top level directory, and add the code below inside:
+
+        web: gunicorn **PROJ_NAME**.wsgi
+
+9. Create the env.py file on the top level directory, and add the secret keys:
+
+       import os
+   
+         os.environ['DATABASE_URL'] = 'your postgres key'
+         
+         os.environ['SECRET_KEY'] = 'your secret key7'
+         
+         os.environ['AWS_ACCESS_KEY_ID'] = 'AWS key'
+         
+         os.environ['AWS_SECRET_ACCESS_KEY'] = 'AWS secret key'
+             
+         os.environ['STRIPE_PUBLIC_KEY'] = 'your stripe public key'
+         
+         os.environ['STRIPE_SECRET_KEY'] = 'stripe secret key'
+         
+         os.environ['USE_AWS'] = 'True'
+       
+    
+10. Make sure you have debug set to False on Settings.py:
+
+        DEBUG = False
+
+11. Commit your changes to github:
+
+        git add .
+        git commit -m "YOUR MESSAGE"
+        git push
+
+12. On Heroku, you can manually deploy it our set up an automatic deployment.
+   
+13. The live link can be found here [Gifts and Flowers](https://gifts-and-flowers-6d75002e0957.herokuapp.com/)
 
 # Credits
 

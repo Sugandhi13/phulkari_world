@@ -1,7 +1,10 @@
+# Import required libraries to configure forms
+
 from django import forms
 from .models import UserProfile
 
 
+# Create UserProfileForm
 class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile

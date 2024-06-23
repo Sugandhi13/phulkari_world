@@ -1,12 +1,16 @@
+# Import required libraries to setup admin file
+
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
 
+# Creating order line item admin inline
 class OrderLineItemAdminInline(admin.TabularInline):
     model = OrderLineItem
     readonly_fields = ('lineitem_total',)
 
 
+# Creating order admin
 class OrderAdmin(admin.ModelAdmin):
     inlines = (OrderLineItemAdminInline,)
 
@@ -29,4 +33,5 @@ class OrderAdmin(admin.ModelAdmin):
     ordering = ('-date',)
 
 
+# Register order admin
 admin.site.register(Order, OrderAdmin)

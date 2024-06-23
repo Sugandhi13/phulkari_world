@@ -1,3 +1,5 @@
+# Import required libraries to configure view
+
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -7,9 +9,8 @@ from django.db.models.functions import Lower
 from .models import Product, Category
 from .forms import ProductForm
 
-# Create your views here.
 
-
+# Create all_products view
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -64,6 +65,7 @@ def all_products(request):
     return render(request, 'products/products.html', context)
 
 
+# Create product_detail view
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
@@ -76,6 +78,7 @@ def product_detail(request, product_id):
     return render(request, 'products/product_detail.html', context)
 
 
+# Create add_product view
 @login_required
 def add_product(request):
     """ Add a product to the store """
@@ -105,6 +108,7 @@ def add_product(request):
     return render(request, template, context)
 
 
+# Create edit_product view
 @login_required
 def edit_product(request, product_id):
     """ Edit a product in the store """
@@ -137,6 +141,7 @@ def edit_product(request, product_id):
     return render(request, template, context)
 
 
+# Create delete_product view
 @login_required
 def delete_product(request, product_id):
     """ Delete a product from the store """

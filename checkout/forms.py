@@ -1,7 +1,10 @@
+# Importing required libraries to setup forms
+
 from django import forms
 from .models import Order
 
 
+# Creating Order form
 class OrderForm(forms.ModelForm):
     class Meta:
         model = Order

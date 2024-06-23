@@ -1,8 +1,9 @@
+# Import required libraries to configure views
+
 from django.shortcuts import render
 
-# Create your views here.
 
-
+# Created index views
 def index(request):
     """ A view to return the index page """
 

@@ -1,4 +1,4 @@
-# Importing required libraries to create customer forms
+# Importing required libraries to create forms
 from django import forms
 from .models import About, Contact, Faq
 
@@ -10,13 +10,12 @@ class AboutForm(forms.ModelForm):
         fields = ('title', 'content')
 
 
-
 # Defining ContactFrom structure to display in view
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
         fields = ('name', 'email', 'message')
-    
+
     def __init__(self, *args, **kwargs):
         """
         Add placeholders and classes, remove auto-generated

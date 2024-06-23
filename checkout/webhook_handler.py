@@ -1,3 +1,5 @@
+# Import required libraries to configure webhook handler
+
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
@@ -12,6 +14,7 @@ import time
 import stripe
 
 
+# Creating strip webhook handler
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
 

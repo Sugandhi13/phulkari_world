@@ -55,7 +55,6 @@ def edit_about_us(request):
     return render(request, template, context)
 
 
-
 # Created contact view that renders info of contact form & update contact model
 def contact(request):
     """
@@ -72,7 +71,7 @@ def contact(request):
         else:
             messages.error(
                 request,
-                'Message failed. Please ensure data filled in all fields are valid.'
+                'Message failed. Please ensure data in all fields are valid.'
             )
 
     contact_form = ContactForm()
@@ -113,7 +112,8 @@ def add_faq(request):
         faq_form = FaqForm(request.POST)
         if faq_form.is_valid():
             faq = faq_form.save()
-            messages.success(request, f'Successfully added query "{faq.query}"')
+            messages.success(
+                request, f'Successfully added query "{faq.query}"')
             return redirect(reverse('faq'))
         else:
             messages.error(
@@ -143,12 +143,13 @@ def edit_faq(request, faq_id):
         faq_form = FaqForm(request.POST, request.FILES, instance=faq)
         if faq_form.is_valid():
             faq_form.save()
-            messages.success(request, f'Successfully updated query "{faq.query}"')
+            messages.success(
+                request, f'Successfully updated query "{faq.query}"')
             return redirect(reverse('faq'))
         else:
             messages.error(
                 request,
-                f'Failed to update "{faq.query}". Please ensure the form is valid.'
+                f'Failed to update "{faq.query}". Make sure the form is valid.'
             )
     else:
         faq_form = FaqForm(instance=faq)

@@ -1,3 +1,5 @@
+# Importing required libraries to configure app
+
 from django.apps import AppConfig
 
 

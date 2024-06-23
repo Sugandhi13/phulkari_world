@@ -1,3 +1,5 @@
+# Import required libraries to configure views
+
 from django.shortcuts import (
     render, redirect, reverse, get_object_or_404, HttpResponse
 )

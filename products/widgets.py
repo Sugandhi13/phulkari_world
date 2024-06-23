@@ -1,7 +1,10 @@
+# Import required libraries to configure widgets
+
 from django.forms.widgets import ClearableFileInput
 from django.utils.translation import gettext_lazy as _
 
 
+# Create CustomClearableFileInput widgets
 class CustomClearableFileInput(ClearableFileInput):
     clear_checkbox_label = _('Remove')
     initial_text = _('Current Image')

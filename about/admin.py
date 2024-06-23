@@ -8,8 +8,8 @@ from .models import About, Contact, Faq
 class AboutAdmin(admin.ModelAdmin):
 
     list_display = (
-                    'title', 
-                    'content', 
+                    'title',
+                    'content',
                     'updated_on'
                     )
 
@@ -18,10 +18,10 @@ class AboutAdmin(admin.ModelAdmin):
 class ContactAdmin(admin.ModelAdmin):
 
     list_display = (
-                    'name', 
-                    'email', 
-                    'message', 
-                    'read', 
+                    'name',
+                    'email',
+                    'message',
+                    'read',
                     'created_on'
                 )
 
@@ -32,10 +32,11 @@ class ContactAdmin(admin.ModelAdmin):
 class FaqAdmin(admin.ModelAdmin):
 
     list_display = (
-                    'query', 
-                    'answer', 
+                    'query',
+                    'answer',
                     'updated_on'
                     )
+
 
 admin.site.register(About, AboutAdmin)
 admin.site.register(Contact, ContactAdmin)

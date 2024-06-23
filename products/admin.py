@@ -1,9 +1,10 @@
+# Import required libraries to configure admin panel
+
 from django.contrib import admin
 from .models import Product, Category
 
-# Register your models here.
 
-
+# Register ProductAdmin model
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
@@ -17,6 +18,7 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ('sku',)
 
 
+# Register CategoryAdmin model
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',

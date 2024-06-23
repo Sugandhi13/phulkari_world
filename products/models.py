@@ -1,6 +1,9 @@
+# Import required libraries to configure model
+
 from django.db import models
 
 
+# Creating Category model
 class Category(models.Model):
 
     class Meta:
@@ -16,6 +19,7 @@ class Category(models.Model):
         return self.friendly_name
 
 
+# Creating Product model
 class Product(models.Model):
     category = models.ForeignKey(
         'Category', null=True, blank=True, on_delete=models.SET_NULL)

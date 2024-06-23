@@ -1,7 +1,9 @@
-""" Veiws for newsletter app """
+# Import required libraries to configure views
+
 from django.shortcuts import render
 
 
+# Creating newsletter view
 def newsletter(request):
     """ Return newsletter signup page view.
     """

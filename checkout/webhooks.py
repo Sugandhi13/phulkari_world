@@ -1,3 +1,5 @@
+# Import required libraries to configure webhook
+
 from django.conf import settings
 from django.http import HttpResponse
 from django.views.decorators.http import require_POST
@@ -8,6 +10,7 @@ from checkout.webhook_handler import StripeWH_Handler
 import stripe
 
 
+# Creating a webhook
 @require_POST
 @csrf_exempt
 def webhook(request):

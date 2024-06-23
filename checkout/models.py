@@ -1,3 +1,5 @@
+# Import required libraries to configure models
+
 import uuid
 
 from django.db import models
@@ -10,6 +12,7 @@ from products.models import Product
 from profiles.models import UserProfile
 
 
+# Creating Order model
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(
@@ -77,6 +80,7 @@ class Order(models.Model):
         return self.order_number
 
 
+# Creating order line item model
 class OrderLineItem(models.Model):
     order = models.ForeignKey(
         Order, null=False, blank=False, on_delete=models.CASCADE,

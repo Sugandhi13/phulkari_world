@@ -1,3 +1,5 @@
+# Import required libraries to configure forms 
+
 from django import forms
 from .widgets import CustomClearableFileInput
 from .models import Product, Category
