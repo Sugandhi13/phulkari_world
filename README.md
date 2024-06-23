@@ -1173,25 +1173,189 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### W3C Validator
 
-- Error's found: Verified all html pages on the website.
+#### Index Page
 
-![W3C_validator_error](media/readme_images/testing/w3cvalidation_errors.jpg)
+- Errors found for same name meta tags and some id nameing related. Fixed them by updating the respective html file.
 
-- Error's Fixed:
+<details>
+    <summary>Index Page - Error</summary>
+    <IMG src="media/readme_images/w3cvalidator/homeerror.jpg" alt="w3c_validator_home_error"/>
+</details>
 
-![W3C_validator_results](media/readme_images/testing/w3cvalidation.jpg)
+<details>
+    <summary>Index Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/homesuccess.jpg" alt="w3c_validator_home_success"/>
+</details>
+
+#### Product Page
+
+- No errors found.
+
+<details>
+    <summary>Product Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/productssuccess.jpg" alt="w3c_validator_product_success"/>
+</details>
+
+#### Product Detail Page
+
+- No errors found.
+
+<details>
+    <summary>Product Detail Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/productdetailsuccess.jpg" alt="w3c_validator_product_detail_success"/>
+</details>
+
+#### Add Product Page
+
+- No errors found, only one info that I couldn't find to fix.
+
+<details>
+    <summary>Add Product Page - Error</summary>
+    <IMG src="media/readme_images/w3cvalidator/addproducterror.jpg" alt="w3c_validator_add_product_error"/>
+</details>
+
+#### Shopping Bag Page
+
+- No errors found.
+
+<details>
+    <summary>Shopping Bag Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/bagsuccess.jpg" alt="w3c_validator_shopping_bag_success"/>
+</details>
+
+#### Checkout Page
+
+- No errors found.
+
+<details>
+    <summary>Checkout Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/checkoutsuccess.jpg" alt="w3c_validator_checkout_success"/>
+</details>
+
+#### About Us Page
+
+- Errors found for the user of center html tag. Fixed them by removing that from respective html file.
+
+<details>
+    <summary>About Us Page - Error</summary>
+    <IMG src="media/readme_images/w3cvalidator/aboutuserror.jpg" alt="w3c_validator_aboutus_error"/>
+</details>
+
+<details>
+    <summary>About Us Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/aboutussuccess.jpg" alt="w3c_validator_aboutus_success"/>
+</details>
+
+#### Update About Us Page
+
+- No errors found, only one info that I couldn't find to fix.
+
+<details>
+    <summary>Update About Us Page - Error</summary>
+    <IMG src="media/readme_images/w3cvalidator/editaboutuserror.jpg" alt="w3c_validator_update_aboutus_error"/>
+</details>
+
+#### Contact Us Page
+
+- No errors found.
+
+<details>
+    <summary>Contact Us Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/contactsuccess.jpg" alt="w3c_validator_contactus_success"/>
+</details>
+
+#### FAQ Page
+
+- Errors found for aria-controls to match with similar id in the file. Fixed them by updating the respective html file.
+
+<details>
+    <summary>FAQ Page - Error</summary>
+    <IMG src="media/readme_images/w3cvalidator/faqerror.jpg" alt="w3c_validator_faq_error"/>
+</details>
+
+<details>
+    <summary>FAQ Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/faqsuccess.jpg" alt="w3c_validator_faq_success"/>
+</details>
+
+#### Edit FAQ Page
+
+- No errors found, only one info that I couldn't find to fix.
+
+<details>
+    <summary>Edit FAQ Page - Error</summary>
+    <IMG src="media/readme_images/w3cvalidator/editfaqerror.jpg" alt="w3c_validator_edit_faq_error"/>
+</details>
+
+#### My Profile Page
+
+- No errors found, only one info that I couldn't find to fix.
+
+<details>
+    <summary>My Profile Page - Error</summary>
+    <IMG src="media/readme_images/w3cvalidator/myprofileerror.jpg" alt="w3c_validator_my_profile_error"/>
+</details>
+
+#### Newsletter Page
+
+- Errors found for javascript code. Fixed them by updating the javascript code in the respective html file.
+
+<details>
+    <summary>Newsletter Page - Error</summary>
+    <IMG src="media/readme_images/w3cvalidator/newslettererror.jpg" alt="w3c_validator_newsletter_error"/>
+</details>
+
+<details>
+    <summary>Newsletter Page - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/newslettersuccess.jpg" alt="w3c_validator_newsletter_success"/>
+</details>
 
 ### CSS Validator
 
 - No error found.
 
-![W3C_CSS_validator_results](media/readme_images/testing/w3ccssvalidation.jpg)
+<details>
+    <summary>CSS Validation - Success</summary>
+    <IMG src="media/readme_images/w3cvalidator/w3ccssvalidation.jpg" alt="w3c_css_validation_success"/>
+</details>
 
 ### JavaScript (JSHint) Validator
 
-- No error found.
+#### Product Page
 
-![JavaScript_validator_results](media/readme_images/testing/jshintjavascriptvalidation.jpg)
+- No errors found.
+
+<details>
+    <summary>Product Page - Success</summary>
+    <IMG src="media/readme_images/jshintvalidation/jsproduct.jpg" alt="jshint_product_success"/>
+</details>
+
+#### Shopping Bag Page
+
+- No errors found.
+
+<details>
+    <summary>Shopping Bag Page - Success</summary>
+    <IMG src="media/readme_images/jshintvalidation/jsshoppingbag.jpg" alt="jshint_bag_success"/>
+</details>
+
+#### Checkout Page
+
+- No errors found.
+
+<details>
+    <summary>Checkout Page - Success</summary>
+    <IMG src="media/readme_images/jshintvalidation/jscheckout.jpg" alt="jshint_checkout_success"/>
+</details>
+
+#### Checkout Page
+
+- No errors found.
+
+<details>
+    <summary>Profile Page - Success</summary>
+    <IMG src="media/readme_images/jshintvalidation/jsprofile.jpg" alt="jshint_profile_success"/>
+</details>
 
 ### Python (PEP8) Validator
 
