@@ -1577,7 +1577,7 @@ How to deploy the repository:
     - Open the settings tab
     - Click Reveal Config Vars
         - Add a Config Var called DATABASE_URL: The value should be the ElephantSQL database url you copied from step 3.
-        - Add a Config Var called MY_SECRET_KEY: The value should be of your choice, but keep ot secret. (Should be the same as set on your env.py file)
+        - Add a Config Var called SECRET_KEY: The value should be of your choice, but keep to secret. (Should be the same as set on your env.py file)
         - Add a config Var called AWS_ACCESS_KEY_ID: The value should be the AWS access key from step 4.
         - Add a config Var called AWS_SECRET_ACCESS_KEY: The value should be the AWS secret access key from step 4.
         - Add a config Var called STRIPE_PUBLIC_KEY: The value should be the Stripe public key from step 5.
@@ -1629,10 +1629,13 @@ How to deploy the repository:
                 'bag',
                 'checkout',
                 'profiles',
-            
+                'about',
+                'newsletter',
+
                 # Other
                 'crispy_forms',
                 'storages',
+            ]
 
     - Add AWS section for the static files and media:
 
@@ -1644,8 +1647,8 @@ How to deploy the repository:
                 }
             
                 # Bucket Config
-                AWS_STORAGE_BUCKET_NAME = 'gifts-and-flowers-6d75002e0957'
-                AWS_S3_REGION_NAME = 'eu-west-1'
+                AWS_STORAGE_BUCKET_NAME = 'phulkari-world'
+                AWS_S3_REGION_NAME = 'eu-north-1'
                 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
                 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
                 AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
@@ -1655,32 +1658,31 @@ How to deploy the repository:
                 STATICFILES_LOCATION = 'static'
                 DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
                 MEDIAFILES_LOCATION = 'media'
-            
+
                 # Override static and media URLs in production
                 STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
                 MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
-                    - Tell Django to use Cloudinary to store media and static files:
+                    
+        - Tell Django to use AWS to store media and static files:
         
-                STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
-                STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
-                STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-                
-                MEDIA_URL = '/media/'
-                DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+                # Static and media files
+                STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+                STATICFILES_LOCATION = 'static'
+                DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+                MEDIAFILES_LOCATION = 'media'
 
-        - Link file to the templates directory in Heroku:
-
-            TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+                # Override static and media URLs in production
+                STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+                MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
         - Change the templates directory to TEMPLATES_DIR:
 
             TEMPLATES = [
                 {
-                    …,
-                    'DIRS': [TEMPLATES_DIR],
-                    …,
-                        ],
-                    },
+                    'DIRS': [
+                        os.path.join(BASE_DIR, 'templates'),
+                        os.path.join(BASE_DIR, 'templates', 'allauth')
+                    ],
                 },
             ]
 
@@ -1696,12 +1698,8 @@ How to deploy the repository:
 
         import os
             os.environ['DATABASE_URL'] = 'your postgres key'
-            os.environ['SECRET_KEY'] = 'your secret key7'
-            os.environ['AWS_ACCESS_KEY_ID'] = 'AWS key'
-            os.environ['AWS_SECRET_ACCESS_KEY'] = 'AWS secret key'
-            os.environ['STRIPE_PUBLIC_KEY'] = 'your stripe public key'
-            os.environ['STRIPE_SECRET_KEY'] = 'stripe secret key'
-            os.environ['USE_AWS'] = 'True'
+            os.environ['SECRET_KEY'] = 'your secret key'
+            os.environ['DEVELOPMENT'] = 'your development key'
     
 10. Make sure you have debug set to False on Settings.py:
 
@@ -1721,11 +1719,7 @@ How to deploy the repository:
 
 ## Design
 
-The site type was a mixed between a reddit and quora kind of websites. The following sites were used for instpiration: 
-
-- [Quora](https://www.quora.com/)
-- [Reddit](https://www.reddit.com/) 
-
+The site type is same as the e-commerce website tought in the project 5 'Boutiqe Ado'.
 Additionally, the [Bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/) framework was heavily used for the front-end development.
 
 ## Code
