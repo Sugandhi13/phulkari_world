@@ -298,6 +298,7 @@ The whole project follow the technique of building blocks. Which are sufficient 
     - **media:** All kind of images for development & readme page.
     - **External location:**
         - **Amazon Web Services (AWS):** AWS like S3 and IAM are used to load website images on cloud to load fast.
+
                 <details>
                     <summary>AWS Cloud System</summary>
                     <IMG src="media/readme_images/awscloudsystem.jpg" alt="aws_cloud_system"/>
@@ -310,7 +311,9 @@ The whole project follow the technique of building blocks. Which are sufficient 
                     <summary>AWS - S3</summary>
                     <IMG src="media/readme_images/awss3.jpg" alt="aws_s3"/>
                 </details>
+
         - **Stripe:** Stripe payment app is used to enable payment option to make test purchases.
+
                 <details>
                     <summary>Stripe Payment App</summary>
                     <IMG src="media/readme_images/stripepaymentapp.jpg" alt="stripe_payment_app"/>
@@ -319,7 +322,9 @@ The whole project follow the technique of building blocks. Which are sufficient 
                     <summary>Stripe Payment App - Webhook</summary>
                     <IMG src="media/readme_images/stripepaymentwebhookinfo.jpg" alt="stripe_payment_webhook_info"/>
                 </details>
+
         - **Facebook Page:** Facebook page is created for promotional marketing and user engagement purpose.
+        
                 <details>
                     <summary>Facebook Page - Admin View</summary>
                     <IMG src="media/readme_images/facebookpageadminview.jpg" alt="facebook_page_admin"/>
@@ -370,42 +375,57 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
     - **All Products:** By Price, By Rating, By Category, All Products.
+
         <details>
             <summary>All Products</summary>
             <IMG src="media/readme_images/navbar/menuallproducts.jpg" alt="menu_all_products"/>
         </details>
+
     - **Clothing:** Dupatta, Kurti, Suit, All Clothing.
+
         <details>
             <summary>Clothing</summary>
             <IMG src="media/readme_images/navbar/menuclothing.jpg" alt="menu_clothing"/>
         </details>
+
     - **Accessories:** Jewelry, Purse, Jutti, All Accessories.
+
         <details>
             <summary>Accessories</summary>
             <IMG src="media/readme_images/navbar/menuaccessories.jpg" alt="menu_accessories"/>
         </details>
+
     - **Special Offer:** New Arrivals, Deals, Clearance, All Special Offers.
+
         <details>
             <summary>Special Offer</summary>
             <IMG src="media/readme_images/navbar/menuspecialoffers.jpg" alt="menu_special_offers"/>
         </details>
+
     - **About:** About Us, Contact Us, Newsletter, FAQs.
+
         <details>
             <summary>About</summary>
             <IMG src="media/readme_images/navbar/menuabout.jpg" alt="menu_about"/>
         </details>
+
     - **My Account:**
         - **Without Login:** Register, Login.
+
             <details>
                 <summary>My Account - Without Login</summary>
                 <IMG src="media/readme_images/navbar/menumyaccountnouserlogin.jpg" alt="menu_my_account_no_user_login"/>
             </details>
+
         - **Customer Login:** My Profile, Logout.
+
             <details>
                 <summary>My Account - Customer Login</summary>
                 <IMG src="media/readme_images/navbar/menumyaccountuserlogin.jpg" alt="menu_my_account_user_login"/>
             </details>
+
         - **Admin Login:** Add New Product, Add New FAQ, Update About Us, My Profile, Logout.
+
             <details>
                 <summary>My Account - Admin Login</summary>
                 <IMG src="media/readme_images/navbar/menumyaccountadmin.jpg" alt="menu_my_account_admin"/>
