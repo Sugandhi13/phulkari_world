@@ -1715,6 +1715,107 @@ How to deploy the repository:
    
 13. The live link can be found here [Phulkari World](https://phulkari-world-3ca4f249daad.herokuapp.com/)
 
+# Marketing
+
+[Back to Top](#phulkari-world)
+
+## Demographics
+
+Who is your ideal customer and why do they buy your product?
+
+⁃   A Phulkari enthusiast, who is vibrant and culturally conscious individual. Who loves heritage, craftsmanship, versatility, emotional resonance, and ethical values. Those who wears Phulkari not just as clothing, but as a piece of her identity.
+
+⁃   They would buy my product not just to cherishes the rich traditions, colorful festivals, and intricate craftsmanship that define Punjab. But because they knows that each stitch tells a story—a legacy passed down through generations. They understand that skilled artisans pour their heart into creating these textiles. Lastly our commitment to fair wages, sustainable practices, and preserving traditional artistry matters to them.
+
+## Branding
+
+### Mission
+
+What does the brand aim to achieve & how will it be achieved?
+
+- Illustrations that explores and expands on whimsical magical worlds full of adventure so evocative the audience can imagine themselves there and what they’d want to do while there. Our brand will achieve this by creating narrative illustrations that show rich and wondrous experiences/ places/ people but with illustrations of everyday activities to ground it into reality, as if taking a snapshot of a character going about their day
+
+- Explore these whimsical worlds by telling stories within the painting and grounding it with everyday experiences the viewer can see themselves in
+
+### Purpose
+
+- To create a place that provides its customer satisfaction while buying phulkari based product covers following criteria at its best:
+
+    - Authenticity: Source directly from artisans, ensuring genuine craftsmanship.
+    - Quality: Each pieces are made with love and attention to detail.
+    - Sustainability: Support for local communities and promote eco-friendly practices.
+
+### Objective
+
+- To bring people a platform where they can buy authentic phulkari based product with best quality and better priced.
+
+### Vision
+- The Phulkari World take you into worlds of rich traditions, colorful festivals, and intricate craftsmanship of Punjab.
+
+### Differentiators
+
+- Quality
+- Adaptable Fashion
+- Emotional Bond
+- Social Impact and Sustainability
+
+### Tone
+
+- Phulkari — a symbol of love, resilience, and tradition.
+
+### Brand Descriptors
+
+- Versatility 
+- Elegance
+- Heritage
+- Craftsmanship 
+- Connection to Roots
+- Social Impact and Sustainability
+
+```
+Authentic Heritage  Colorful Craftsmanship  Versatile Elegance  Empowering Artisans
+Emotional Connection    Global Appea    Sustainable Beauty  Phulkari Fusion
+Celebrating Womanhood   Where Threads Tell Tales The folk embroidery of the punjab, traditional and contemporary fashion ancient embroidery technique
+```
+
+# Search Engine Optimisation
+The site optimises its visibility to prospective customers through Search Engines with the use of the following:
+
+- A robots.txt file
+- A sitemap.xml file
+- Descriptive meta tags
+- rel attributes on links to external resources
+
+## Meta Data Tags
+
+Meta Data tags showing semitics and keywords were used in headers and on elements.
+
+### Semitics
+```
+Phulkari Suits  Hand-Embroidered Kurtis Vibrant Dupattas    Traditional Punjabi Attire
+Colorful Textiles   Ethnic Fashion  Artisanal Embroidery    Cultural Heritage
+Punjab Folk Art Intricate Stitching Handwoven Fabrics   Custom Phulkari Designs
+Unique Patterns Contemporary Phulkari   Fashion Accessories Juttis and Purses
+Phulkari Jewelry    Boho Chic Style Indian Ethnic Wear  Sustainable Fashion
+Handcrafted Beauty  Colorful Threads    Patiala Salwar  Chanderi Silk
+Punjabi Wedding Attire  Fusion Fashion  Bridal Phulkari Online Phulkari Store
+Cultural Revival    Fashionable Dupatta Draping Punjab-inspired Jewelry Phulkari Blouses
+Trendy Kurti Designs    Bohemian Accessories    Handmade Elegance   Punjab Craftsmanship
+Colorful Embellishments Phulkari Fashion Trends Artisan-made Jewelry    Patiala Salwar Sets
+Punjabi Festive Wear    Vintage Phulkari    Handwoven Textiles  Cultural Expression
+Phulkari Silk Scarves   Embroidered Clutches    Punjabi Jewelry Sets    Boho Wedding Accessories
+Phulkari Fashion Blog   Punjab-inspired Lifestyle
+```
+### Keywords
+```
+Phulkari World
+phulkari world
+phulkariworld
+Phulkar suits
+Phulkari kurti
+Phulkari Duppttas
+```
+
 # Credits
 
 ## Design
