@@ -105,9 +105,9 @@ Phulkari World is an e-commerce website. It provides its customer an option to c
         + [Differentiators](#differentiators)
         + [Tone](#tone)
         + [Brand Descriptors](#brand-descriptors)
-        + [Search Engine Optimisation](#search-engine-optimisation)
-        + [Meta Data Tags](#meta-data-tags)
-        + [Semitics](#semitics)
++ [Search Engine Optimisation](#search-engine-optimisation)
+    + [Meta Data Tags](#meta-data-tags)
+        + [Semantics](#semantics)
         + [Keywords](#keywords)
 + [Credits](#credits)
     + [Design](#design-1)
@@ -120,9 +120,13 @@ Phulkari World is an e-commerce website. It provides its customer an option to c
 
 ## Site Purpose
 
+[Back to UX](#ux)
+
 Our mission is to promote ancient embroidery technique that has adorned generations of women. Inspired by this timeless craft, we embarked on a journey to curate a collection that captures the essence of Punjab. Each piece tells a story—a blend of tradition and modernity, passed down through generations. At the same time we also wants to provide our customer the authentic phulkari dresses and accessories as well as give best option to local and genunine craftsman a plateform to show their talent.
 
 ## Audience
+
+[Back to UX](#ux)
 
 Phulkari World is for everyone those are interested in traditional wear and love the historical punjabi hand embroidery techniques. We have various options like,
 
@@ -134,6 +138,8 @@ Phulkari World is for everyone those are interested in traditional wear and love
 - Kurtis 
 
 ## Current User Goals
+
+[Back to UX](#ux)
 
 - Have navigation options to reach different categories
 - Search for a product using search bar
@@ -147,6 +153,8 @@ Phulkari World is for everyone those are interested in traditional wear and love
 
 ## Future User Goals
 
+[Back to UX](#ux)
+
 - Add review options for customers
 - Make rating options available for customers
 - Add to wishlist option for customers
@@ -159,21 +167,31 @@ Phulkari World is for everyone those are interested in traditional wear and love
 
 ## Color Scheme
 
+[Back to Design](#design)
+
 I want to keep it simple yet elegent hence used the combination of Black & White with grey color when customer hover over any clickable link/option. But all different kind of colorful imagery on the website of different phulkari products add its own charm to whole website and it doesn't look monotonoes at all due to that.
 
 ## Typography
+
+[Back to Design](#design)
 
 **Lato** font is the major font used in this website for all kind of text with fallback option to **sans-serif** if the browser don't support the preffered color Lato.
 
 ## Agile Methodology
 
+[Back to Design](#design)
+
 Agile project management principles guided the development of this project, leveraging GitHub Projects as the primary software for tracking user stories. Utilizing the Kanban board task view, I crafted a comprehensive user story template that served as the foundation for all project-related narratives. Beyond capturing the core user stories, GitHub Projects played a pivotal role in efficiently monitoring and addressing bugs identified throughout the project's lifecycle. Screenshot added below to give an over all view of the board and all user stories I worked on along with the template I used to create user stories.
 
 ### Kanban Board
 
+[Back to Agile Methodology](#agile-methodology)
+
 ![kanbanboard](media/readme_images/kanbanboard.jpg)
 
 ### User Stories
+
+[Back to Agile Methodology](#agile-methodology)
 
 ![userstories1](media/readme_images/userstories1.jpg)
 ![userstories2](media/readme_images/userstories2.jpg)
@@ -181,9 +199,13 @@ Agile project management principles guided the development of this project, leve
 
 ### User Story Template
 
+[Back to Agile Methodology](#agile-methodology)
+
 ![userstory_template](media/readme_images/userstorytemplate.jpg)
 
 ## Wireframes
+
+[Back to Design](#design)
 
 Wireframes were used to plan the structure of the webstie. Below you can found them:
 
@@ -264,6 +286,8 @@ Wireframes were used to plan the structure of the webstie. Below you can found t
 </details>
 
 ## Project Structure
+
+[Back to Design](#design)
 
 The whole project follow the technique of building blocks. Which are sufficient on their own and enhance the experience when they clubbed together. 
 
@@ -381,6 +405,8 @@ The whole project follow the technique of building blocks. Which are sufficient 
 
 ## Database Schema
 
+[Back to Design](#design)
+
 The database schema is composed by 8 models in total under 4 different apps: 
 
 - **About App:**
@@ -404,7 +430,11 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ## Common Features
 
+[Back to Features](#features)
+
 ### Language Used
+
+[Back to Common Features](#common-features)
 
 - Django
 - Python
@@ -413,6 +443,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 - Javascript
 
 ### Navbar
+
+[Back to Common Features](#common-features)
 
 - On large screens, the navbar displays brand name in left side, in center along with search bar it shows expandable menu with submenus described below. Also, on right corner of navbar My Account and shopping bag with information of amount of product bought displays. 
 
@@ -487,6 +519,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ### Footer
 
+[Back to Common Features](#common-features)
+
 - Users have functional links to Facebook, X, Instagram and YouTube. These links will open in a new tab as they are outside the web application. 
 
     <details>
@@ -500,6 +534,8 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
 ### Index
+
+[Back to Common Features](#common-features)
 
 - The landing page of the website display hero image of the website the shows phulkari weaving womens along with the short description of phulkari and *Shop Now* button. Clicking on *Shop Now* button will route the site user to product catalogue page.
 
@@ -521,6 +557,8 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
 ### Products - Site User View
+
+[Back to Common Features](#common-features)
 
 - On Products page, all the products in the catalogue appears on random order. Products will be visible with its short details like image (if available, else default no-image image will be visible), product name, price, category, rating.
 
@@ -564,8 +602,9 @@ The database schema is composed by 8 models in total under 4 different apps:
         <IMG src="media/readme_images/testing/newaddedproductvisibleonproductpage.jpg" alt="product_page_new_product_added"/>
     </details>
 
-
 ### Products - Site Admin View
+
+[Back to Common Features](#common-features)
 
 - On Products page for Admin, everything else will remain same as Products page for site user like products will be visible with its short details like image (if available, else default no-image image will be visible), product name, price, category, rating. Only additional information is that the edit and delete options will be visible for admin user. 
 
@@ -598,6 +637,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ### Add New Product
 
+[Back to Common Features](#common-features)
+
 - Admin have option to add a new product from the website. The menu is present under *My Account > Add New Product*. If admin adds a product successfully, the website route to *Product Detail* page. If the admin clicks cancel button, the website routes to Products *Home* page.
 
     <details>
@@ -620,6 +661,8 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
 ### Edit Product
+
+[Back to Common Features](#common-features)
 
 - Admin have option to edit an existing product from the website. The options are present under each product on *Product* Page or *Product Detail* Page. If admin edits a product successfully or clicks cancel button, the website route to *Product Detail* page that the user tried to edit.
 
@@ -644,6 +687,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ### Delete Product
 
+[Back to Common Features](#common-features)
+
 - Admin have option to delete an existing product from the website. The options are present under each product on *Product* Page or *Product Detail* Page. When delete option is selected, the product gets deleted from the catalogue and site user is route to Products *Home* page.
 
     <details>
@@ -652,6 +697,8 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
 ### Products Detail
+
+[Back to Common Features](#common-features)
 
 - On Products detail page, selected products complete details will be visible like image (if available, else default no-image image will be visible), product name, price, category, rating, description, quantity (with option to increase or decrease), size (only, if the product item has a size). At the end there will be 2 botton, first *Keep Shopping*, if the user clicks on this button then the website takes the user back to Product *Home* page. Second, *Add to Bag* button. If the site user is admin then edit and delete options will be visible as well.
 
@@ -679,6 +726,8 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
 ### Checkout Page
+
+[Back to Common Features](#common-features)
 
 - Once user is ready to make a purchase and clicked on *Secure Checkout* button on *Shopping Bag* page. The next page open for user is *Checkout* page. In this page the user will see short order summary once again with product image, name, size (if available), quantity, subtotal, order total, delivery charges (if any) and grand total. Also, the user will get option to add the details for delivery of the products like Personal detail (name, email id), delivery details (Phone number, Street Addresses, Town, County, Pin Code, Country (selection from a drop down menu containing list of all countries)),  Payment detail (Card number, expiry date, cvv number and Pincode). If the user is not logged in the a message will appear to login or create account to save the delivery information.
 
@@ -715,23 +764,27 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ### Order Page - Admin
 
+[Back to Common Features](#common-features)
+
 - Admin can also view the order placed on *'/admin'* page. 
 
     <details>
         <summary>Order Placed - Admin view</summary>
-        <IMG src="media/readme_images/webpages/orderadminview.jpg" alt="order_placed_admin_view"/>
+        <IMG src="media/readme_images/adminpage/orderadminview.jpg" alt="order_placed_admin_view"/>
     </details>
 
     <details>
         <summary>Order Placed - Admin Model</summary>
-        <IMG src="media/readme_images/webpages/orderadminmodel1.jpg" alt="order_placed_admin_model"/>
+        <IMG src="media/readme_images/adminpage/orderadminmodel1.jpg" alt="order_placed_admin_model"/>
     </details>
     <details>
         <summary>Order Placed - Admin Model</summary>
-        <IMG src="media/readme_images/webpages/orderadminmodel2.jpg" alt="order_placed_admin_model"/>
+        <IMG src="media/readme_images/adminpage/orderadminmodel2.jpg" alt="order_placed_admin_model"/>
     </details>
 
 ### Sign Up
+
+[Back to Common Features](#common-features)
 
 - When not authenticated, users can create an account using a unique username and password.
 
@@ -843,6 +896,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ### Sign In
 
+[Back to Common Features](#common-features)
+
 - Signin Page: A user can sign in to the application by entering their username and correct password.
 
     <details>
@@ -859,6 +914,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ### Sign Out
 
+[Back to Common Features](#common-features)
+
 - Signout Page: Here, the application asks the user for confirmation before signing out. 
 
     <details>
@@ -867,6 +924,8 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
 ### My Profile 
+
+[Back to Common Features](#common-features)
 
 - Site user has option to view its profile using *My Profile* menu under *My Account*. The profile page consist of user order history with short summary of orders like Order Number with a link for order details, Date of order, Names of items order, Order Total cost. Also, on My Profile page the user can view its personal details like username and email id, deafult delivery information like phone number, street address, city, county, pin code, and country information. The user also have option to update the information.
 
@@ -889,7 +948,9 @@ The database schema is composed by 8 models in total under 4 different apps:
         <IMG src="media/readme_images/testing/myprofileerror.jpg" alt="profile_form_error"/>
     </details>
 
-### About Us 
+### About Us
+
+[Back to Common Features](#common-features)
 
 - This is an informational page that includes a brief description of the website, the story of business and collections of different items the website have. It also give some promises to gain the trust of customer and encourges the user to explore the website.
 
@@ -921,6 +982,8 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
 ### Contact Us
+
+[Back to Common Features](#common-features)
 
 - This page contains a form for a user to directly contact the admin. The fields include name, email and message. 
 
@@ -956,6 +1019,8 @@ The database schema is composed by 8 models in total under 4 different apps:
     </details>
 
 ### FAQ
+
+[Back to Common Features](#common-features)
 
 - This page contains a number of frequently asked questions (FAQ) by site users. It contains the list of generic questions and their answer that are common for all site users and doesn't need site owner intervention specifically. If the site user have any specific question , they can reach using *'Contact Us'*'* page. 
 
@@ -1016,6 +1081,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ### Newsletter
 
+[Back to Common Features](#common-features)
+
 - This page contains a form for a user to directly contact the admin. The fields include name, email and message. 
 
     <details>
@@ -1070,6 +1137,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 ## Future Features
 
+[Back to Features](#features)
+
 - Asynchronous behaviour
     - If user clicks on back or forward button from the browser the session remains active. I would like to handle this issue in future release.
 
@@ -1088,11 +1157,15 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 [Back to Top](#phulkari-world)
 
-## Methodology 
+## Methodology
+
+[Back to Testing](#testing)
 
 Testing was an integral part of the project development, encompassing the use of Django debug pages and strategically placed print statements to verify the functionality of the code at various stages. Furthermore, a comprehensive testing approach was adopted, outlined below. This involved meticulous manual testing to ensure alignment with all user stories and acceptance criteria.
 
 ### Index Page
+
+[Back to Methodology](#methodology)
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
@@ -1104,6 +1177,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### Product Page
 
+[Back to Methodology](#methodology)
+
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
 | Product Page - User View | A list of all products should be visible | When user reach product page, the page should display all type of products on website with the information like product image (if available, else show default no-image image), product name, rating, price and category. Also, clicking on the product image should route to Product detail page. | PASS |
@@ -1114,12 +1189,16 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### Product Detail Page
 
+[Back to Methodology](#methodology)
+
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
 | Product Detail Page - User View | Individual product should be visible | When user reach product detail page, the page should display the detailed information of the product like product image (if available, else show default no-image image), product name, rating, price, category, description, size (if available) and option to increase or decrease quantity. Also, the page should have button like Keep Shopping to continue more shopping or add the product to shopping bag. | PASS |
 | Product Detail Page - Admin View | Individual product should be visible | When user reach product detail page, the page should display the detailed information of the product like product image (if available, else show default no-image image), product name, rating, price, category, description, size (if available) and option to increase or decrease quantity. Also, the page should have button like Keep Shopping to continue more shopping or add the product to shopping bag. For admin, the link to edit or delete the product should be visible too. | PASS |
 
 ### Add New Product Page
+
+[Back to Methodology](#methodology)
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
@@ -1128,6 +1207,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### Edit Product Page
 
+[Back to Methodology](#methodology)
+
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
 | Edit Product | Edit existing product as admin | Only when admin logs in the user should get options to edit existing product from the website *Product* or *Product Detail* pages. If user enters required information correctly then the edit should be update successfully and starts getting visible on Product catalogue to all users. | PASS |
@@ -1135,11 +1216,15 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### Delete Product
 
+[Back to Methodology](#methodology)
+
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
 | Delete Product | Delete existing product as admin | Only when admin logs in the user should get options to delete existing product from the website *Product* or *Product Detail* pages. If user deletes an existing product then the product should be removed from the Product catalogue for all users. | PASS |
 
 ### Sign Up Page
+
+[Back to Methodology](#methodology)
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
@@ -1152,7 +1237,9 @@ Testing was an integral part of the project development, encompassing the use of
 | User sign-up - Form validation  | Submit an exisiting user name. | Form promts that the username is already taken error. | PASS |
 | User sign-up - Form validation  | Submit an exisiting email id. | An email should be sent to the user registered email account with message that someone trying to login already existing email account. Along with this a forgot password link should be provided in the email to provide the option to reset the password. | PASS |
 
-### Log In Page
+### Sign In Page
+
+[Back to Methodology](#methodology)
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
@@ -1160,7 +1247,9 @@ Testing was an integral part of the project development, encompassing the use of
 | User login page - Form validation | Submit an incorrect username password | Form promts that the username and/or password is not correct. | PASS |
 | User login page - Forgot Password | Click on forgot password link | The user should be able to reset the password by confirming its email id. An email should be sent to the user when the user enteres after clicking on forgot password. The email should contains the link to reset the password. When user clicks on the reset password link in the email, the user routes back on website with option to reset its password. After resetting the password the user should be able to signin on the website with new password only. | PASS |
 
-### Log Out Page
+### Sign Out Page
+
+[Back to Methodology](#methodology)
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
@@ -1168,6 +1257,8 @@ Testing was an integral part of the project development, encompassing the use of
 | User logout page - Form validation | Click in logout | User is successfully logged out and a display message is displayed at the top. | PASS |
 
 ### My Profile Page
+
+[Back to Methodology](#methodology)
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
@@ -1178,12 +1269,16 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### About Us Page
 
+[Back to Methodology](#methodology)
+
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
 | About us info | Goto about us page and see about us page info and updated on datetime | The latest about us info displays and the correct updated on datetime is visible on the page. | PASS |
 | Update About us | Goto Update about us page as admin and udpate some info on the page | The latest about us info displays and the correct updated on datetime is visible on the page. | PASS |
 
 ### Contact Us Page
+
+[Back to Methodology](#methodology)
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
@@ -1192,6 +1287,8 @@ Testing was an integral part of the project development, encompassing the use of
 | Contact Us form - Form Validation | Submit valid form | User is redirect to success page stating that the response has been recorded. | PASS |
 
 ### FAQ Page
+
+[Back to Methodology](#methodology)
 
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
@@ -1203,15 +1300,23 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### Newsletter
 
+[Back to Methodology](#methodology)
+
 | Testing  | Steps | Expected Outcome | Results |  
 | - | - | - | - |
 | Newsletter | Goto Newsletter page and subscribe for newsletter | When a user subscribe by providing email id for newsletter. The user email id should be stored in Mailchimp account. The admin have option to send welcome email manually for any newly registered user. The admin should be able to create future campains as well on Mailchimp. | PASS |
 
 ## Validator Testing 
 
+[Back to Testing](#testing)
+
 ### W3C Validator
 
+[Back to Validator Testing](#validator-testing)
+
 #### Index Page
+
+[Back to W3C Validator](#w3c-validator)
 
 - Errors found for same name meta tags and some id nameing related. Fixed them by updating the respective html file.
 
@@ -1227,6 +1332,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### Product Page
 
+[Back to W3C Validator](#w3c-validator)
+
 - No errors found.
 
     <details>
@@ -1235,6 +1342,8 @@ Testing was an integral part of the project development, encompassing the use of
     </details>
 
 #### Product Detail Page
+
+[Back to W3C Validator](#w3c-validator)
 
 - No errors found.
 
@@ -1245,6 +1354,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### Add Product Page
 
+[Back to W3C Validator](#w3c-validator)
+
 - No errors found, only one info that I couldn't find to fix.
 
     <details>
@@ -1253,6 +1364,8 @@ Testing was an integral part of the project development, encompassing the use of
     </details>
 
 #### Shopping Bag Page
+
+[Back to W3C Validator](#w3c-validator)
 
 - No errors found.
 
@@ -1263,6 +1376,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### Checkout Page
 
+[Back to W3C Validator](#w3c-validator)
+
 - No errors found.
 
     <details>
@@ -1271,6 +1386,8 @@ Testing was an integral part of the project development, encompassing the use of
     </details>
 
 #### About Us Page
+
+[Back to W3C Validator](#w3c-validator)
 
 - Errors found for the user of center html tag. Fixed them by removing that from respective html file.
 
@@ -1286,6 +1403,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### Update About Us Page
 
+[Back to W3C Validator](#w3c-validator)
+
 - No errors found, only one info that I couldn't find to fix.
 
     <details>
@@ -1295,6 +1414,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### Contact Us Page
 
+[Back to W3C Validator](#w3c-validator)
+
 - No errors found.
 
     <details>
@@ -1303,6 +1424,8 @@ Testing was an integral part of the project development, encompassing the use of
     </details>
 
 #### FAQ Page
+
+[Back to W3C Validator](#w3c-validator)
 
 - Errors found for aria-controls to match with similar id in the file. Fixed them by updating the respective html file.
 
@@ -1318,6 +1441,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### Edit FAQ Page
 
+[Back to W3C Validator](#w3c-validator)
+
 - No errors found, only one info that I couldn't find to fix.
 
     <details>
@@ -1327,6 +1452,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### My Profile Page
 
+[Back to W3C Validator](#w3c-validator)
+
 - No errors found, only one info that I couldn't find to fix.
 
     <details>
@@ -1335,6 +1462,8 @@ Testing was an integral part of the project development, encompassing the use of
     </details>
 
 #### Newsletter Page
+
+[Back to W3C Validator](#w3c-validator)
 
 - Errors found for javascript code. Fixed them by updating the javascript code in the respective html file.
 
@@ -1350,6 +1479,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### CSS Validator
 
+[Back to Validator Testing](#validator-testing)
+
 - No error found.
 
     <details>
@@ -1359,7 +1490,11 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### JavaScript (JSHint) Validator
 
+[Back to Validator Testing](#validator-testing)
+
 #### Product Page
+
+[Back to JavaScript (JSHint) Validator](#javascript-jshint-validator)
 
 - No errors found.
 
@@ -1370,6 +1505,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### Shopping Bag Page
 
+[Back to JavaScript (JSHint) Validator](#javascript-jshint-validator)
+
 - No errors found.
 
     <details>
@@ -1378,6 +1515,8 @@ Testing was an integral part of the project development, encompassing the use of
     </details>
 
 #### Checkout Page
+
+[Back to JavaScript (JSHint) Validator](#javascript-jshint-validator)
 
 - No errors found.
 
@@ -1388,6 +1527,8 @@ Testing was an integral part of the project development, encompassing the use of
 
 #### My Profile Page
 
+[Back to JavaScript (JSHint) Validator](#javascript-jshint-validator)
+
 - No errors found.
 
     <details>
@@ -1397,11 +1538,15 @@ Testing was an integral part of the project development, encompassing the use of
 
 ### Python (PEP8) Validator
 
+[Back to Validator Testing](#validator-testing)
+
 - Validated all *.py pages on website and fixed the warning based upon suggestion for PEP8 tool. Mostly the warnings are related to training whitespace or length exceed. No code bug found.
 
 ![PEP8 validator](media/readme_images/pep8pythonvalidation.jpg) 
 
 ### Lighhouse Validator
+
+[Back to Validator Testing](#validator-testing)
 
 - Page has an good rating in Lighthouse. 
 
@@ -1443,16 +1588,22 @@ Testing was an integral part of the project development, encompassing the use of
 - [PEP8 - CI Python Linter](https://pep8ci.herokuapp.com/#) - For python code validation
 - [Am I Responsive](https://ui.dev/amiresponsive) - For webpage validation on different screen sizes
 
-## Deployment
+# Deployment
 
-### How to Fork
+[Back to Top](#phulkari-world)
+
+## How to Fork
+
+[Back to Deployment](#deployment)
 
 To fork the repository:
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project.
 3. Click the Fork button in the top right corner.
    
-### How to deploy
+## How to deploy
+
+[Back to Deployment](#deployment)
 
 How to deploy the repository:
 1. On terminal:
@@ -1761,6 +1912,8 @@ How to deploy the repository:
 
 ## Demographics
 
+[Back to Marketing](#marketing)
+
 Who is your ideal customer and why do they buy your product?
 
 ⁃   A Phulkari enthusiast, who is vibrant and culturally conscious individual. Who loves heritage, craftsmanship, versatility, emotional resonance, and ethical values. Those who wears Phulkari not just as clothing, but as a piece of her identity.
@@ -1769,7 +1922,11 @@ Who is your ideal customer and why do they buy your product?
 
 ## Branding
 
+[Back to Marketing](#marketing)
+
 ### Mission
+
+[Back to Branding](#branding)
 
 What does the brand aim to achieve & how will it be achieved?
 
@@ -1779,6 +1936,8 @@ What does the brand aim to achieve & how will it be achieved?
 
 ### Purpose
 
+[Back to Branding](#branding)
+
 - To create a place that provides its customer satisfaction while buying phulkari based product covers following criteria at its best:
 
     - Authenticity: Source directly from artisans, ensuring genuine craftsmanship.
@@ -1787,12 +1946,19 @@ What does the brand aim to achieve & how will it be achieved?
 
 ### Objective
 
+[Back to Branding](#branding)
+
 - To bring people a platform where they can buy authentic phulkari based product with best quality and better priced.
 
 ### Vision
+
+[Back to Branding](#branding)
+
 - The Phulkari World take you into worlds of rich traditions, colorful festivals, and intricate craftsmanship of Punjab.
 
 ### Differentiators
+
+[Back to Branding](#branding)
 
 - Quality
 - Adaptable Fashion
@@ -1801,9 +1967,13 @@ What does the brand aim to achieve & how will it be achieved?
 
 ### Tone
 
+[Back to Branding](#branding)
+
 - Phulkari — a symbol of love, resilience, and tradition.
 
 ### Brand Descriptors
+
+[Back to Branding](#branding)
 
 - Versatility 
 - Elegance
@@ -1820,6 +1990,9 @@ traditional and contemporary fashion    ancient embroidery technique
 ```
 
 # Search Engine Optimisation
+
+[Back to Top](#phulkari-world)
+
 The site optimises its visibility to prospective customers through Search Engines with the use of the following:
 
 - A robots.txt file
@@ -1829,9 +2002,14 @@ The site optimises its visibility to prospective customers through Search Engine
 
 ## Meta Data Tags
 
-Meta Data tags showing semitics and keywords were used in headers and on elements.
+[Back to Search Engine Optimisation](#search-engine-optimisation)
 
-### Semitics
+Meta Data tags showing Semantics and keywords were used in headers and on elements.
+
+### Semantics
+
+[Back to Meta Data Tags](#meta-data-tags)
+
 ```
 Phulkari Suits  Hand-Embroidered Kurtis Vibrant Dupattas    Traditional Punjabi Attire
 Colorful Textiles   Ethnic Fashion  Artisanal Embroidery    Cultural Heritage
@@ -1847,7 +2025,11 @@ Punjabi Festive Wear    Vintage Phulkari    Handwoven Textiles  Cultural Express
 Phulkari Silk Scarves   Embroidered Clutches    Punjabi Jewelry Sets    Boho Wedding Accessories
 Phulkari Fashion Blog   Punjab-inspired Lifestyle
 ```
+
 ### Keywords
+
+[Back to Meta Data Tags](#meta-data-tags)
+
 ```
 Phulkari World
 phulkari world
@@ -1863,10 +2045,14 @@ Phulkari Duppttas
 
 ## Design
 
+[Back to Credits](#credits)
+
 The site type is same as the e-commerce website tought in the project 5 'Boutiqe Ado'.
 Additionally, the [Bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/) framework was heavily used for the front-end development.
 
 ## Code
+
+[Back to Credits](#credits)
 
 This is a very interesting w.r.t. the learning I had while working on this project. I was fascinated how the real world website works as I was working on this project and understood the background work of e-commerce websites. I really enjoyed the flexibility Django provide w.r.t. writing the custom and efficient codes and integrate database as backend and forms/views in the front end and make it all works smooothly.
 
@@ -1893,6 +2079,8 @@ In the end, I would like to mention that the all products, its images, name and 
 Apart from this I have used Microsoft Co-pilot to generate imaginary description text of About Us and FAQ pages.
 
 ## Media
+
+[Back to Credits](#credits)
 
 Links of various webpages from where the product images and other information are downloaded.
 - [Pure Chinon Hand Embroidered Dupatta - Shades of Punjab (68 color Bagh Dupatta)](https://www.phulkariforever.com/products/pure-chinon-hand-embroidered-dupatta-shades-of-punjab-68-color-bagh-dupatta)
