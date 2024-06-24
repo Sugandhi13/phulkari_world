@@ -1724,25 +1724,26 @@ Additionally, the [Bootstrap 5](https://getbootstrap.com/docs/5.2/getting-starte
 
 ## Code
 
-Honestly, if I have to admit then this was the toughest project for me till date. The more control moved out of my hand to in the hand of templates it become difficult to control initially. But day by day, gradually I started getting hold of it and have better understanding that how the things are flowing. Though, there is still a lot to learn but I would thanks first everyone who helped me during this projects journey.
+This is a very interesting w.r.t. the learning I had while working on this project. I was fascinated how the real world website works as I was working on this project and understood the background work of e-commerce websites. I really enjoyed the flexibility Django provide w.r.t. writing the custom and efficient codes and integrate database as backend and forms/views in the front end and make it all works smooothly.
 
-So, out of many chanllenges I faced to handle all of them a thumb rule I kept on working is to align with Code Institute Developing with Django (I Think Therefore I Blog) and it has been the biggest help for me in the journey.
+So, out of many chanllenges I faced to handle all of them a thumb rule I kept on working is to align with Code Institute Building E-Commerce Platform (Boutiqe Ado) and it has been the biggest help for me in the journey.
 
-Apart from this I faced a challenge regarding how to generate auto slug as I was providing the authenticated site users to post the query. Hence the slug was required to generate dynamically. Here I received the help from [Learn Django](https://learndjango.com/tutorials/django-slug-tutorial) tutorial. It helped me to understand and fix the challenge.
+Apart from this I faced a challenges regarding configuration of Django country app. Here I received the help from [Django Project](https://code.djangoproject.com/ticket/35046#comment:4) tutorial. It helped me to understand and fix the challenge.
 
-Next challenge for me was to display multiple views on the same page and here I found help from [Stackoverflow](https://stackoverflow.com/questions/48729966/how-can-i-call-multiple-views-in-one-url-address-in-django) community and able to resolve the issue.
+I faced issue with the signout functionality for any signed in user. I tried to match the my code with Boutiqe Ado Project code, looked into slack for solutions if someone already faced the issue as well as search on internet but nothing concrete I've found. I figured out that there is some difference in allauth settings in Boutiqe Ado project vs mine. But another challenge was there was no error in functionality. I was receiving status code 200 but the webpage was not moving onto signout page. When I reached the Tutor support the helped me to understand that I was using Django version 5. That means I was also using a later version of allauth and hence my sign out template was different from the Boutiqe Ado Project. Support team suggested me to revert to the versions as per Boutiqe Ado Project. I did the same and un-installed the latest Django version I had and installed Django==3.2.3. That helped me to fix the issue.
 
-Thereafter another hurdle I faced is to how to make some fields readonly at the admin side. Hence, I again visited to look for some django books or material that might Phulkari World. My search ends at [Agiliq](https://books.agiliq.com/projects/django-admin-cookbook/en/latest/changeview_readonly.html).
+Next challenge I faced while working on order confirmation email feature. I configured everything as instructed in Boutiqe Ado Project but still that was not working. I looked into internet, slack community post and did some trail and run techniques but nothing worked. Then I took help from Tutor support and found the root cause of the problems were: 
 
-I also faced one big challenge during this project is my loss of database a few days back. I initially started development on Code anywhere as that was the only framework I was using till date since I started my learning. But, with Django it was not behaving well and since last month or so, it was doomed. My ship was sinking with it. But then GitPod comes to my rescue and it has been blessings as Git pod is working seamllessely with Git hub and heroku.
-
-But, in the meantime, my database got damaged and I have to take help from CI Tutor support to understand the reason some of my code was not working and they explained me that it was due to database damaged and then I have reset my whole database and update fresh data of users, queries and answers.
+- Incompatiblity between Django 3.2, which I was using, and Python 3.12, which heroku uses by default to build project. I have fixed it by reinstalling old version or Paython (python-3.11.9)
+- I haven't applied latest change in strip webhook handler given extra in Project. 
 
 In this project I also found good help from my mentor Martina, slack communities too.
 
-In the end, I would like to mention that the queries and answers I have picked directly from [Quora](https://www.quora.com/) & [Reddit](https://www.reddit.com/) rather then creating on my own to save time. Some of the queries and answers are a bit modified as well to suite the website behavior. Apart from this I have used Microsoft Co-pilot to generate imaginary description text of About Us page as well as for different users profile.
+In the end, I would like to mention that the all products, its images, name and descriptions I have picked directly from websites mentioned below rather then creating on my own to save time. Some inforamtion about the product like price and ratings etc are a bit modified as well. 
 
-## Media
+- [phulkariforever](https://www.phulkariforever.com/)
+- [etsystatic](https://i.etsystatic.com/)
+- [meharpunjabdesigns](https://meharpunjabdesigns.com/)
+- [pinkphulkari](https://pinkphulkari.com/)
 
-- All the profile images were taken from [Unsplash](https://unsplash.com/), a free image provider. 
-- All icons are generated using [w3schools/icons](https://www.w3schools.com/icons/).
+Apart from this I have used Microsoft Co-pilot to generate imaginary description text of About Us and FAQ pages.
