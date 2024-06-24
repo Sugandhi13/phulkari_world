@@ -29,62 +29,94 @@ Phulkari World is an e-commerce website. It provides its customer an option to c
     + [Wireframes](#wireframes)
     + [Project Structure](#project-structure)
     + [Database Schema](#database-schema)
-        + [Category](#category)
-        + [Query](#query)
-        + [Answer](#answer)
-        + [UserProfile](#userprofile)
-        + [About](#about)
-        + [Contact](#contact)
 + [Features](#features)
     + [Common Features](#common-features)
         + [Language Used](#language-used)
         + [Navbar](#navbar)
         + [Footer](#footer)
         + [Index](#index)
+        + [Products - Site User View](#products---site-user-view)
+        + [Products - Site Admin View](#products---site-admin-view)
+        + [Add New Product](#add-new-product)
+        + [Edit Product](#edit-product)
+        + [Delete Product](#delete-product)
+        + [Products Detail](#products-detail)
+        + [Checkout Page](#checkout-page)
+        + [Order Page - Admin](#order-page---admin)
+        + [Sign Up](#sign-up)
+        + [Sign In](#sign-in)
+        + [Sign Out](#sign-out)
+        + [My Profile](#my-profile)
         + [About Us](#about-us)
         + [Contact Us](#contact-us)
-        + [Ask a Query](#ask-a-query)
-        + [Write an Answer](#write-an-answer)
-        + [Sign Up](#sign-up)
-        + [Log In](#log-in)
-        + [Log Out](#log-out)
-        + [Profile](#profile)
+        + [FAQ](#faq)
+        + [Newsletter](#newsletter)
     + [Future Features](#future-features)
 + [Testing](#testing)
     + [Methodology](#methodology)
         + [Index Page](#index-page)
+        + [Product Page](#product-page)
+        + [Product Detail Page](#product-detail-page)
+        + [Add New Product Page](#add-new-product-page)
+        + [Edit Product Page](#edit-product-page)
+        + [Delete Product](#delete-product-1)
+        + [Sign Up Page](#sign-up-page)
+        + [Sign In Page](#sign-in-page)
+        + [Sign Out Page](#sign-in-page)
+        + [My Profile Page](#my-profile-page)
         + [About Us Page](#about-us-page)
         + [Contact Us Page](#contact-us-page)
-        + [Ask a Query Page](#ask-a-query-page)
-        + [Queries Page](#queries-page)
-        + [Answers Page](#answers-page)
-        + [Sign Up Page](#sign-up-page)
-        + [Log In Page](#log-in-page)
-        + [Log Out Page](#log-in-page)
-        + [Profile Page](#profile-page)
-    + [Automatec Form Testing](#automatec-form-testing)
+        + [FAQ Page](#faq-page)
+        + [Newsletter](#newsletter-1)
     + [Validator Testing](#validator-testing)
         + [W3C Validator](#w3c-validator)
+            + [Index Page](#index-page-1)
+            + [Product Page](#product-page-1)
+            + [Product Detail Page](#product-detail-page-1)
+            + [Add Product Page](#add-product-page)
+            + [Shopping Bag Page](#shopping-bag-page)
+            + [Checkout Page](#checkout-page-1)
+            + [About Us Page](#about-us-page-1)
+            + [Update About Us Page](#update-about-us-page)
+            + [Contact Us Page](#contact-us-page-1)
+            + [FAQ Page](#faq-page-1)
+            + [Edit FAQ Page](#edit-faq-page)
+            + [My Profile Page](#my-profile-page-1)
+            + [Newsletter Page](#newsletter-page)
         + [CSS Validator](#css-validator)
         + [JavaScript (JSHint) Validator](#javascript-jshint-validator)
+            + [Product Page](#product-page-2)
+            + [Shopping Bag Page](#shopping-bag-page-1)
+            + [Checkout Page](#checkout-page-2)
+            + [My Profile Page](#my-profile-page-2)
         + [Python (PEP8) Validator](#python-pep8-validator)
         + [Lighhouse Validator](#lighhouse-validator)
 + [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 + [Deployment](#deployment)
-    + [Forking the Github Repository](#forking-the-github-repository)
-    + [Running the Project Locally](#running-the-project-locally)
-    + [Deploying with Heroku](#deploying-with-heroku)
-        + [External Database Setup](#external-database-setup)
-        + [External Storage Setup](#external-storage-setup)
-        + [env.py File Setup](#envpy-file-setup)
-        + [Heroku Settings](#heroku-settings)
-        + [Heroku Deployment](#heroku-deployment)
+    + [How to Fork](#how-to-fork)
+    + [How to deploy](#how-to-deploy)
++ [Marketing](#marketing)
+    + [Demographics](#demographics)
+    + [Branding](#branding)
+        + [Mission](#mission)
+        + [Purpose](#purpose)
+        + [Objective](#objective)
+        + [Vision](#vision)
+        + [Differentiators](#differentiators)
+        + [Tone](#tone)
+        + [Brand Descriptors](#brand-descriptors)
+        + [Search Engine Optimisation](#search-engine-optimisation)
+        + [Meta Data Tags](#meta-data-tags)
+        + [Semitics](#semitics)
+        + [Keywords](#keywords)
 + [Credits](#credits)
     + [Design](#design-1)
     + [Code](#code)
     + [Media](#media)
 
 # UX
+
+[Back to Top](#phulkari-world)
 
 ## Site Purpose
 
@@ -122,6 +154,8 @@ Phulkari World is for everyone those are interested in traditional wear and love
 - Option for admin to update product availabitlity option
 
 # Design
+
+[Back to Top](#phulkari-world)
 
 ## Color Scheme
 
@@ -365,6 +399,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 ![database_schema](media/readme_images/erdiagram.jpg)
 
 # Features
+
+[Back to Top](#phulkari-world)
 
 ## Common Features
 
@@ -1050,6 +1086,8 @@ The database schema is composed by 8 models in total under 4 different apps:
 
 # Testing
 
+[Back to Top](#phulkari-world)
+
 ## Methodology 
 
 Testing was an integral part of the project development, encompassing the use of Django debug pages and strategically placed print statements to verify the functionality of the code at various stages. Furthermore, a comprehensive testing approach was adopted, outlined below. This involved meticulous manual testing to ensure alignment with all user stories and acceptance criteria.
@@ -1348,7 +1386,7 @@ Testing was an integral part of the project development, encompassing the use of
         <IMG src="media/readme_images/jshintvalidation/jscheckout.jpg" alt="jshint_checkout_success"/>
     </details>
 
-#### Checkout Page
+#### My Profile Page
 
 - No errors found.
 
@@ -1376,6 +1414,8 @@ Testing was an integral part of the project development, encompassing the use of
 ![mobile_lighthouse](media/readme_images/lighthousemobile.jpg)
 
 # Frameworks, Libraries and Programs Used
+
+[Back to Top](#phulkari-world)
 
 - [Google Fonts](https://fonts.google.com/) 
 - [Favicon](https://favicon.io/)
@@ -1775,7 +1815,8 @@ What does the brand aim to achieve & how will it be achieved?
 ```
 Authentic Heritage  Colorful Craftsmanship  Versatile Elegance  Empowering Artisans
 Emotional Connection    Global Appea    Sustainable Beauty  Phulkari Fusion
-Celebrating Womanhood   Where Threads Tell Tales The folk embroidery of the punjab, traditional and contemporary fashion ancient embroidery technique
+Celebrating Womanhood   Where Threads Tell Tales The folk embroidery of the punjab 
+traditional and contemporary fashion    ancient embroidery technique
 ```
 
 # Search Engine Optimisation
@@ -1818,6 +1859,8 @@ Phulkari Duppttas
 
 # Credits
 
+[Back to Top](#phulkari-world)
+
 ## Design
 
 The site type is same as the e-commerce website tought in the project 5 'Boutiqe Ado'.
@@ -1848,3 +1891,34 @@ In the end, I would like to mention that the all products, its images, name and 
 - [pinkphulkari](https://pinkphulkari.com/)
 
 Apart from this I have used Microsoft Co-pilot to generate imaginary description text of About Us and FAQ pages.
+
+## Media
+
+Links of various webpages from where the product images and other information are downloaded.
+- [Pure Chinon Hand Embroidered Dupatta - Shades of Punjab (68 color Bagh Dupatta)](https://www.phulkariforever.com/products/pure-chinon-hand-embroidered-dupatta-shades-of-punjab-68-color-bagh-dupatta)
+- [Pure Chanderi Hand Embroidered Phulkari Dupatta - Pinky Pink](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-dupatta-pinky-pink)
+- [Pure Chanderi Hand Embroidered Phulkari Dupatta Stole - Royal Black](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-dupatta-stole-royal-black)
+- [Pure Chanderi Hand Embroidered Phulkari Dupatta - Luxury Purple](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-dupatta-luxury-purple)
+- [Pure Chinon Hand Embroidered Phulkari Dupatta - Many Shades of Grey](https://www.phulkariforever.com/products/pure-chinon-hand-embroidered-phulkari-dupatta-many-shades-of-grey)
+- [Pure Chanderi Hand Embroidered Phulkari Kurti - Black](https://www.phulkariforever.com/products/hand-embroidered-phulkari-short-kurti-black)
+- [Pure Cotton Linen Hand Embroidered Phulkari Kurti - Aesthetic Maroon](https://www.phulkariforever.com/products/hand-embroidered-phulkari-kurti-maroon-boat-neck)
+- [Pure Chanderi Hand Embroidered Phulkari Kurti - Parakeet Green](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-kurti-parakeet-green)
+- [Pure Chanderi Hand Embroidered Phulkari Kurti - Daffodil Yellow](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-kurti-daffodil-yellow)
+- [Pure Muslin Hand Embroidered Phulkari Kurti - Aqua Lake](https://www.phulkariforever.com/products/pure-muslin-hand-embroidered-phulkari-kurti-aqua-lake)
+- [Pure Chanderi Hand Embroidered Phulkari Suit with Dupatta - Daffodil Yellow & Teal Blue](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-suit-daffodil-yellow-teal-blue)
+- [Pure Chanderi Hand Embroidered Phulkari Suit with Dupatta - Parakeet Green](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-suit-parakeet-green)
+- [Pure Chanderi Hand Embroidered Phulkari Suit with Dupatta - Glacier Grey](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-suit-glacier-grey)
+- [Pure Tissue Hand Embroidered Phulkari Kurti - Azure Blue](https://www.phulkariforever.com/products/pure-tissue-hand-embroidered-phulkari-kurti-azure-blue)
+- [Pure Linen Hand Embroidered Phulkari Kurti Pant - Sunflower Yellow](https://www.phulkariforever.com/products/pure-linen-hand-embroidered-phulkari-kurti-pant-sunflower-yellow)
+- [Pure Cotton Linen Hand Embroidered Phulkari Kurti - Peach](https://www.phulkariforever.com/products/hand-embroidered-phulkari-kurti-cotton-linen-peach)
+- [Pure Chanderi Hand Embroidered Phulkari Suit with Dupatta - Parakeet Green](https://www.phulkariforever.com/products/pure-chanderi-hand-embroidered-phulkari-suit-parakeet-green)
+- [Phulkari Embroidery Clutch MultiColor Metal Based Clutch with Phulkari Fabric pasted By The Amritsar Store](https://i.etsystatic.com/9816232/r/il/a1f5d3/4953907446/il_794xN.4953907446_pq0q.jpg)
+- [Embroidered Phulkari Indian Potli Purse and pouch, Set of 2 Utility Purses, Drawstring purse, Indian Gifts](https://i.etsystatic.com/22038449/r/il/37cf37/4846196978/il_794xN.4846196978_jqym.jpg)
+- [Lemon Phulkari Potli bag, Handbag with threadwork, Rainbow coloured and Artistic Pattern for Wedding, Cultural events and Ethnic wear.](https://i.etsystatic.com/31592924/r/il/ac23cd/6012066429/il_794xN.6012066429_h38s.jpg)
+- [Pippal patti Bridal kaleere](https://meharpunjabdesigns.com/cdn/shop/products/image_5a19f0c6-41de-45c6-867c-feed2c5b4aba.heic?v=1665707352&width=823)
+- [Punjabi traditional jhumki tikka](https://meharpunjabdesigns.com/cdn/shop/products/image_8a818973-9a12-41b2-b52f-0a9f66f43276.heic?v=1668126989&width=823)
+- [Bridal kundan choker set multi traditional](https://meharpunjabdesigns.com/cdn/shop/files/image_9b15b877-d2c7-4e4c-87df-b2172796ac5d.heic?v=1690428848&width=823)
+- [Gold plated kaintha for kids or adults](https://meharpunjabdesigns.com/cdn/shop/files/image_55974185-ea3e-4ebf-b30e-d72203c88684.heic?v=1687739248&width=823)
+- [WOMEN'S PUNJABI JUTTI M03](https://pinkphulkari.com/collections/punjabi-jutti/products/womens-punjabi-jutti-m03)
+- [MULTICOLOR EMBROIDERED PHULKARI WORK JUTTI](https://pinkphulkari.com/collections/punjabi-jutti/products/womens-multicolor-mirror-phulkari-hand-embroidered-leather-punjabi-jutti)
+
